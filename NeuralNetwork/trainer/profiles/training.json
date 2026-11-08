@@ -1,0 +1,40 @@
+{
+  "catalogue_coverage": {
+    "train_roots": 3,
+    "val_roots": 1,
+    "train_rollouts_per_action": 256,
+    "val_rollouts_per_action": 512,
+    "train_hard_rollouts_per_action": 512,
+    "val_hard_rollouts_per_action": 1024,
+    "validation_on_policy": true,
+    "validation_root_mode": "natural"
+  },
+  "training": {
+    "objective_version": "action_gap_calibration_v3",
+    "validation_unit": "trajectory",
+    "refresh_student_actions": true,
+    "transfer_diagnostics": true,
+    "calibration_require_all_presets": true,
+    "calibration_visits_per_preset": 0,
+    "calibration": {
+      "target_scale": 20.0,
+      "pair_weight": 1.0,
+      "value_weight": 0.02,
+      "shape_weight": 0.05,
+      "pair_huber_delta": 0.25,
+      "value_huber_delta": 2.0,
+      "noise_scale": 0.1,
+      "competitor_boost": 2.0,
+      "teacher_boost": 1.0,
+      "label_best_boost": 0.0,
+      "uncertainty_trust_weight": 0.0,
+      "trust_projection_z": 0.0,
+      "reliability_floor": 0.25
+    },
+    "calibration_sampling": "coverage_without_replacement",
+    "calibration_current_fraction": 0.5,
+    "calibration_coverage_priority_correction": true,
+    "learner_initialization": "last_candidate",
+    "calibration_stopping_metric": "checkpoint_or_advantage_rmse"
+  }
+}

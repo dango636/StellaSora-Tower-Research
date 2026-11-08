@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+/ReleaseAssets/
+/Background/RealGameData/data/observations.jsonl
+/NeuralNetwork/trainer/runtime/
+/NeuralNetwork/trainer/runs/
+
+*.log
+*.lock

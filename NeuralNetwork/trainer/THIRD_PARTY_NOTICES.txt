@@ -1,0 +1,16 @@
+Third-party components and sources
+
+1. Offline UI font subset
+   web/assets/stella-ui.woff is derived from Noto Sans CJK.
+   Its source, modification details and SIL Open Font License 1.1 are retained
+   in web/assets/SOURCE.json and web/assets/LICENSE-Noto.txt.
+
+2. Stella Sora simulation kernel
+   The supplied simulation kernel is retained in stella/vendor/stella_sim.py.
+   Original provenance and the current rule revision are documented in
+   stella/vendor/SOURCE.json and stella/vendor/README.txt.
+
+3. External runtime dependencies
+   Python, NumPy, PyTorch, the NVIDIA driver and NVRTC are installed separately.
+   Their original distributions retain their respective licenses and notices.
+   The optional test suite additionally requires pytest.

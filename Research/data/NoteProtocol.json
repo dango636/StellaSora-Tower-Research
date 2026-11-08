@@ -1,0 +1,1598 @@
+{
+  "schema": "stella_note_protocol_fields_v1",
+  "authority": "captured shipped descriptor; static inspection",
+  "source": "本次日服客户端协议字段描述（FileDescriptorSet）",
+  "source_sha256": "e2021b860899bb45a4a6817148fd1f08c4180c73486d99b73b008e8678dab84f",
+  "source_file_descriptor_count": 357,
+  "scope": "音符相关消息及嵌套类型的精确字段；外部引用保留原名，不是完整可编译工程",
+  "omission_note": "当前StarTowerRoomCase无SelectNoteCase，不填造字段7",
+  "messages": [
+    {
+      "name": "proto.ItemTpl",
+      "source_proto": "public.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Tid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Qty",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.ItemTpls",
+      "source_proto": "public.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Items",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.ItemTpl"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.ChangeInfo",
+      "source_proto": "public.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Props",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".google.protobuf.Any"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerInfo",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Meta",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerMeta"
+        },
+        {
+          "number": 2,
+          "name": "Room",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerRoom"
+        },
+        {
+          "number": 3,
+          "name": "Bag",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerBag"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerMeta",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "CharHp",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "TeamLevel",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "TeamExp",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 5,
+          "name": "Chars",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerChar"
+        },
+        {
+          "number": 6,
+          "name": "Discs",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerDisc"
+        },
+        {
+          "number": 7,
+          "name": "DateLen",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 8,
+          "name": "ClientData",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 9,
+          "name": "ActiveSecondaryIds",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 10,
+          "name": "NPCInteractions",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 11,
+          "name": "TowerGrowthNodes",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 12,
+          "name": "ResurrectionCnt",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 14,
+          "name": "TotalTime",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 15,
+          "name": "TotalDamages",
+          "label": "repeated",
+          "type": "uint64"
+        },
+        {
+          "number": 16,
+          "name": "BuildId",
+          "label": "optional",
+          "type": "uint64"
+        },
+        {
+          "number": 17,
+          "name": "DataVersion",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerDisc",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Level",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "Phase",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "Star",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBag",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "FateCard",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.FateCardInfo"
+        },
+        {
+          "number": 2,
+          "name": "Potentials",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.PotentialInfo"
+        },
+        {
+          "number": 3,
+          "name": "Items",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.TowerItemInfo"
+        },
+        {
+          "number": 4,
+          "name": "Res",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.TowerResInfo"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerRoom",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Data",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerRoomData"
+        },
+        {
+          "number": 2,
+          "name": "Cases",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerRoomCase"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerRoomData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Floor",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "MapId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "ParamId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "RoomType",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 5,
+          "name": "MapParam",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 6,
+          "name": "MapTableId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerRoomCase",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "BattleCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.BattleCaseData"
+        },
+        {
+          "number": 3,
+          "name": "DoorCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.DoorCaseData"
+        },
+        {
+          "number": 4,
+          "name": "SelectSpecialPotentialCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectSpecialPotentialCaseData"
+        },
+        {
+          "number": 5,
+          "name": "SelectPotentialCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectPotentialCaseData"
+        },
+        {
+          "number": 6,
+          "name": "SelectFateCardCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectFateCardCaseData"
+        },
+        {
+          "number": 8,
+          "name": "SelectOptionsEventCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectOptionsEventCaseData"
+        },
+        {
+          "number": 9,
+          "name": "RecoveryHPCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.RecoveryHPCaseData"
+        },
+        {
+          "number": 10,
+          "name": "NpcRecoveryHPCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.NpcRecoveryHPCaseData"
+        },
+        {
+          "number": 11,
+          "name": "HawkerCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.HawkerCaseData"
+        },
+        {
+          "number": 12,
+          "name": "StrengthenMachineCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StrengthenMachineCaseData"
+        },
+        {
+          "number": 15,
+          "name": "SyncHPCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SyncHPCaseData"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.BattleCaseData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "TimeLimit",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 2,
+          "name": "FateCard",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 3,
+          "name": "SubNoteSkillNum",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.SelectOptionsEventCaseData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "EvtId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Options",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "FailedIdxes",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "NPCId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 5,
+          "name": "Done",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 6,
+          "name": "Infos",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.NPCAffinityInfo"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.HawkerGoods",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Sid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Idx",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "CharPos",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "Price",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 5,
+          "name": "Discount",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 6,
+          "name": "Type",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 7,
+          "name": "GoodsId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 15,
+          "name": "Tag",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.HawkerCaseData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "List",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.HawkerGoods"
+        },
+        {
+          "number": 2,
+          "name": "Purchase",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 7,
+          "name": "CanReRoll",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 8,
+          "name": "ReRollPrice",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 9,
+          "name": "ReRollTimes",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractHawkerReq",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Sid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "ReRoll",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 3,
+          "name": "Auto",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractEnterReq",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "MapId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "ParamId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "DateLen",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "ClientData",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 5,
+          "name": "MapParam",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 6,
+          "name": "MapTableId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 7,
+          "name": "DataVersion",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractEnterResp",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Room",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerRoom"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractBattleEndReq",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Victory",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractBattleEndReq.VictoryData"
+        },
+        {
+          "number": 2,
+          "name": "Defeat",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractBattleEndReq.VictoryData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "HP",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Time",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 3,
+          "name": "DateLen",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "ClientData",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 5,
+          "name": "fateCardUsage",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.FateCardUsage"
+        },
+        {
+          "number": 6,
+          "name": "Damages",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 7,
+          "name": "DataVersion",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 15,
+          "name": "Events",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.Events"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractBattleEndResp",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Victory",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractBattleEndResp.VictoryData"
+        },
+        {
+          "number": 2,
+          "name": "Defeat",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractBattleEndResp.DefeatData"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractBattleEndResp.VictoryData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Exp",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Lv",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 10,
+          "name": "BattleTime",
+          "label": "optional",
+          "type": "uint32"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractBattleEndResp.DefeatData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Lv",
+          "label": "optional",
+          "type": "uint32"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractSelectReq",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Index",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "ReRoll",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 3,
+          "name": "Auto",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractSelectResp",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Resp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractSelectResp.Success"
+        },
+        {
+          "number": 2,
+          "name": "SelectSpecialPotentialCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectSpecialPotentialCaseData"
+        },
+        {
+          "number": 3,
+          "name": "SelectPotentialCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectPotentialCaseData"
+        },
+        {
+          "number": 4,
+          "name": "SelectFateCardCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SelectFateCardCaseData"
+        },
+        {
+          "number": 5,
+          "name": "HawkerCase",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.HawkerCaseData"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.InteractSelectResp.Success",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Items",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.ItemTpl"
+        },
+        {
+          "number": 2,
+          "name": "OptionsResult",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 3,
+          "name": "FateCard",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.FateCardInfo"
+        },
+        {
+          "number": 4,
+          "name": "SubNoteSkills",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.SubNoteSkillInfo"
+        },
+        {
+          "number": 5,
+          "name": "OptionsParamId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 6,
+          "name": "AffinityChange",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.NPCAffinityChange"
+        }
+      ]
+    },
+    {
+      "name": "proto.TowerItemInfo",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Tid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Qty",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.TowerResInfo",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Tid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Qty",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.SubNoteSkillInfo",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Tid",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Qty",
+          "label": "optional",
+          "type": "int32"
+        },
+        {
+          "number": 3,
+          "name": "New",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 4,
+          "name": "LuckyLevel",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.SettleDataResp",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Change",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.ChangeInfo"
+        },
+        {
+          "number": 2,
+          "name": "Build",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerBuildInfo"
+        },
+        {
+          "number": 3,
+          "name": "Awards",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.FirstAward"
+        },
+        {
+          "number": 4,
+          "name": "Reward",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.NPCAffinityLevelReward"
+        },
+        {
+          "number": 5,
+          "name": "NpcInteraction",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 6,
+          "name": "TowerRewards",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.ItemTpl"
+        },
+        {
+          "number": 14,
+          "name": "TotalTime",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 15,
+          "name": "TotalDamages",
+          "label": "repeated",
+          "type": "uint64"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBuildInfo",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Brief",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerBuildBrief"
+        },
+        {
+          "number": 2,
+          "name": "Detail",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerBuildDetail"
+        },
+        {
+          "number": 3,
+          "name": "BuildCoin",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBuildBrief",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint64"
+        },
+        {
+          "number": 2,
+          "name": "Name",
+          "label": "optional",
+          "type": "string"
+        },
+        {
+          "number": 3,
+          "name": "Lock",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 4,
+          "name": "Preference",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 5,
+          "name": "Score",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 6,
+          "name": "DiscIds",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 7,
+          "name": "Chars",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.TowerBuildChar"
+        },
+        {
+          "number": 8,
+          "name": "StarTowerId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBuildDetail",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Potentials",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.BuildPotential"
+        },
+        {
+          "number": 2,
+          "name": "SubNoteSkills",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.ItemTpl"
+        },
+        {
+          "number": 3,
+          "name": "ActiveSecondaryIds",
+          "label": "repeated",
+          "type": "uint32"
+        },
+        {
+          "number": 4,
+          "name": "ModifierState",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.TowerChangeData",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Infos",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.SubNoteSkillInfo"
+        },
+        {
+          "number": 2,
+          "name": "Secondaries",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.ActiveSecondaryChange"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.ActiveSecondaryChange",
+      "source_proto": "public_star_tower.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "SecondaryId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Active",
+          "label": "optional",
+          "type": "bool"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerSubNoteSkillInfo",
+      "source_proto": "notify_gm.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "SubNoteSkillInfo",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerSubNoteSkillInfo.StageFloorNum"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerSubNoteSkillInfo.FloorNum",
+      "source_proto": "notify_gm.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Floor",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Num",
+          "label": "optional",
+          "type": "uint32"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerSubNoteSkillInfo.StageFloorNum",
+      "source_proto": "notify_gm.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "StageId",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Infos",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerSubNoteSkillInfo.FloorNum"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBuildNoteModifyReq",
+      "source_proto": "star_tower_build_note_modify.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "BuildId",
+          "label": "optional",
+          "type": "uint64"
+        },
+        {
+          "number": 2,
+          "name": "NoteChange",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.ItemTpls"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerBuildNoteModifyResp",
+      "source_proto": "star_tower_build_note_modify.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Change",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.ChangeInfo"
+        },
+        {
+          "number": 2,
+          "name": "Info",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.StarTowerBuildInfo"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerInteractReq",
+      "source_proto": "star_tower_interact.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "EnterReq",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractEnterReq"
+        },
+        {
+          "number": 3,
+          "name": "BattleEndReq",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractBattleEndReq"
+        },
+        {
+          "number": 4,
+          "name": "SelectReq",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractSelectReq"
+        },
+        {
+          "number": 5,
+          "name": "RecoveryHPReq",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractRecoveryHPReq"
+        },
+        {
+          "number": 6,
+          "name": "HawkerReq",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractHawkerReq"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "proto.StarTowerInteractResp",
+      "source_proto": "star_tower_interact.proto",
+      "fields": [
+        {
+          "number": 1,
+          "name": "Id",
+          "label": "optional",
+          "type": "uint32"
+        },
+        {
+          "number": 2,
+          "name": "Cases",
+          "label": "repeated",
+          "type": "message",
+          "type_name": ".proto.StarTowerRoomCase"
+        },
+        {
+          "number": 3,
+          "name": "Change",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.ChangeInfo"
+        },
+        {
+          "number": 4,
+          "name": "Data",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.TowerChangeData"
+        },
+        {
+          "number": 7,
+          "name": "EnterResp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractEnterResp"
+        },
+        {
+          "number": 8,
+          "name": "BattleEndResp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractBattleEndResp"
+        },
+        {
+          "number": 9,
+          "name": "SelectResp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractSelectResp"
+        },
+        {
+          "number": 10,
+          "name": "StrengthenMachineResp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.InteractStrengthenMachineResp"
+        },
+        {
+          "number": 14,
+          "name": "Settle",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.SettleDataResp"
+        },
+        {
+          "number": 15,
+          "name": "NilResp",
+          "label": "optional",
+          "type": "message",
+          "type_name": ".proto.Nil"
+        },
+        {
+          "number": 2047,
+          "name": "NextPackage",
+          "label": "optional",
+          "type": "bytes"
+        }
+      ]
+    }
+  ],
+  "notification_bindings": [
+    {
+      "name": "tower_change_sub_note_skill_notify",
+      "id": -10038,
+      "message": "proto.TowerChangeData",
+      "consumer": "dispatch note_change_notify; no Lua subscriber found"
+    },
+    {
+      "name": "star_tower_sub_note_skill_info_notify",
+      "id": -10011,
+      "message": "proto.StarTowerSubNoteSkillInfo",
+      "consumer": "debug print only"
+    }
+  ],
+  "source_note": "保留原字段描述的SHA256、文件定义数量和消息字段；不附客户端协议载荷或实现文件。"
+}

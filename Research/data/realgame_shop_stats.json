@@ -1,0 +1,3243 @@
+{
+  "event_counts": {
+    "run_start": 295,
+    "offer_observed": 24329,
+    "policy_decision": 24398,
+    "selection_attempt": 14820,
+    "selection_cache": 19002,
+    "ui_boundary": 14815,
+    "refresh_attempt": 3630,
+    "refresh_result": 5396,
+    "run_end": 289,
+    "lifecycle_observed": 53778,
+    "exploration_start": 324,
+    "selection_ui_transition_observed": 15642,
+    "shop_observed": 60310,
+    "exploration_end": 320,
+    "context_run_recognition": 112894,
+    "wallet_observed": 10369,
+    "selection_result_attempt": 4182,
+    "selection_result": 4182,
+    "event_menu_observed": 540,
+    "model_decision": 8631,
+    "event_choice": 538,
+    "event_choice_click_observed": 538,
+    "offer_reobserved": 73,
+    "refresh_result_attempt": 1766,
+    "context_run_task": 14608,
+    "purchase_attempt": 1419,
+    "purchase_result": 1419,
+    "enhancement_result_attempt": 999,
+    "enhancement_result": 999,
+    "shop_refresh_result_attempt": 151,
+    "shop_refresh_result": 151,
+    "event_menu_reobserved": 159,
+    "settlement_observed": 74
+  },
+  "dedup": {
+    "snapshots": 1809
+  },
+  "unique_generations": 1809,
+  "exclusions": {
+    "unknown_or_other_item": 43
+  },
+  "valid": {
+    "n": 1766,
+    "clusters": 314,
+    "discount_counts": {
+      "4": 1766
+    },
+    "half_counts": {
+      "2": 1424,
+      "0": 49,
+      "1": 293
+    },
+    "large_counts": {
+      "1": 1418,
+      "0": 348
+    },
+    "drink_counts": {
+      "5": 849,
+      "4": 791,
+      "3": 113,
+      "2": 13
+    },
+    "large_any": {
+      "estimate": 0.8029445073612684,
+      "n": 1766,
+      "clusters": 314,
+      "ci95": [
+        0.7839502681414446,
+        0.820912544747537
+      ],
+      "ci99": [
+        0.778534653785608,
+        0.8276838060453879
+      ]
+    },
+    "mean_large": {
+      "estimate": 0.8029445073612684,
+      "n": 1766,
+      "clusters": 314,
+      "ci95": [
+        0.7839502681414446,
+        0.820912544747537
+      ],
+      "ci99": [
+        0.778534653785608,
+        0.8276838060453879
+      ]
+    },
+    "discount_four": {
+      "estimate": 1.0,
+      "n": 1766,
+      "clusters": 314,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "ci99": [
+        1.0,
+        1.0
+      ]
+    },
+    "half_atmost2": {
+      "estimate": 1.0,
+      "n": 1766,
+      "clusters": 314,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "ci99": [
+        1.0,
+        1.0
+      ]
+    },
+    "mean_within_shelf_large_fraction": {
+      "estimate": 0.22858625896564744,
+      "n": 1766,
+      "clusters": 314,
+      "ci95": [
+        0.22288912094087615,
+        0.23412609654399488
+      ],
+      "ci99": [
+        0.221091917081846,
+        0.23614081979098508
+      ]
+    }
+  },
+  "by_language": {
+    "cn": {
+      "n": 382,
+      "clusters": 72,
+      "discount_counts": {
+        "4": 382
+      },
+      "half_counts": {
+        "2": 302,
+        "1": 65,
+        "0": 15
+      },
+      "large_counts": {
+        "1": 306,
+        "0": 76
+      },
+      "drink_counts": {
+        "4": 183,
+        "5": 171,
+        "3": 24,
+        "2": 4
+      },
+      "large_any": {
+        "estimate": 0.8010471204188482,
+        "n": 382,
+        "clusters": 72,
+        "ci95": [
+          0.7575716736094095,
+          0.8418265262142872
+        ],
+        "ci99": [
+          0.7447886385658914,
+          0.8563987366731941
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8010471204188482,
+        "n": 382,
+        "clusters": 72,
+        "ci95": [
+          0.7575716736094095,
+          0.8418265262142872
+        ],
+        "ci99": [
+          0.7447886385658914,
+          0.8563987366731941
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 382,
+        "clusters": 72,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 382,
+        "clusters": 72,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.225043630017452,
+        "n": 382,
+        "clusters": 72,
+        "ci95": [
+          0.21313176494390124,
+          0.23671126903553294
+        ],
+        "ci99": [
+          0.20912956827816517,
+          0.24072602357320108
+        ]
+      }
+    },
+    "jp": {
+      "n": 1319,
+      "clusters": 225,
+      "discount_counts": {
+        "4": 1319
+      },
+      "half_counts": {
+        "2": 1068,
+        "0": 32,
+        "1": 219
+      },
+      "large_counts": {
+        "1": 1064,
+        "0": 255
+      },
+      "drink_counts": {
+        "5": 643,
+        "4": 581,
+        "3": 86,
+        "2": 9
+      },
+      "large_any": {
+        "estimate": 0.8066717210007581,
+        "n": 1319,
+        "clusters": 225,
+        "ci95": [
+          0.7867953955358025,
+          0.8270962501881233
+        ],
+        "ci99": [
+          0.7798932308996952,
+          0.8332064952644971
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8066717210007581,
+        "n": 1319,
+        "clusters": 225,
+        "ci95": [
+          0.7867953955358025,
+          0.8270962501881233
+        ],
+        "ci99": [
+          0.7798932308996952,
+          0.8332064952644971
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1319,
+        "clusters": 225,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1319,
+        "clusters": 225,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23017437452615616,
+        "n": 1319,
+        "clusters": 225,
+        "ci95": [
+          0.22369946546243444,
+          0.23663371445503667
+        ],
+        "ci99": [
+          0.22169459551016024,
+          0.23878775896517793
+        ]
+      }
+    },
+    "tw": {
+      "n": 65,
+      "clusters": 17,
+      "discount_counts": {
+        "4": 65
+      },
+      "half_counts": {
+        "2": 54,
+        "1": 9,
+        "0": 2
+      },
+      "large_counts": {
+        "1": 48,
+        "0": 17
+      },
+      "drink_counts": {
+        "5": 35,
+        "4": 27,
+        "3": 3
+      },
+      "large_any": {
+        "estimate": 0.7384615384615385,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.6212121212121212,
+          0.8524590163934426
+        ],
+        "ci99": [
+          0.5846153846153846,
+          0.8840639106676171
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7384615384615385,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.6212121212121212,
+          0.8524590163934426
+        ],
+        "ci99": [
+          0.5846153846153846,
+          0.8840639106676171
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.21717948717948715,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.18504850033233639,
+          0.24921905048076923
+        ],
+        "ci99": [
+          0.17534919470526864,
+          0.259115306712963
+        ]
+      }
+    }
+  },
+  "by_shop_type": {
+    "final": {
+      "n": 575,
+      "clusters": 297,
+      "discount_counts": {
+        "4": 575
+      },
+      "half_counts": {
+        "2": 450,
+        "0": 21,
+        "1": 104
+      },
+      "large_counts": {
+        "1": 451,
+        "0": 124
+      },
+      "drink_counts": {
+        "5": 289,
+        "4": 247,
+        "3": 34,
+        "2": 5
+      },
+      "large_any": {
+        "estimate": 0.7843478260869565,
+        "n": 575,
+        "clusters": 297,
+        "ci95": [
+          0.7521420026611003,
+          0.816076003281171
+        ],
+        "ci99": [
+          0.7423205552232505,
+          0.826923933909228
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7843478260869565,
+        "n": 575,
+        "clusters": 297,
+        "ci95": [
+          0.7521420026611003,
+          0.816076003281171
+        ],
+        "ci99": [
+          0.7423205552232505,
+          0.826923933909228
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 575,
+        "clusters": 297,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 575,
+        "clusters": 297,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.22562318840579712,
+        "n": 575,
+        "clusters": 297,
+        "ci95": [
+          0.21570323152405488,
+          0.23537680218790835
+        ],
+        "ci99": [
+          0.21265914797381105,
+          0.23847542907191055
+        ]
+      }
+    },
+    "": {
+      "n": 1,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 1
+      },
+      "half_counts": {
+        "2": 1
+      },
+      "large_counts": {
+        "0": 1
+      },
+      "drink_counts": {
+        "4": 1
+      },
+      "large_any": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "regular": {
+      "n": 1190,
+      "clusters": 313,
+      "discount_counts": {
+        "4": 1190
+      },
+      "half_counts": {
+        "2": 973,
+        "1": 189,
+        "0": 28
+      },
+      "large_counts": {
+        "1": 967,
+        "0": 223
+      },
+      "drink_counts": {
+        "5": 560,
+        "4": 543,
+        "3": 79,
+        "2": 8
+      },
+      "large_any": {
+        "estimate": 0.8126050420168067,
+        "n": 1190,
+        "clusters": 313,
+        "ci95": [
+          0.7911181450900742,
+          0.8339102649616398
+        ],
+        "ci99": [
+          0.7852288872292108,
+          0.8406170857952895
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8126050420168067,
+        "n": 1190,
+        "clusters": 313,
+        "ci95": [
+          0.7911181450900742,
+          0.8339102649616398
+        ],
+        "ci99": [
+          0.7852288872292108,
+          0.8406170857952895
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1190,
+        "clusters": 313,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1190,
+        "clusters": 313,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23021008403361348,
+        "n": 1190,
+        "clusters": 313,
+        "ci95": [
+          0.22371454006946137,
+          0.23690390239029352
+        ],
+        "ci99": [
+          0.22174502592272724,
+          0.23933876614327138
+        ]
+      }
+    }
+  },
+  "by_preset": {
+    "P0016": {
+      "n": 5,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 5
+      },
+      "half_counts": {
+        "2": 5
+      },
+      "large_counts": {
+        "0": 2,
+        "1": 3
+      },
+      "drink_counts": {
+        "5": 2,
+        "4": 3
+      },
+      "large_any": {
+        "estimate": 0.6,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.6,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.15,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0015": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "2": 6
+      },
+      "large_counts": {
+        "1": 6
+      },
+      "drink_counts": {
+        "5": 3,
+        "4": 3
+      },
+      "large_any": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2916666666666667,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0001": {
+      "n": 729,
+      "clusters": 124,
+      "discount_counts": {
+        "4": 729
+      },
+      "half_counts": {
+        "2": 583,
+        "0": 22,
+        "1": 124
+      },
+      "large_counts": {
+        "1": 594,
+        "0": 135
+      },
+      "drink_counts": {
+        "5": 350,
+        "4": 330,
+        "3": 45,
+        "2": 4
+      },
+      "large_any": {
+        "estimate": 0.8148148148148148,
+        "n": 729,
+        "clusters": 124,
+        "ci95": [
+          0.7875464749568895,
+          0.8422496570644719
+        ],
+        "ci99": [
+          0.7788595271210014,
+          0.848739667529137
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8148148148148148,
+        "n": 729,
+        "clusters": 124,
+        "ci95": [
+          0.7875464749568895,
+          0.8422496570644719
+        ],
+        "ci99": [
+          0.7788595271210014,
+          0.848739667529137
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 729,
+        "clusters": 124,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 729,
+        "clusters": 124,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23225880201188848,
+        "n": 729,
+        "clusters": 124,
+        "ci95": [
+          0.22360149654240066,
+          0.2410055370040095
+        ],
+        "ci99": [
+          0.2206195063378049,
+          0.24326088203474305
+        ]
+      }
+    },
+    "None": {
+      "n": 4,
+      "clusters": 2,
+      "discount_counts": {
+        "4": 4
+      },
+      "half_counts": {
+        "2": 3,
+        "1": 1
+      },
+      "large_counts": {
+        "1": 2,
+        "0": 2
+      },
+      "drink_counts": {
+        "4": 2,
+        "3": 1,
+        "5": 1
+      },
+      "large_any": {
+        "estimate": 0.5,
+        "n": 4,
+        "clusters": 2,
+        "ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "ci99": [
+          0.3333333333333333,
+          1.0
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.5,
+        "n": 4,
+        "clusters": 2,
+        "ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "ci99": [
+          0.3333333333333333,
+          1.0
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 4,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 4,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.125,
+        "n": 4,
+        "clusters": 2,
+        "ci95": [
+          0.08333333333333333,
+          0.25
+        ],
+        "ci99": [
+          0.08333333333333333,
+          0.25
+        ]
+      }
+    },
+    "P0013": {
+      "n": 12,
+      "clusters": 3,
+      "discount_counts": {
+        "4": 12
+      },
+      "half_counts": {
+        "2": 10,
+        "1": 2
+      },
+      "large_counts": {
+        "1": 7,
+        "0": 5
+      },
+      "drink_counts": {
+        "4": 5,
+        "5": 5,
+        "3": 2
+      },
+      "large_any": {
+        "estimate": 0.5833333333333334,
+        "n": 12,
+        "clusters": 3,
+        "ci95": [
+          0.5,
+          0.6666666666666666
+        ],
+        "ci99": [
+          0.5,
+          0.6666666666666666
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.5833333333333334,
+        "n": 12,
+        "clusters": 3,
+        "ci95": [
+          0.5,
+          0.6666666666666666
+        ],
+        "ci99": [
+          0.5,
+          0.6666666666666666
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 12,
+        "clusters": 3,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 12,
+        "clusters": 3,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.14444444444444443,
+        "n": 12,
+        "clusters": 3,
+        "ci95": [
+          0.1125,
+          0.16666666666666666
+        ],
+        "ci99": [
+          0.1125,
+          0.16666666666666666
+        ]
+      }
+    },
+    "P0010": {
+      "n": 7,
+      "clusters": 2,
+      "discount_counts": {
+        "4": 7
+      },
+      "half_counts": {
+        "2": 7
+      },
+      "large_counts": {
+        "1": 7
+      },
+      "drink_counts": {
+        "5": 3,
+        "4": 4
+      },
+      "large_any": {
+        "estimate": 1.0,
+        "n": 7,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_large": {
+        "estimate": 1.0,
+        "n": 7,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 7,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 7,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2857142857142857,
+        "n": 7,
+        "clusters": 2,
+        "ci95": [
+          0.25,
+          0.3
+        ],
+        "ci99": [
+          0.25,
+          0.3
+        ]
+      }
+    },
+    "P0020": {
+      "n": 22,
+      "clusters": 4,
+      "discount_counts": {
+        "4": 22
+      },
+      "half_counts": {
+        "2": 18,
+        "1": 4
+      },
+      "large_counts": {
+        "0": 7,
+        "1": 15
+      },
+      "drink_counts": {
+        "5": 13,
+        "3": 2,
+        "4": 6,
+        "2": 1
+      },
+      "large_any": {
+        "estimate": 0.6818181818181818,
+        "n": 22,
+        "clusters": 4,
+        "ci95": [
+          0.4583333333333333,
+          0.8333333333333334
+        ],
+        "ci99": [
+          0.4090909090909091,
+          0.8333333333333334
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.6818181818181818,
+        "n": 22,
+        "clusters": 4,
+        "ci95": [
+          0.4583333333333333,
+          0.8333333333333334
+        ],
+        "ci99": [
+          0.4090909090909091,
+          0.8333333333333334
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 22,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 22,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.20454545454545456,
+        "n": 22,
+        "clusters": 4,
+        "ci95": [
+          0.13888888888888887,
+          0.25
+        ],
+        "ci99": [
+          0.13636363636363635,
+          0.25
+        ]
+      }
+    },
+    "P0014": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "2": 5,
+        "1": 1
+      },
+      "large_counts": {
+        "1": 5,
+        "0": 1
+      },
+      "drink_counts": {
+        "4": 4,
+        "5": 2
+      },
+      "large_any": {
+        "estimate": 0.8333333333333334,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.8333333333333334,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23611111111111108,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0012": {
+      "n": 14,
+      "clusters": 4,
+      "discount_counts": {
+        "4": 14
+      },
+      "half_counts": {
+        "2": 9,
+        "1": 4,
+        "0": 1
+      },
+      "large_counts": {
+        "0": 3,
+        "1": 11
+      },
+      "drink_counts": {
+        "4": 4,
+        "5": 9,
+        "3": 1
+      },
+      "large_any": {
+        "estimate": 0.7857142857142857,
+        "n": 14,
+        "clusters": 4,
+        "ci95": [
+          0.6666666666666666,
+          0.8888888888888888
+        ],
+        "ci99": [
+          0.6666666666666666,
+          0.9166666666666666
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7857142857142857,
+        "n": 14,
+        "clusters": 4,
+        "ci95": [
+          0.6666666666666666,
+          0.8888888888888888
+        ],
+        "ci99": [
+          0.6666666666666666,
+          0.9166666666666666
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 14,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 14,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.24404761904761904,
+        "n": 14,
+        "clusters": 4,
+        "ci95": [
+          0.2222222222222222,
+          0.2685185185185185
+        ],
+        "ci99": [
+          0.2222222222222222,
+          0.2708333333333333
+        ]
+      }
+    },
+    "P0018": {
+      "n": 1,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 1
+      },
+      "half_counts": {
+        "2": 1
+      },
+      "large_counts": {
+        "0": 1
+      },
+      "drink_counts": {
+        "4": 1
+      },
+      "large_any": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.0,
+        "n": 1,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0011": {
+      "n": 5,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 5
+      },
+      "half_counts": {
+        "2": 3,
+        "1": 1,
+        "0": 1
+      },
+      "large_counts": {
+        "1": 4,
+        "0": 1
+      },
+      "drink_counts": {
+        "5": 2,
+        "4": 3
+      },
+      "large_any": {
+        "estimate": 0.8,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.8,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.21666666666666665,
+        "n": 5,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0008": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "2": 6
+      },
+      "large_counts": {
+        "1": 5,
+        "0": 1
+      },
+      "drink_counts": {
+        "5": 2,
+        "4": 4
+      },
+      "large_any": {
+        "estimate": 0.8333333333333334,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.8333333333333334,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23611111111111108,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0019": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "1": 1,
+        "2": 5
+      },
+      "large_counts": {
+        "1": 6
+      },
+      "drink_counts": {
+        "5": 4,
+        "4": 2
+      },
+      "large_any": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.3055555555555555,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0003": {
+      "n": 107,
+      "clusters": 20,
+      "discount_counts": {
+        "4": 107
+      },
+      "half_counts": {
+        "2": 85,
+        "1": 17,
+        "0": 5
+      },
+      "large_counts": {
+        "1": 86,
+        "0": 21
+      },
+      "drink_counts": {
+        "4": 46,
+        "5": 53,
+        "3": 7,
+        "2": 1
+      },
+      "large_any": {
+        "estimate": 0.8037383177570093,
+        "n": 107,
+        "clusters": 20,
+        "ci95": [
+          0.7407407407407407,
+          0.8660863095238094
+        ],
+        "ci99": [
+          0.7232093253968254,
+          0.8846170864533697
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8037383177570093,
+        "n": 107,
+        "clusters": 20,
+        "ci95": [
+          0.7407407407407407,
+          0.8660863095238094
+        ],
+        "ci99": [
+          0.7232093253968254,
+          0.8846170864533697
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 107,
+        "clusters": 20,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 107,
+        "clusters": 20,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2289719626168224,
+        "n": 107,
+        "clusters": 20,
+        "ci95": [
+          0.2095679012345679,
+          0.24967956349206347
+        ],
+        "ci99": [
+          0.2040876421141751,
+          0.25572058823529414
+        ]
+      }
+    },
+    "P0007": {
+      "n": 56,
+      "clusters": 10,
+      "discount_counts": {
+        "4": 56
+      },
+      "half_counts": {
+        "2": 44,
+        "1": 10,
+        "0": 2
+      },
+      "large_counts": {
+        "1": 41,
+        "0": 15
+      },
+      "drink_counts": {
+        "4": 27,
+        "5": 24,
+        "3": 5
+      },
+      "large_any": {
+        "estimate": 0.7321428571428571,
+        "n": 56,
+        "clusters": 10,
+        "ci95": [
+          0.65,
+          0.8269230769230769
+        ],
+        "ci99": [
+          0.625,
+          0.85
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7321428571428571,
+        "n": 56,
+        "clusters": 10,
+        "ci95": [
+          0.65,
+          0.8269230769230769
+        ],
+        "ci99": [
+          0.625,
+          0.85
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 56,
+        "clusters": 10,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 56,
+        "clusters": 10,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2086309523809524,
+        "n": 56,
+        "clusters": 10,
+        "ci95": [
+          0.1797609126984127,
+          0.24166666666666667
+        ],
+        "ci99": [
+          0.17083333333333334,
+          0.2513915598290598
+        ]
+      }
+    },
+    "P0005": {
+      "n": 12,
+      "clusters": 2,
+      "discount_counts": {
+        "4": 12
+      },
+      "half_counts": {
+        "1": 3,
+        "2": 8,
+        "0": 1
+      },
+      "large_counts": {
+        "1": 9,
+        "0": 3
+      },
+      "drink_counts": {
+        "5": 7,
+        "4": 5
+      },
+      "large_any": {
+        "estimate": 0.75,
+        "n": 12,
+        "clusters": 2,
+        "ci95": [
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "ci99": [
+          0.6666666666666666,
+          0.8333333333333334
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.75,
+        "n": 12,
+        "clusters": 2,
+        "ci95": [
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "ci99": [
+          0.6666666666666666,
+          0.8333333333333334
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 12,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 12,
+        "clusters": 2,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.21527777777777776,
+        "n": 12,
+        "clusters": 2,
+        "ci95": [
+          0.18055555555555555,
+          0.25
+        ],
+        "ci99": [
+          0.18055555555555555,
+          0.25
+        ]
+      }
+    },
+    "P0002": {
+      "n": 495,
+      "clusters": 84,
+      "discount_counts": {
+        "4": 495
+      },
+      "half_counts": {
+        "2": 411,
+        "1": 77,
+        "0": 7
+      },
+      "large_counts": {
+        "1": 398,
+        "0": 97
+      },
+      "drink_counts": {
+        "5": 252,
+        "4": 206,
+        "3": 33,
+        "2": 4
+      },
+      "large_any": {
+        "estimate": 0.804040404040404,
+        "n": 495,
+        "clusters": 84,
+        "ci95": [
+          0.7692268041237114,
+          0.8383838383838383
+        ],
+        "ci99": [
+          0.7575754539381794,
+          0.8472505091649695
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.804040404040404,
+        "n": 495,
+        "clusters": 84,
+        "ci95": [
+          0.7692268041237114,
+          0.8383838383838383
+        ],
+        "ci99": [
+          0.7575754539381794,
+          0.8472505091649695
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 495,
+        "clusters": 84,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 495,
+        "clusters": 84,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23020202020202016,
+        "n": 495,
+        "clusters": 84,
+        "ci95": [
+          0.2191966970998926,
+          0.24114522747637668
+        ],
+        "ci99": [
+          0.21565585735402812,
+          0.24443338888888883
+        ]
+      }
+    },
+    "P0017": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "2": 6
+      },
+      "large_counts": {
+        "1": 4,
+        "0": 2
+      },
+      "drink_counts": {
+        "5": 3,
+        "4": 3
+      },
+      "large_any": {
+        "estimate": 0.6666666666666666,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 0.6666666666666666,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.19444444444444442,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "P0004": {
+      "n": 24,
+      "clusters": 4,
+      "discount_counts": {
+        "4": 24
+      },
+      "half_counts": {
+        "1": 5,
+        "2": 19
+      },
+      "large_counts": {
+        "1": 21,
+        "0": 3
+      },
+      "drink_counts": {
+        "5": 9,
+        "2": 1,
+        "4": 12,
+        "3": 2
+      },
+      "large_any": {
+        "estimate": 0.875,
+        "n": 24,
+        "clusters": 4,
+        "ci95": [
+          0.75,
+          1.0
+        ],
+        "ci99": [
+          0.7083333333333334,
+          1.0
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.875,
+        "n": 24,
+        "clusters": 4,
+        "ci95": [
+          0.75,
+          1.0
+        ],
+        "ci99": [
+          0.7083333333333334,
+          1.0
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 24,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 24,
+        "clusters": 4,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2423611111111111,
+        "n": 24,
+        "clusters": 4,
+        "ci95": [
+          0.19305555555555554,
+          0.2916666666666667
+        ],
+        "ci99": [
+          0.18680555555555553,
+          0.2986111111111111
+        ]
+      }
+    },
+    "P0009": {
+      "n": 178,
+      "clusters": 30,
+      "discount_counts": {
+        "4": 178
+      },
+      "half_counts": {
+        "2": 136,
+        "1": 34,
+        "0": 8
+      },
+      "large_counts": {
+        "1": 146,
+        "0": 32
+      },
+      "drink_counts": {
+        "5": 70,
+        "4": 94,
+        "3": 12,
+        "2": 2
+      },
+      "large_any": {
+        "estimate": 0.8202247191011236,
+        "n": 178,
+        "clusters": 30,
+        "ci95": [
+          0.75,
+          0.8833333333333333
+        ],
+        "ci99": [
+          0.7241330605883499,
+          0.9039575001587
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8202247191011236,
+        "n": 178,
+        "clusters": 30,
+        "ci95": [
+          0.75,
+          0.8833333333333333
+        ],
+        "ci99": [
+          0.7241330605883499,
+          0.9039575001587
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 178,
+        "clusters": 30,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 178,
+        "clusters": 30,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.22556179775280902,
+        "n": 178,
+        "clusters": 30,
+        "ci95": [
+          0.2081908866204417,
+          0.2414350297114641
+        ],
+        "ci99": [
+          0.20227213142662573,
+          0.2461114680322782
+        ]
+      }
+    },
+    "P0006": {
+      "n": 65,
+      "clusters": 17,
+      "discount_counts": {
+        "4": 65
+      },
+      "half_counts": {
+        "2": 54,
+        "1": 9,
+        "0": 2
+      },
+      "large_counts": {
+        "1": 48,
+        "0": 17
+      },
+      "drink_counts": {
+        "5": 35,
+        "4": 27,
+        "3": 3
+      },
+      "large_any": {
+        "estimate": 0.7384615384615385,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.6212121212121212,
+          0.8524590163934426
+        ],
+        "ci99": [
+          0.5846153846153846,
+          0.8840639106676171
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7384615384615385,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.6212121212121212,
+          0.8524590163934426
+        ],
+        "ci99": [
+          0.5846153846153846,
+          0.8840639106676171
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.21717948717948715,
+        "n": 65,
+        "clusters": 17,
+        "ci95": [
+          0.18504850033233639,
+          0.24921905048076923
+        ],
+        "ci99": [
+          0.17534919470526864,
+          0.259115306712963
+        ]
+      }
+    }
+  },
+  "price_counts": {
+    "(True, 1, 100)": 1755,
+    "(True, 1, 200)": 3863,
+    "(False, 15, 320)": 405,
+    "(False, 5, 72)": 1362,
+    "(False, 5, 90)": 2489,
+    "(False, 15, 400)": 712,
+    "(True, 1, 160)": 2156,
+    "(False, 5, 45)": 1085,
+    "(False, 15, 200)": 301
+  },
+  "generation_basis": {
+    "initial_observed_stock": 901,
+    "Maa_refresh_success_with_no_invalid_counter_signal": 297,
+    "stock_contents_changed_after_ambiguous_refresh": 133,
+    "null": 6,
+    "same_visit_and_visible_remaining_refresh_count": 472
+  },
+  "examples": {
+    "valid": "5df24c43a0ea4932b6bc48f79154920d"
+  },
+  "independent_slot_model": {
+    "fitted_large_slot_probability": 0.22316650928548945,
+    "expected_shelves_multilarge": 320.2285471460563,
+    "observed_multilarge": 0,
+    "one_shelf_per_cluster_probability_zero_multilarge": 4.97084963205712e-28,
+    "exact_conditional_one_shelf_per_cluster": {
+      "shelves": 314,
+      "note_slots": 1123,
+      "large_slots": 254,
+      "probability_no_collision_given_large_total": 2.1877242598892335e-55,
+      "null": "Common iid Bernoulli large/small across note slots, conditioning on total large slots removes fitted p; assumes independent run clusters."
+    }
+  },
+  "zero_violation_cluster_bound": {
+    "clusters": 314,
+    "one_sided95_upper_fraction_clusters_with_violation": 0.009495181996557966,
+    "note": "One-sided binomial zero-event bound at run-cluster level; assumes independent sampled clusters, not a shelf-level bound. Bootstrap [1,1] for invariant events is descriptive only.",
+    "one_sided99_upper_fraction_clusters_with_violation": 0.014559123003074048
+  },
+  "strict_identity": {
+    "n": 1627,
+    "clusters": 313,
+    "discount_counts": {
+      "4": 1627
+    },
+    "half_counts": {
+      "2": 1317,
+      "1": 269,
+      "0": 41
+    },
+    "large_counts": {
+      "1": 1309,
+      "0": 318
+    },
+    "drink_counts": {
+      "5": 777,
+      "4": 735,
+      "3": 103,
+      "2": 12
+    },
+    "large_any": {
+      "estimate": 0.8045482483097726,
+      "n": 1627,
+      "clusters": 313,
+      "ci95": [
+        0.7855354523734849,
+        0.8236009732360098
+      ],
+      "ci99": [
+        0.7780484561895712,
+        0.8289475320764599
+      ]
+    },
+    "mean_large": {
+      "estimate": 0.8045482483097726,
+      "n": 1627,
+      "clusters": 313,
+      "ci95": [
+        0.7855354523734849,
+        0.8236009732360098
+      ],
+      "ci99": [
+        0.7780484561895712,
+        0.8289475320764599
+      ]
+    },
+    "discount_four": {
+      "estimate": 1.0,
+      "n": 1627,
+      "clusters": 313,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "ci99": [
+        1.0,
+        1.0
+      ]
+    },
+    "half_atmost2": {
+      "estimate": 1.0,
+      "n": 1627,
+      "clusters": 313,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "ci99": [
+        1.0,
+        1.0
+      ]
+    },
+    "mean_within_shelf_large_fraction": {
+      "estimate": 0.2287953288260602,
+      "n": 1627,
+      "clusters": 313,
+      "ci95": [
+        0.22302267381346924,
+        0.2346953098129235
+      ],
+      "ci99": [
+        0.22043376167734924,
+        0.23642172409405604
+      ]
+    }
+  },
+  "by_generation_basis": {
+    "None": {
+      "n": 6,
+      "clusters": 1,
+      "discount_counts": {
+        "4": 6
+      },
+      "half_counts": {
+        "1": 2,
+        "2": 4
+      },
+      "large_counts": {
+        "1": 6
+      },
+      "drink_counts": {
+        "5": 3,
+        "2": 1,
+        "4": 2
+      },
+      "large_any": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_large": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.27777777777777773,
+        "n": 6,
+        "clusters": 1,
+        "ci95": null
+      }
+    },
+    "stock_contents_changed_after_ambiguous_refresh": {
+      "n": 133,
+      "clusters": 133,
+      "discount_counts": {
+        "4": 133
+      },
+      "half_counts": {
+        "0": 8,
+        "2": 103,
+        "1": 22
+      },
+      "large_counts": {
+        "0": 30,
+        "1": 103
+      },
+      "drink_counts": {
+        "4": 54,
+        "5": 69,
+        "3": 10
+      },
+      "large_any": {
+        "estimate": 0.7744360902255639,
+        "n": 133,
+        "clusters": 133,
+        "ci95": [
+          0.6992481203007519,
+          0.8421052631578947
+        ],
+        "ci99": [
+          0.6766917293233082,
+          0.8646616541353384
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7744360902255639,
+        "n": 133,
+        "clusters": 133,
+        "ci95": [
+          0.6992481203007519,
+          0.8421052631578947
+        ],
+        "ci99": [
+          0.6766917293233082,
+          0.8646616541353384
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 133,
+        "clusters": 133,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 133,
+        "clusters": 133,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2238095238095238,
+        "n": 133,
+        "clusters": 133,
+        "ci95": [
+          0.202377819548872,
+          0.24511278195488692
+        ],
+        "ci99": [
+          0.19461152882205504,
+          0.2520050125313282
+        ]
+      }
+    },
+    "initial_observed_stock": {
+      "n": 901,
+      "clusters": 228,
+      "discount_counts": {
+        "4": 901
+      },
+      "half_counts": {
+        "2": 735,
+        "1": 149,
+        "0": 17
+      },
+      "large_counts": {
+        "1": 730,
+        "0": 171
+      },
+      "drink_counts": {
+        "5": 433,
+        "4": 404,
+        "3": 57,
+        "2": 7
+      },
+      "large_any": {
+        "estimate": 0.8102108768035516,
+        "n": 901,
+        "clusters": 228,
+        "ci95": [
+          0.784767840703234,
+          0.8348115299334812
+        ],
+        "ci99": [
+          0.77654795167545,
+          0.8426854488546199
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8102108768035516,
+        "n": 901,
+        "clusters": 228,
+        "ci95": [
+          0.784767840703234,
+          0.8348115299334812
+        ],
+        "ci99": [
+          0.77654795167545,
+          0.8426854488546199
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 901,
+        "clusters": 228,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 901,
+        "clusters": 228,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.23054014058453567,
+        "n": 901,
+        "clusters": 228,
+        "ci95": [
+          0.2223994973499951,
+          0.23852084365803355
+        ],
+        "ci99": [
+          0.22025200222883215,
+          0.24157373475858193
+        ]
+      }
+    },
+    "Maa_refresh_success_with_no_invalid_counter_signal": {
+      "n": 297,
+      "clusters": 223,
+      "discount_counts": {
+        "4": 297
+      },
+      "half_counts": {
+        "2": 241,
+        "1": 47,
+        "0": 9
+      },
+      "large_counts": {
+        "0": 52,
+        "1": 245
+      },
+      "drink_counts": {
+        "4": 124,
+        "5": 153,
+        "3": 18,
+        "2": 2
+      },
+      "large_any": {
+        "estimate": 0.8249158249158249,
+        "n": 297,
+        "clusters": 223,
+        "ci95": [
+          0.7793103448275862,
+          0.8676008385991849
+        ],
+        "ci99": [
+          0.7650976933825046,
+          0.8796000195456717
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8249158249158249,
+        "n": 297,
+        "clusters": 223,
+        "ci95": [
+          0.7793103448275862,
+          0.8676008385991849
+        ],
+        "ci99": [
+          0.7650976933825046,
+          0.8796000195456717
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 297,
+        "clusters": 223,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 297,
+        "clusters": 223,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2366442199775533,
+        "n": 297,
+        "clusters": 223,
+        "ci95": [
+          0.22254859260777524,
+          0.2501122429247432
+        ],
+        "ci99": [
+          0.21794852238157358,
+          0.25388910406885773
+        ]
+      }
+    },
+    "same_visit_and_visible_remaining_refresh_count": {
+      "n": 429,
+      "clusters": 85,
+      "discount_counts": {
+        "4": 429
+      },
+      "half_counts": {
+        "2": 341,
+        "1": 73,
+        "0": 15
+      },
+      "large_counts": {
+        "1": 334,
+        "0": 95
+      },
+      "drink_counts": {
+        "4": 207,
+        "3": 28,
+        "5": 191,
+        "2": 3
+      },
+      "large_any": {
+        "estimate": 0.7785547785547785,
+        "n": 429,
+        "clusters": 85,
+        "ci95": [
+          0.7363164110639463,
+          0.8175519630484989
+        ],
+        "ci99": [
+          0.7218358758408814,
+          0.8299330306285194
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.7785547785547785,
+        "n": 429,
+        "clusters": 85,
+        "ci95": [
+          0.7363164110639463,
+          0.8175519630484989
+        ],
+        "ci99": [
+          0.7218358758408814,
+          0.8299330306285194
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 429,
+        "clusters": 85,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 429,
+        "clusters": 85,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.21969696969696967,
+        "n": 429,
+        "clusters": 85,
+        "ci95": [
+          0.20778999415949884,
+          0.23130847247015995
+        ],
+        "ci99": [
+          0.20414597174704774,
+          0.2348184172471808
+        ]
+      }
+    }
+  },
+  "note_type_quantity_counts": {
+    "('melody_of_ultimate', 15)": 182,
+    "('melody_of_burst', 5)": 603,
+    "('melody_of_ultimate', 5)": 646,
+    "('melody_of_skill', 5)": 622,
+    "('melody_of_pummel', 5)": 585,
+    "('melody_of_burst', 15)": 201,
+    "('melody_of_focus', 5)": 625,
+    "('melody_of_umbra', 5)": 428,
+    "('melody_of_umbra', 15)": 112,
+    "('melody_of_stamina', 5)": 629,
+    "('melody_of_focus', 15)": 184,
+    "('melody_of_skill', 15)": 169,
+    "('melody_of_stamina', 15)": 176,
+    "('melody_of_luck', 5)": 617,
+    "('melody_of_pummel', 15)": 174,
+    "('melody_of_luck', 15)": 176,
+    "('melody_of_lux', 5)": 57,
+    "('melody_of_lux', 15)": 13,
+    "('melody_of_aqua', 5)": 115,
+    "('melody_of_aqua', 15)": 28,
+    "('melody_of_ignis', 15)": 1,
+    "('melody_of_terra', 5)": 3,
+    "('melody_of_ignis', 5)": 4,
+    "('melody_of_ventus', 15)": 2,
+    "('melody_of_ventus', 5)": 2
+  },
+  "unfiltered_shapes": {
+    "item_counts": {
+      "8": 1809
+    },
+    "note_quantities": {
+      "15": 1449,
+      "5": 5014
+    }
+  },
+  "participant_cluster_sensitivity": {
+    "estimate": 0.8029445073612684,
+    "n": 1766,
+    "clusters": 18,
+    "ci95": [
+      0.7537260878705065,
+      0.8108585422547661
+    ],
+    "ci99": [
+      0.7339054063408555,
+      0.8140864511794565
+    ]
+  },
+  "language_large_counts": {
+    "cn": {
+      "n": 382,
+      "big": 306,
+      "mean": 0.8010471204188482
+    },
+    "jp": {
+      "n": 1319,
+      "big": 1064,
+      "mean": 0.8066717210007581
+    },
+    "tw": {
+      "n": 65,
+      "big": 48,
+      "mean": 0.7384615384615385
+    }
+  },
+  "exclusion_audit": {
+    "selection_uses_discount_count": false,
+    "selection_uses_large_count": false,
+    "selection_rule": "Exactly 8 parsed items; item is potential_drink or melody_of_*; quantity in 1/5/15; effective price belongs to externally specified price grid for its type and quantity. No check of discount count, half-price count, or count of large bundles is used for inclusion.",
+    "abnormal_item_counts": {
+      "('unknown_or_other_item', '强攻之音', 5, 45)": 13,
+      "('unknown_or_other_item', '强攻之音', 5, 90)": 29,
+      "('unknown_or_other_item', '强攻之音', 5, 72)": 6,
+      "('unknown_or_other_item', '强攻之音', 15, 400)": 2
+    },
+    "record_id_examples": {
+      "('unknown_or_other_item', '强攻之音', 5, 45)": [
+        "9299d27c96644c15aee7c4f257f72731",
+        "8731456a414b4d1391015666bdc44a96",
+        "955256c1d80e434cb5e0880d48174121"
+      ],
+      "('unknown_or_other_item', '强攻之音', 5, 90)": [
+        "11338d9a540643dfbbc1139e09a5bf90",
+        "d5a1b326660945fca730c7e938204569",
+        "945622daa43e4cff9e1b47d4cbe27407"
+      ],
+      "('unknown_or_other_item', '强攻之音', 5, 72)": [
+        "669364670c5c43efb27863b6e9367e5c",
+        "9c5b51debc07425abf67125af22553aa",
+        "ed0dce624a124370b97bdd83027e7271"
+      ],
+      "('unknown_or_other_item', '强攻之音', 15, 400)": [
+        "669364670c5c43efb27863b6e9367e5c",
+        "5c45a67d68c341d69a9ab6668d354feb"
+      ]
+    }
+  },
+  "worst_case_large_any_identification": {
+    "all_shelves": 1809,
+    "known_shelves": 1766,
+    "known_big_shelves": 1418,
+    "unknown_shelves": 43,
+    "lower": 0.7838584853510226,
+    "upper": 0.8076285240464345,
+    "note": "Treat every excluded shelf as unknown presence of a large bundle: lower assigns all zero, upper assigns all one. This is an identification interval, not a confidence interval."
+  },
+  "confirmed_analysis_normalization": {
+    "sources": [
+      "客户端文本配置：SubNoteSkill.90011.1=强攻之音，对应音符90011。",
+      "既有价格核对确认的5枚音符包OCR连读修正规则：9045→45、9072→72；不按待检验的整架约束纳入样本。"
+    ],
+    "does_not_modify_total_data": true,
+    "selection_uses_discount_or_large_counts": false,
+    "corrected_item_counts": {
+      "name_pummel": 50
+    },
+    "corrected_shelf_counts": {
+      "name_pummel": 43,
+      "any": 43
+    },
+    "remaining_exclusions": {},
+    "valid": {
+      "n": 1809,
+      "clusters": 315,
+      "discount_counts": {
+        "4": 1809
+      },
+      "half_counts": {
+        "2": 1461,
+        "0": 50,
+        "1": 298
+      },
+      "large_counts": {
+        "1": 1451,
+        "0": 358
+      },
+      "drink_counts": {
+        "5": 864,
+        "4": 817,
+        "3": 115,
+        "2": 13
+      },
+      "large_any": {
+        "estimate": 0.8021006080707573,
+        "n": 1809,
+        "clusters": 315,
+        "ci95": [
+          0.7838283828382838,
+          0.820055053033974
+        ],
+        "ci99": [
+          0.7779617311399829,
+          0.8268593656620848
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8021006080707573,
+        "n": 1809,
+        "clusters": 315,
+        "ci95": [
+          0.7838283828382838,
+          0.820055053033974
+        ],
+        "ci99": [
+          0.7779617311399829,
+          0.8268593656620848
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1809,
+        "clusters": 315,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1809,
+        "clusters": 315,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2280541735765616,
+        "n": 1809,
+        "clusters": 315,
+        "ci95": [
+          0.22238430866109418,
+          0.2336235874560692
+        ],
+        "ci99": [
+          0.2206130376125246,
+          0.23517465965844364
+        ]
+      }
+    },
+    "participant_cluster_sensitivity": {
+      "estimate": 0.8021006080707573,
+      "n": 1809,
+      "clusters": 18,
+      "ci95": [
+        0.7556222039703621,
+        0.8107836157543586
+      ],
+      "ci99": [
+        0.7388712233612085,
+        0.8140617156092108
+      ]
+    },
+    "strict_identity": {
+      "n": 1670,
+      "clusters": 314,
+      "discount_counts": {
+        "4": 1670
+      },
+      "half_counts": {
+        "2": 1354,
+        "1": 274,
+        "0": 42
+      },
+      "large_counts": {
+        "1": 1342,
+        "0": 328
+      },
+      "drink_counts": {
+        "5": 792,
+        "4": 761,
+        "3": 105,
+        "2": 12
+      },
+      "large_any": {
+        "estimate": 0.8035928143712575,
+        "n": 1670,
+        "clusters": 314,
+        "ci95": [
+          0.7842544981060606,
+          0.8218184499865916
+        ],
+        "ci99": [
+          0.778787556415216,
+          0.8281818274892141
+        ]
+      },
+      "mean_large": {
+        "estimate": 0.8035928143712575,
+        "n": 1670,
+        "clusters": 314,
+        "ci95": [
+          0.7842544981060606,
+          0.8218184499865916
+        ],
+        "ci99": [
+          0.778787556415216,
+          0.8281818274892141
+        ]
+      },
+      "discount_four": {
+        "estimate": 1.0,
+        "n": 1670,
+        "clusters": 314,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "half_atmost2": {
+        "estimate": 1.0,
+        "n": 1670,
+        "clusters": 314,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci99": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_within_shelf_large_fraction": {
+        "estimate": 0.2282135728542914,
+        "n": 1670,
+        "clusters": 314,
+        "ci95": [
+          0.222462458242456,
+          0.23383190457203612
+        ],
+        "ci99": [
+          0.22061733174508621,
+          0.23584870995560225
+        ]
+      }
+    },
+    "by_language": {
+      "cn": {
+        "n": 382,
+        "clusters": 72,
+        "discount_counts": {
+          "4": 382
+        },
+        "half_counts": {
+          "2": 302,
+          "1": 65,
+          "0": 15
+        },
+        "large_counts": {
+          "1": 306,
+          "0": 76
+        },
+        "drink_counts": {
+          "4": 183,
+          "5": 171,
+          "3": 24,
+          "2": 4
+        },
+        "large_any": {
+          "estimate": 0.8010471204188482,
+          "n": 382,
+          "clusters": 72,
+          "ci95": [
+            0.7575716736094095,
+            0.8418265262142872
+          ],
+          "ci99": [
+            0.7447886385658914,
+            0.8563987366731941
+          ]
+        },
+        "mean_large": {
+          "estimate": 0.8010471204188482,
+          "n": 382,
+          "clusters": 72,
+          "ci95": [
+            0.7575716736094095,
+            0.8418265262142872
+          ],
+          "ci99": [
+            0.7447886385658914,
+            0.8563987366731941
+          ]
+        },
+        "discount_four": {
+          "estimate": 1.0,
+          "n": 382,
+          "clusters": 72,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "half_atmost2": {
+          "estimate": 1.0,
+          "n": 382,
+          "clusters": 72,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_within_shelf_large_fraction": {
+          "estimate": 0.225043630017452,
+          "n": 382,
+          "clusters": 72,
+          "ci95": [
+            0.21313176494390124,
+            0.23671126903553294
+          ],
+          "ci99": [
+            0.20912956827816517,
+            0.24072602357320108
+          ]
+        },
+        "big": 306
+      },
+      "jp": {
+        "n": 1319,
+        "clusters": 225,
+        "discount_counts": {
+          "4": 1319
+        },
+        "half_counts": {
+          "2": 1068,
+          "0": 32,
+          "1": 219
+        },
+        "large_counts": {
+          "1": 1064,
+          "0": 255
+        },
+        "drink_counts": {
+          "5": 643,
+          "4": 581,
+          "3": 86,
+          "2": 9
+        },
+        "large_any": {
+          "estimate": 0.8066717210007581,
+          "n": 1319,
+          "clusters": 225,
+          "ci95": [
+            0.7867953955358025,
+            0.8270962501881233
+          ],
+          "ci99": [
+            0.7798932308996952,
+            0.8332064952644971
+          ]
+        },
+        "mean_large": {
+          "estimate": 0.8066717210007581,
+          "n": 1319,
+          "clusters": 225,
+          "ci95": [
+            0.7867953955358025,
+            0.8270962501881233
+          ],
+          "ci99": [
+            0.7798932308996952,
+            0.8332064952644971
+          ]
+        },
+        "discount_four": {
+          "estimate": 1.0,
+          "n": 1319,
+          "clusters": 225,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "half_atmost2": {
+          "estimate": 1.0,
+          "n": 1319,
+          "clusters": 225,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_within_shelf_large_fraction": {
+          "estimate": 0.23017437452615616,
+          "n": 1319,
+          "clusters": 225,
+          "ci95": [
+            0.22369946546243444,
+            0.23663371445503667
+          ],
+          "ci99": [
+            0.22169459551016024,
+            0.23878775896517793
+          ]
+        },
+        "big": 1064
+      },
+      "tw": {
+        "n": 108,
+        "clusters": 18,
+        "discount_counts": {
+          "4": 108
+        },
+        "half_counts": {
+          "2": 91,
+          "0": 3,
+          "1": 14
+        },
+        "large_counts": {
+          "1": 81,
+          "0": 27
+        },
+        "drink_counts": {
+          "4": 53,
+          "5": 50,
+          "3": 5
+        },
+        "large_any": {
+          "estimate": 0.75,
+          "n": 108,
+          "clusters": 18,
+          "ci95": [
+            0.6759259259259259,
+            0.8240740740740741
+          ],
+          "ci99": [
+            0.6481481481481481,
+            0.8425925925925926
+          ]
+        },
+        "mean_large": {
+          "estimate": 0.75,
+          "n": 108,
+          "clusters": 18,
+          "ci95": [
+            0.6759259259259259,
+            0.8240740740740741
+          ],
+          "ci99": [
+            0.6481481481481481,
+            0.8425925925925926
+          ]
+        },
+        "discount_four": {
+          "estimate": 1.0,
+          "n": 108,
+          "clusters": 18,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "half_atmost2": {
+          "estimate": 1.0,
+          "n": 108,
+          "clusters": 18,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "ci99": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_within_shelf_large_fraction": {
+          "estimate": 0.2128086419753086,
+          "n": 108,
+          "clusters": 18,
+          "ci95": [
+            0.19228395061728396,
+            0.23256558641975303
+          ],
+          "ci99": [
+            0.1859560185185185,
+            0.23719135802469132
+          ]
+        },
+        "big": 81
+      }
+    },
+    "exact_conditional_one_shelf_per_cluster": {
+      "shelves": 315,
+      "note_slots": 1129,
+      "large_slots": 256,
+      "probability_no_collision_given_large_total": 2.6537149433541584e-56
+    },
+    "zero_violation_run_bound": {
+      "clusters": 315,
+      "upper95": 0.009465181671144518,
+      "upper99": 0.014513240598927668
+    },
+    "exact_conditional_one_shelf_per_participant": {
+      "participants": 18,
+      "shelves": 18,
+      "note_slots": 63,
+      "large_slots": 16,
+      "probability_no_collision_given_large_total": 0.00018307320636739297,
+      "selection": "First normalized shelf for each participant in observations.jsonl file order, not chronological reordering.",
+      "null": "Common iid Bernoulli large/small across note slots; conditional on the total large count.",
+      "scope": "Only 18 observed participants; this sensitivity test does not identify broader player or server populations."
+    }
+  },
+  "caveats": [
+    "Intervals resample participant/session/run clusters; observation and preset selection are not population random sampling.",
+    "Generation IDs are local UI identities, not server IDs; content is never used to merge different generations.",
+    "First snapshot per generation is retained; later same-generation changes are counted, not treated as fresh shelves.",
+    "Tower/disc IDs and phase are not explicit shelf fields; preset/language strata cannot identify causal disc/tower dependence."
+  ]
+}

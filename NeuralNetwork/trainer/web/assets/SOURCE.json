@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/notofonts/noto-cjk",
+  "font_source": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "license": "SIL Open Font License 1.1",
+  "changes": "Subset to app UI/log characters and Latin-1; font family renamed Stella UI CJK; WOFF packaging.",
+  "source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "subset_sha256": "a28ebbfcb417f9d35273bc520ba290cb97e2be6ac8e0d8f936117e8d12533a84",
+  "glyph_characters": 642
+}

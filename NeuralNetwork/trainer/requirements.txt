@@ -1,0 +1,5 @@
+# Python >= 3.10; use the existing compatible CUDA-enabled PyTorch environment.
+# NVIDIA driver/NVRTC are external runtime prerequisites, not bundled here.
+numpy>=1.24
+torch>=2.7
+# Optional test dependency: pytest

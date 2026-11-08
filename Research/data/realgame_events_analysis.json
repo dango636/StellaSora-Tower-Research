@@ -1,0 +1,4619 @@
+{
+  "source_counts": {
+    "run_start": 295,
+    "offer_observed": 24329,
+    "policy_decision": 24398,
+    "selection_attempt": 14820,
+    "selection_cache": 19002,
+    "ui_boundary": 14815,
+    "refresh_attempt": 3630,
+    "refresh_result": 5396,
+    "run_end": 289,
+    "lifecycle_observed": 53778,
+    "exploration_start": 324,
+    "selection_ui_transition_observed": 15642,
+    "shop_observed": 60310,
+    "exploration_end": 320,
+    "context_run_recognition": 112894,
+    "wallet_observed": 10369,
+    "selection_result_attempt": 4182,
+    "selection_result": 4182,
+    "event_menu_observed": 540,
+    "model_decision": 8631,
+    "event_choice": 538,
+    "event_choice_click_observed": 538,
+    "offer_reobserved": 73,
+    "refresh_result_attempt": 1766,
+    "context_run_task": 14608,
+    "purchase_attempt": 1419,
+    "purchase_result": 1419,
+    "enhancement_result_attempt": 999,
+    "enhancement_result": 999,
+    "shop_refresh_result_attempt": 151,
+    "shop_refresh_result": 151,
+    "event_menu_reobserved": 159,
+    "settlement_observed": 74
+  },
+  "unique_event_instances": 540,
+  "event_field_counts": {
+    "schema_version": 1775,
+    "event_type": 1775,
+    "timestamp": 1775,
+    "record_id": 1775,
+    "participant_id": 1775,
+    "session_id": 1775,
+    "task_id": 1775,
+    "run_id": 1775,
+    "exploration_id": 1775,
+    "sequence": 1775,
+    "run_sequence": 1775,
+    "lang_type": 1775,
+    "observer": 1775,
+    "server_confirmed": 1775,
+    "preset_id": 1775,
+    "target_vector_complete": 1775,
+    "target_vector": 1775,
+    "event_id": 1775,
+    "question": 1237,
+    "choices": 699,
+    "owned": 699,
+    "tracker_estimate": 699,
+    "dataset_id": 1775,
+    "sequence_complete": 19,
+    "sequence_inference_eligible": 19,
+    "training_eligible": 19,
+    "recognition_errors": 19,
+    "selected_text": 538,
+    "displayed_consequence": 538,
+    "selected_box": 538,
+    "model_mapping": 538,
+    "operation_confirmed": 538,
+    "evidence": 538,
+    "owned_complete": 692,
+    "owned_basis": 692,
+    "owned_source": 692,
+    "owned_revision": 692,
+    "owned_issues": 692,
+    "owned_counts": 692,
+    "owned_independently_verified": 692,
+    "maa_owned_cache": 692,
+    "maa_owned_complete": 692
+  },
+  "special_field_counts_entire_dataset": {
+    "schema_version": 401040,
+    "recorder_version": 154470,
+    "model_versions": 96,
+    "feature_version": 176,
+    "network_version": 88,
+    "rules_version": 176,
+    "checkpoint_rules_version": 88,
+    "log_schema_version": 8631
+  },
+  "changed_menu_signatures_same_instance": 0,
+  "selected_model_options": {
+    "10301": 65,
+    "None": 95,
+    "12002": 20,
+    "10401": 6
+  },
+  "events": {
+    "103": {
+      "instances": 66,
+      "participants": 13,
+      "runs": 66,
+      "choices": 66,
+      "clicks": 66,
+      "operation_confirmed_true": 0
+    },
+    "108": {
+      "instances": 32,
+      "participants": 9,
+      "runs": 32,
+      "choices": 32,
+      "clicks": 32,
+      "operation_confirmed_true": 0
+    },
+    "107": {
+      "instances": 41,
+      "participants": 10,
+      "runs": 41,
+      "choices": 40,
+      "clicks": 40,
+      "operation_confirmed_true": 0
+    },
+    "114": {
+      "instances": 17,
+      "participants": 8,
+      "runs": 17,
+      "choices": 17,
+      "clicks": 17,
+      "operation_confirmed_true": 0
+    },
+    "120": {
+      "instances": 25,
+      "participants": 11,
+      "runs": 25,
+      "choices": 25,
+      "clicks": 25,
+      "operation_confirmed_true": 0
+    },
+    "104": {
+      "instances": 6,
+      "participants": 3,
+      "runs": 6,
+      "choices": 6,
+      "clicks": 6,
+      "operation_confirmed_true": 0
+    }
+  },
+  "menus": {
+    "107": {
+      "events": 41,
+      "valid_two_distinct": 41,
+      "two_distinct_wilson_95": [
+        0.9143324298155726,
+        1.0
+      ],
+      "cluster_ci": {
+        "run": {
+          "clusters": 41,
+          "bootstrap_95_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "participant": {
+          "clusters": 10,
+          "bootstrap_95_ci": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "pairs": {
+        "1,3": 2,
+        "1,4": 2,
+        "1,5": 1,
+        "1,6": 1,
+        "1,7": 4,
+        "2,3": 2,
+        "2,4": 3,
+        "2,5": 4,
+        "2,7": 4,
+        "3,4": 1,
+        "3,5": 1,
+        "4,5": 2,
+        "4,6": 6,
+        "5,6": 2,
+        "5,7": 3,
+        "6,7": 3
+      },
+      "note_marginals": {
+        "1": 10,
+        "2": 13,
+        "3": 6,
+        "4": 14,
+        "5": 13,
+        "6": 12,
+        "7": 14
+      },
+      "uniform_21_pairs": {
+        "n": 41,
+        "pearson_statistic": 28.146341463414632,
+        "monte_carlo_p": 0.1094945252737363,
+        "simulations": 20000
+      },
+      "unmapped_consequences": {},
+      "strata": {
+        "lang": {
+          "cn": {
+            "events": 29,
+            "valid_two_distinct": 29,
+            "two_distinct_wilson_95": [
+              0.883030201500265,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 29,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 6,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 2,
+              "1,5": 1,
+              "1,6": 1,
+              "1,7": 4,
+              "2,3": 2,
+              "2,4": 2,
+              "2,5": 3,
+              "2,7": 2,
+              "4,5": 2,
+              "4,6": 4,
+              "5,6": 2,
+              "5,7": 2,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 8,
+              "2": 9,
+              "3": 4,
+              "4": 8,
+              "5": 10,
+              "6": 9,
+              "7": 10
+            },
+            "uniform_21_pairs": {
+              "n": 29,
+              "pearson_statistic": 25.310344827586206,
+              "monte_carlo_p": 0.20823958802059897,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "jp": {
+            "events": 8,
+            "valid_two_distinct": 8,
+            "two_distinct_wilson_95": [
+              0.6755924351161318,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 8,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,4": 2,
+              "2,4": 1,
+              "2,5": 1,
+              "2,7": 1,
+              "3,4": 1,
+              "4,6": 2
+            },
+            "note_marginals": {
+              "1": 2,
+              "2": 3,
+              "3": 1,
+              "4": 6,
+              "5": 1,
+              "6": 2,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 8,
+              "pearson_statistic": 23.5,
+              "monte_carlo_p": 0.351932403379831,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "tw": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,7": 1,
+              "3,5": 1,
+              "5,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 1,
+              "7": 3
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "preset": {
+          "None": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,4": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0005": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0006": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,7": 1,
+              "3,5": 1,
+              "5,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 1,
+              "7": 3
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0007": {
+            "events": 6,
+            "valid_two_distinct": 6,
+            "two_distinct_wilson_95": [
+              0.6096657120978477,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 6,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,5": 1,
+              "2,7": 1,
+              "3,4": 1,
+              "4,6": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 4,
+              "5": 1,
+              "6": 2,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 6,
+              "pearson_statistic": 22.000000000000004,
+              "monte_carlo_p": 0.543322833858307,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0008": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0009": {
+            "events": 18,
+            "valid_two_distinct": 18,
+            "two_distinct_wilson_95": [
+              0.8241207763533505,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 18,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,5": 1,
+              "1,6": 1,
+              "1,7": 2,
+              "2,3": 2,
+              "2,5": 2,
+              "2,7": 2,
+              "4,5": 1,
+              "4,6": 4,
+              "5,6": 2
+            },
+            "note_marginals": {
+              "1": 5,
+              "2": 6,
+              "3": 3,
+              "4": 5,
+              "5": 6,
+              "6": 7,
+              "7": 4
+            },
+            "uniform_21_pairs": {
+              "n": 18,
+              "pearson_statistic": 28.666666666666664,
+              "monte_carlo_p": 0.11219439028048597,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0010": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "4,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0011": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0012": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,7": 1,
+              "2,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 1,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0013": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0015": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0016": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,4": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0017": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0019": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "participant": {
+          "0cd62a778b1745f69d9a4403aa9c2578": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "11c1123cf79147f2a4840a76d4f25021": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "11c675fae7004dcd9690733efd6535d6": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,7": 1,
+              "3,5": 1,
+              "5,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 1,
+              "7": 3
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "1544f433d56e45208cbd4c11b3b6f11c": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "228fc3ece17b4cf2b797a561c664ad85": {
+            "events": 6,
+            "valid_two_distinct": 6,
+            "two_distinct_wilson_95": [
+              0.6096657120978477,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 6,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,5": 1,
+              "2,7": 1,
+              "3,4": 1,
+              "4,6": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 4,
+              "5": 1,
+              "6": 2,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 6,
+              "pearson_statistic": 22.000000000000004,
+              "monte_carlo_p": 0.543322833858307,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "454ad46f06164e21be03a53d39eb2de6": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "7f38263cfb29424e8b16144244a87235": {
+            "events": 18,
+            "valid_two_distinct": 18,
+            "two_distinct_wilson_95": [
+              0.8241207763533505,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 18,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,5": 1,
+              "1,6": 1,
+              "1,7": 2,
+              "2,3": 2,
+              "2,5": 2,
+              "2,7": 2,
+              "4,5": 1,
+              "4,6": 4,
+              "5,6": 2
+            },
+            "note_marginals": {
+              "1": 5,
+              "2": 6,
+              "3": 3,
+              "4": 5,
+              "5": 6,
+              "6": 7,
+              "7": 4
+            },
+            "uniform_21_pairs": {
+              "n": 18,
+              "pearson_statistic": 28.666666666666664,
+              "monte_carlo_p": 0.11219439028048597,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "bd303073b3e344e3bd4b95c8e7cc4e7b": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,4": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "d11f37fc59cb4664bfc058aec892226a": {
+            "events": 6,
+            "valid_two_distinct": 6,
+            "two_distinct_wilson_95": [
+              0.6096657120978477,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 6,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,7": 1,
+              "2,4": 2,
+              "4,5": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 2,
+              "2": 2,
+              "3": 1,
+              "4": 3,
+              "5": 1,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 6,
+              "pearson_statistic": 22.000000000000004,
+              "monte_carlo_p": 0.543322833858307,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "e90a67b663fb4e24af9f3f2f701c9c62": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "question": {
+          "你会如何倾听.....命运的旋律？": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "你会如何倾听....命运的旋律？": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "2,3": 1,
+              "2,5": 1,
+              "2,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 3,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "你会如何倾听...命运的旋律？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律......如何影响着你的命运?": {
+            "events": 6,
+            "valid_two_distinct": 6,
+            "two_distinct_wilson_95": [
+              0.6096657120978477,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 6,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "2,4": 1,
+              "2,5": 1,
+              "4,6": 1,
+              "5,6": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 2,
+              "5": 3,
+              "6": 3,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 6,
+              "pearson_statistic": 22.000000000000004,
+              "monte_carlo_p": 0.5466726663666817,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律...如何影響著你的命運？": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "3,5": 1,
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律は……魔王サマの運命にどう影響を与えるのかしら?": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 1,
+              "3": 0,
+              "4": 2,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律は……魔王サマの運命にどう影響を与えるのかしら？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "歌を聴くの？じゃあ、一緒に聴こうか。": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "3,4": 1,
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 2,
+              "5": 0,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "要听歌吗？来，一起听吧。": {
+            "events": 9,
+            "valid_two_distinct": 9,
+            "two_distinct_wilson_95": [
+              0.7008549515804674,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 9,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,6": 1,
+              "1,7": 1,
+              "2,3": 1,
+              "2,5": 1,
+              "2,7": 1,
+              "4,5": 1,
+              "4,6": 2,
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 2,
+              "2": 3,
+              "3": 1,
+              "4": 3,
+              "5": 3,
+              "6": 3,
+              "7": 3
+            },
+            "uniform_21_pairs": {
+              "n": 9,
+              "pearson_statistic": 16.666666666666664,
+              "monte_carlo_p": 0.8661066946652667,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "要聽歌嗎？來，一起聽吧。": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "音乐，也是治疗的方法。": {
+            "events": 7,
+            "valid_two_distinct": 7,
+            "two_distinct_wilson_95": [
+              0.6456695649333253,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 7,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,5": 1,
+              "1,7": 1,
+              "2,4": 1,
+              "4,5": 1,
+              "4,6": 1,
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 3,
+              "2": 1,
+              "3": 1,
+              "4": 3,
+              "5": 3,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 7,
+              "pearson_statistic": 14.000000000000002,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "音楽も治療の一環です。": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 1,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "魔王さんは運命の旋律をどんな風に聴くのです？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        }
+      },
+      "per_run": {
+        "064cfd68e65d494f86d1ef8c84095ccd": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "098d7370738943c1b30d510ac9068d80": {
+          "n": 1,
+          "pairs": {
+            "1,3": 1
+          }
+        },
+        "0ec4c87350e540c88f82b43c32bff015": {
+          "n": 1,
+          "pairs": {
+            "4,5": 1
+          }
+        },
+        "125f282d5d2640b68508420303eb5224": {
+          "n": 1,
+          "pairs": {
+            "2,4": 1
+          }
+        },
+        "12c315da70c34ae1a0d72dc240cb11a8": {
+          "n": 1,
+          "pairs": {
+            "2,5": 1
+          }
+        },
+        "1614f1a78893458487c81467b3920de9": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "186f5ff5761c4fef94a6f3eb9012a3b7": {
+          "n": 1,
+          "pairs": {
+            "1,3": 1
+          }
+        },
+        "23e28a60d72a4503bc847d5e7a81811d": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "283338e0c4b04b4c94abb2c8a8e6446c": {
+          "n": 1,
+          "pairs": {
+            "5,7": 1
+          }
+        },
+        "32881b2a04744e0d8520b5017948cf04": {
+          "n": 1,
+          "pairs": {
+            "2,5": 1
+          }
+        },
+        "3bccd37224de440e99d34677dd306fd6": {
+          "n": 1,
+          "pairs": {
+            "1,7": 1
+          }
+        },
+        "3f135948265a4ebca7a861a24d2442c1": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "5773dcb6a94142da928ff3d93a97e126": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "578cccf5bef549e295e2c6576c63f85a": {
+          "n": 1,
+          "pairs": {
+            "2,5": 1
+          }
+        },
+        "6c3023f018ca4da2b0b2f41a775e35ff": {
+          "n": 1,
+          "pairs": {
+            "5,6": 1
+          }
+        },
+        "6cc402703d5e4bd5bacbc8645aebe8c3": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "796efeb10950457380b82e79d37ef568": {
+          "n": 1,
+          "pairs": {
+            "2,3": 1
+          }
+        },
+        "7aab0f2323414d218551ec2b70f21bbd": {
+          "n": 1,
+          "pairs": {
+            "3,5": 1
+          }
+        },
+        "7b5c4f6ae6974f899386b6e42440412c": {
+          "n": 1,
+          "pairs": {
+            "5,6": 1
+          }
+        },
+        "7d76ac8056c246c3a03ab6fa547b67fa": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "806e8e6747104d208160cdf4106b234c": {
+          "n": 1,
+          "pairs": {
+            "2,5": 1
+          }
+        },
+        "8b98ddc91e574159bb97499861ccb7d4": {
+          "n": 1,
+          "pairs": {
+            "2,4": 1
+          }
+        },
+        "973311acb7cc4888a2ac22dd4f69763c": {
+          "n": 1,
+          "pairs": {
+            "1,7": 1
+          }
+        },
+        "97ec1452aa53441684a1b6af9fd18583": {
+          "n": 1,
+          "pairs": {
+            "2,3": 1
+          }
+        },
+        "99c113dff2fc41b087e63359eaad9ee8": {
+          "n": 1,
+          "pairs": {
+            "2,4": 1
+          }
+        },
+        "9beea4e468474ebe9b36fff26bcafe1c": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        },
+        "9d6126234df34b8fb98355abe1929a5b": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "9dc6ca5987c54b0db7772c1572d872d4": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "a0393410dda443bb8ca4678149307658": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "bd8ac4e2244c457ab0614216e32c1a86": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "c83bbcdff0774d50b9d90f05cbdb3c48": {
+          "n": 1,
+          "pairs": {
+            "1,4": 1
+          }
+        },
+        "c93df5f6138f4b9c827c5a44993e7345": {
+          "n": 1,
+          "pairs": {
+            "1,6": 1
+          }
+        },
+        "cea7a67342634a598b554c0a9da13766": {
+          "n": 1,
+          "pairs": {
+            "5,7": 1
+          }
+        },
+        "d85319929471400a863aae1c9c29a905": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "d856f3b6ede7474cb6f2dc6d5a43e6ae": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "dc11a91c06ff48bcb41a2f4611ec6b1b": {
+          "n": 1,
+          "pairs": {
+            "3,4": 1
+          }
+        },
+        "dfdf4184667d4a538a0cc18b4aec71f0": {
+          "n": 1,
+          "pairs": {
+            "1,7": 1
+          }
+        },
+        "e377d15c40bf4904bbd706626293cbc0": {
+          "n": 1,
+          "pairs": {
+            "4,5": 1
+          }
+        },
+        "ed07e57dca564188aaa20a235b7bb1d7": {
+          "n": 1,
+          "pairs": {
+            "1,4": 1
+          }
+        },
+        "f1103decf8144088893d6f70e57e2fd0": {
+          "n": 1,
+          "pairs": {
+            "5,7": 1
+          }
+        },
+        "f3f57aa38f6343d6b94492ce7a53c29e": {
+          "n": 1,
+          "pairs": {
+            "1,7": 1
+          }
+        }
+      },
+      "marginal_cluster_95_ci": {
+        "run": {
+          "1": [
+            0.12195121951219512,
+            0.3902439024390244
+          ],
+          "2": [
+            0.17073170731707318,
+            0.4634146341463415
+          ],
+          "3": [
+            0.04878048780487805,
+            0.2682926829268293
+          ],
+          "4": [
+            0.1951219512195122,
+            0.4878048780487805
+          ],
+          "5": [
+            0.17073170731707318,
+            0.4634146341463415
+          ],
+          "6": [
+            0.14634146341463414,
+            0.43902439024390244
+          ],
+          "7": [
+            0.1951219512195122,
+            0.4878048780487805
+          ]
+        },
+        "participant": {
+          "1": [
+            0.1111111111111111,
+            0.3469387755102041
+          ],
+          "2": [
+            0.21428571428571427,
+            0.4
+          ],
+          "3": [
+            0.0625,
+            0.17391304347826086
+          ],
+          "4": [
+            0.1724137931034483,
+            0.5416666666666666
+          ],
+          "5": [
+            0.2,
+            0.4444444444444444
+          ],
+          "6": [
+            0.14285714285714285,
+            0.3561643835616438
+          ],
+          "7": [
+            0.22727272727272727,
+            0.625
+          ]
+        }
+      }
+    },
+    "108": {
+      "events": 32,
+      "valid_two_distinct": 32,
+      "two_distinct_wilson_95": [
+        0.8928208017449346,
+        1.0
+      ],
+      "cluster_ci": {
+        "run": {
+          "clusters": 32,
+          "bootstrap_95_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "participant": {
+          "clusters": 9,
+          "bootstrap_95_ci": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "pairs": {
+        "1,2": 1,
+        "1,3": 3,
+        "1,4": 2,
+        "1,5": 5,
+        "1,7": 1,
+        "2,4": 1,
+        "2,5": 1,
+        "2,6": 1,
+        "2,7": 3,
+        "3,5": 2,
+        "3,6": 2,
+        "4,6": 3,
+        "4,7": 1,
+        "5,6": 1,
+        "5,7": 1,
+        "6,7": 4
+      },
+      "note_marginals": {
+        "1": 12,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 10,
+        "6": 11,
+        "7": 10
+      },
+      "uniform_21_pairs": {
+        "n": 32,
+        "pearson_statistic": 25.75,
+        "monte_carlo_p": 0.1896405179741013,
+        "simulations": 20000
+      },
+      "unmapped_consequences": {},
+      "strata": {
+        "lang": {
+          "cn": {
+            "events": 20,
+            "valid_two_distinct": 20,
+            "two_distinct_wilson_95": [
+              0.838874841947188,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 20,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 5,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,2": 1,
+              "1,3": 2,
+              "1,5": 4,
+              "1,7": 1,
+              "2,5": 1,
+              "2,6": 1,
+              "2,7": 2,
+              "3,5": 2,
+              "3,6": 1,
+              "4,6": 1,
+              "5,6": 1,
+              "5,7": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 8,
+              "2": 5,
+              "3": 5,
+              "4": 1,
+              "5": 9,
+              "6": 6,
+              "7": 6
+            },
+            "uniform_21_pairs": {
+              "n": 20,
+              "pearson_statistic": 22.0,
+              "monte_carlo_p": 0.38273086345682716,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "jp": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,4": 1,
+              "1,5": 1,
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 3,
+              "2": 0,
+              "3": 1,
+              "4": 2,
+              "5": 1,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "tw": {
+            "events": 8,
+            "valid_two_distinct": 8,
+            "two_distinct_wilson_95": [
+              0.6755924351161318,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 8,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,4": 1,
+              "2,7": 1,
+              "3,6": 1,
+              "4,6": 1,
+              "4,7": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 4,
+              "5": 0,
+              "6": 4,
+              "7": 4
+            },
+            "uniform_21_pairs": {
+              "n": 8,
+              "pearson_statistic": 18.25,
+              "monte_carlo_p": 0.7850607469626518,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "preset": {
+          "P0004": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 2,
+              "2": 0,
+              "3": 1,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0006": {
+            "events": 8,
+            "valid_two_distinct": 8,
+            "two_distinct_wilson_95": [
+              0.6755924351161318,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 8,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,4": 1,
+              "2,7": 1,
+              "3,6": 1,
+              "4,6": 1,
+              "4,7": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 4,
+              "5": 0,
+              "6": 4,
+              "7": 4
+            },
+            "uniform_21_pairs": {
+              "n": 8,
+              "pearson_statistic": 18.25,
+              "monte_carlo_p": 0.7850607469626518,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0007": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1,
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 1,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0009": {
+            "events": 14,
+            "valid_two_distinct": 14,
+            "two_distinct_wilson_95": [
+              0.7846891972623734,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 14,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,2": 1,
+              "1,3": 2,
+              "1,5": 2,
+              "1,7": 1,
+              "2,6": 1,
+              "2,7": 2,
+              "3,5": 1,
+              "4,6": 1,
+              "5,6": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 6,
+              "2": 4,
+              "3": 3,
+              "4": 1,
+              "5": 4,
+              "6": 5,
+              "7": 5
+            },
+            "uniform_21_pairs": {
+              "n": 14,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 0.615369231538423,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0010": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0012": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "3,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0013": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0019": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "P0020": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1,
+              "3,6": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "participant": {
+          "11c675fae7004dcd9690733efd6535d6": {
+            "events": 8,
+            "valid_two_distinct": 8,
+            "two_distinct_wilson_95": [
+              0.6755924351161318,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 8,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1,
+              "2,4": 1,
+              "2,7": 1,
+              "3,6": 1,
+              "4,6": 1,
+              "4,7": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 1,
+              "4": 4,
+              "5": 0,
+              "6": 4,
+              "7": 4
+            },
+            "uniform_21_pairs": {
+              "n": 8,
+              "pearson_statistic": 18.25,
+              "monte_carlo_p": 0.7850607469626518,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "1544f433d56e45208cbd4c11b3b6f11c": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "228fc3ece17b4cf2b797a561c664ad85": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1,
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 1,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "40688eb2eaed4086af63043f04b926a1": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "454ad46f06164e21be03a53d39eb2de6": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "7c1f687b919744abb980e165b70cab24": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1,
+              "3,6": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "7f38263cfb29424e8b16144244a87235": {
+            "events": 14,
+            "valid_two_distinct": 14,
+            "two_distinct_wilson_95": [
+              0.7846891972623734,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 14,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,2": 1,
+              "1,3": 2,
+              "1,5": 2,
+              "1,7": 1,
+              "2,6": 1,
+              "2,7": 2,
+              "3,5": 1,
+              "4,6": 1,
+              "5,6": 1,
+              "6,7": 2
+            },
+            "note_marginals": {
+              "1": 6,
+              "2": 4,
+              "3": 3,
+              "4": 1,
+              "5": 4,
+              "6": 5,
+              "7": 5
+            },
+            "uniform_21_pairs": {
+              "n": 14,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 0.615369231538423,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "b21e8878237042cdb5e7d7b0071ea9eb": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "d11f37fc59cb4664bfc058aec892226a": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1,
+              "3,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        },
+        "question": {
+          "你会如何倾听......命运的旋律？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "你会如何倾听.....命运的旋律?": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "2,7": 1,
+              "5,6": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 2,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "你会如何倾听....命运的旋律？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,5": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "你會如何傾聽...命運的旋律？": {
+            "events": 3,
+            "valid_two_distinct": 3,
+            "two_distinct_wilson_95": [
+              0.4385029682449681,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "3,6": 1,
+              "4,6": 1,
+              "4,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 2,
+              "5": 0,
+              "6": 2,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 3,
+              "pearson_statistic": 18.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律......如何影响着你的命运?": {
+            "events": 7,
+            "valid_two_distinct": 7,
+            "two_distinct_wilson_95": [
+              0.6456695649333253,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 7,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,5": 2,
+              "3,5": 2,
+              "4,6": 1,
+              "5,7": 1
+            },
+            "note_marginals": {
+              "1": 3,
+              "2": 0,
+              "3": 3,
+              "4": 1,
+              "5": 5,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 7,
+              "pearson_statistic": 26.000000000000007,
+              "monte_carlo_p": 0.21748912554372282,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律...如何影響著你的命運？": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "旋律は……魔王サマの運命にどう影響を与えるのかしら?": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "歌を聴くの？じゃあ、一緒に聴こうか。": {
+            "events": 2,
+            "valid_two_distinct": 2,
+            "two_distinct_wilson_95": [
+              0.34238022750666547,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 2,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,3": 1,
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 2,
+              "2": 0,
+              "3": 1,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 2,
+              "pearson_statistic": 19.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "要听歌吗？来，一起听吧。": {
+            "events": 4,
+            "valid_two_distinct": 4,
+            "two_distinct_wilson_95": [
+              0.5101091635454165,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 4,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "pairs": {
+              "1,2": 1,
+              "1,5": 1,
+              "1,7": 1,
+              "3,6": 1
+            },
+            "note_marginals": {
+              "1": 3,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 4,
+              "pearson_statistic": 17.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "要聽歌嗎？來，一起聽吧。": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,4": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "音乐，也是治疗的方法。": {
+            "events": 3,
+            "valid_two_distinct": 3,
+            "two_distinct_wilson_95": [
+              0.4385029682449681,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "1,5": 1,
+              "2,6": 1,
+              "2,7": 1
+            },
+            "note_marginals": {
+              "1": 1,
+              "2": 2,
+              "3": 0,
+              "4": 0,
+              "5": 1,
+              "6": 1,
+              "7": 1
+            },
+            "uniform_21_pairs": {
+              "n": 3,
+              "pearson_statistic": 18.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "音楽も治療の一環です。": {
+            "events": 1,
+            "valid_two_distinct": 1,
+            "two_distinct_wilson_95": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "4,6": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 1,
+              "7": 0
+            },
+            "uniform_21_pairs": {
+              "n": 1,
+              "pearson_statistic": 20.0,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          },
+          "音樂，也是治療的方法。": {
+            "events": 3,
+            "valid_two_distinct": 3,
+            "two_distinct_wilson_95": [
+              0.4385029682449681,
+              1.0
+            ],
+            "cluster_ci": {
+              "run": {
+                "clusters": 3,
+                "bootstrap_95_ci": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "participant": {
+                "clusters": 1,
+                "bootstrap_95_ci": null
+              }
+            },
+            "pairs": {
+              "2,4": 1,
+              "2,7": 1,
+              "6,7": 1
+            },
+            "note_marginals": {
+              "1": 0,
+              "2": 2,
+              "3": 0,
+              "4": 1,
+              "5": 0,
+              "6": 1,
+              "7": 2
+            },
+            "uniform_21_pairs": {
+              "n": 3,
+              "pearson_statistic": 18.000000000000004,
+              "monte_carlo_p": 1.0,
+              "simulations": 20000
+            },
+            "unmapped_consequences": {}
+          }
+        }
+      },
+      "per_run": {
+        "0272bdd000df4491be96bff48e99b218": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "093b1ae2fb20479a9dd42bc939a3385d": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "0ec4c87350e540c88f82b43c32bff015": {
+          "n": 1,
+          "pairs": {
+            "2,5": 1
+          }
+        },
+        "1614f1a78893458487c81467b3920de9": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        },
+        "23e28a60d72a4503bc847d5e7a81811d": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "248597b175104335bab18e268d1c4495": {
+          "n": 1,
+          "pairs": {
+            "6,7": 1
+          }
+        },
+        "25db9bf6871445268d71562ef8d15ae4": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "3bccd37224de440e99d34677dd306fd6": {
+          "n": 1,
+          "pairs": {
+            "3,5": 1
+          }
+        },
+        "4677cd31a3fb4a14906e6cd08f1e3768": {
+          "n": 1,
+          "pairs": {
+            "1,4": 1
+          }
+        },
+        "473f4b20dc6241d3882162d356c9b9a2": {
+          "n": 1,
+          "pairs": {
+            "1,2": 1
+          }
+        },
+        "522713c0315d43cfb827973ae86722b6": {
+          "n": 1,
+          "pairs": {
+            "1,3": 1
+          }
+        },
+        "55c31ba98f194da183bd86b7139ca6bb": {
+          "n": 1,
+          "pairs": {
+            "3,6": 1
+          }
+        },
+        "57c35985ba704d4d943290b8c30cca31": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "5ee5353836bf4283b2deed1cc3d97357": {
+          "n": 1,
+          "pairs": {
+            "2,4": 1
+          }
+        },
+        "711923628e0d4e43a1d91ad75dc39e7f": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "796efeb10950457380b82e79d37ef568": {
+          "n": 1,
+          "pairs": {
+            "1,7": 1
+          }
+        },
+        "7d76ac8056c246c3a03ab6fa547b67fa": {
+          "n": 1,
+          "pairs": {
+            "3,5": 1
+          }
+        },
+        "806e8e6747104d208160cdf4106b234c": {
+          "n": 1,
+          "pairs": {
+            "2,7": 1
+          }
+        },
+        "973311acb7cc4888a2ac22dd4f69763c": {
+          "n": 1,
+          "pairs": {
+            "1,3": 1
+          }
+        },
+        "97ec1452aa53441684a1b6af9fd18583": {
+          "n": 1,
+          "pairs": {
+            "2,6": 1
+          }
+        },
+        "9c312ca9ce404426a60d76ede1524f72": {
+          "n": 1,
+          "pairs": {
+            "1,3": 1
+          }
+        },
+        "9d6126234df34b8fb98355abe1929a5b": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        },
+        "9dc6ca5987c54b0db7772c1572d872d4": {
+          "n": 1,
+          "pairs": {
+            "3,6": 1
+          }
+        },
+        "9eecb1344d50412ebcf938d77bcbb4db": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        },
+        "ad989ef2d0a249ccac72361d41582971": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "aff7f0bb6ec54cecab6aeec823fa7839": {
+          "n": 1,
+          "pairs": {
+            "5,6": 1
+          }
+        },
+        "c93df5f6138f4b9c827c5a44993e7345": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        },
+        "decca33469d346b096a134f5cef340a6": {
+          "n": 1,
+          "pairs": {
+            "4,7": 1
+          }
+        },
+        "df139ae2715142bc8d4b46729d93a909": {
+          "n": 1,
+          "pairs": {
+            "1,4": 1
+          }
+        },
+        "e13536174e294a799e6f336f059d524e": {
+          "n": 1,
+          "pairs": {
+            "4,6": 1
+          }
+        },
+        "f3f57aa38f6343d6b94492ce7a53c29e": {
+          "n": 1,
+          "pairs": {
+            "5,7": 1
+          }
+        },
+        "fc828c9536a7466f866541f1345a860d": {
+          "n": 1,
+          "pairs": {
+            "1,5": 1
+          }
+        }
+      },
+      "marginal_cluster_95_ci": {
+        "run": {
+          "1": [
+            0.21875,
+            0.53125
+          ],
+          "2": [
+            0.09375,
+            0.375
+          ],
+          "3": [
+            0.09375,
+            0.375
+          ],
+          "4": [
+            0.09375,
+            0.375
+          ],
+          "5": [
+            0.15625,
+            0.46875
+          ],
+          "6": [
+            0.1875,
+            0.5
+          ],
+          "7": [
+            0.15625,
+            0.46875
+          ]
+        },
+        "participant": {
+          "1": [
+            0.2,
+            0.6086956521739131
+          ],
+          "2": [
+            0.0,
+            0.28
+          ],
+          "3": [
+            0.125,
+            0.38461538461538464
+          ],
+          "4": [
+            0.06756756756756757,
+            0.4444444444444444
+          ],
+          "5": [
+            0.15151515151515152,
+            0.6875
+          ],
+          "6": [
+            0.13333333333333333,
+            0.42857142857142855
+          ],
+          "7": [
+            0.0625,
+            0.42105263157894735
+          ]
+        }
+      }
+    }
+  },
+  "menu_signature_counts": [
+    {
+      "event": 103,
+      "consequences": [
+        "音符をランダムで5個消費し、を150枚獲得する",
+        "を30枚獲得する"
+      ],
+      "n": 14
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "を140枚消費し、強撃の音符を10個獲得する",
+        "を140枚消費し、体力の音符を10個獲得する",
+        "を90枚消費し、音符をランダムで10個獲得する",
+        "を30枚獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "幸運の音符を5個獲得する",
+        "体力の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 114,
+      "consequences": [
+        "正解すると、音符をランダムで10個獲得できる！",
+        "正解すると、音符をランダムで10個獲得できる！",
+        "正解すると、音符をランダムで10個獲得できる！"
+      ],
+      "n": 3
+    },
+    {
+      "event": 120,
+      "consequences": [
+        "を50枚消費し、音符をランダムで5個獲得する",
+        "以下のいずれかを得る。HPを30%回復（50%）/音符をランダムで5個獲得（50%）"
+      ],
+      "n": 5
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "を140枚消費し、強撃の音符を10個獲得する",
+        "を140枚消費し、爆発の音符を10個獲得する",
+        "を90枚消費し、音符をランダムで10個獲得する",
+        "を30枚獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "強撃の音符を5個獲得する",
+        "体力の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 2
+    },
+    {
+      "event": 103,
+      "consequences": [
+        "消耗5個隨機音符，獲得150",
+        "獲得30"
+      ],
+      "n": 16
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個技巧之音",
+        "消耗140，獲得10個絕招之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 2
+    },
+    {
+      "event": 114,
+      "consequences": [
+        "選擇正確答案，將隨機獲得10個音符！",
+        "選擇正確答案，將隨機獲得10個音符！",
+        "選擇正確答案，將隨機獲得10個音符！"
+      ],
+      "n": 5
+    },
+    {
+      "event": 120,
+      "consequences": [
+        "消耗50，獲得5個隨機音符",
+        "50%機率恢復30%生命值，50%機率獲得5個隨機音符"
+      ],
+      "n": 5
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個體力之音",
+        "消耗140，獲得10個絕招之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "獲得5個專注之音",
+        "獲得5個絕招之音",
+        "獲得5個隨機音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "を140枚消費し、体力の音符を10個獲得する",
+        "を140枚消費し、器用の音符を10個獲得する",
+        "を90枚消費し、音符をランダムで10個獲得する",
+        "を30枚獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "体力の音符を5個獲得する",
+        "器用の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 2
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "爆発の音符を5個獲得する",
+        "体力の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "幸運の音符を5個獲得する",
+        "必殺の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "幸運の音符を5個獲得する",
+        "集中の音符を5個獲得する",
+        "音符をランダムで5個獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "を140枚消費し、強撃の音符を10個獲得する",
+        "を140枚消費し、集中の音符を10個獲得する",
+        "を90枚消費し、音符をランダムで10個獲得する",
+        "を30枚獲得する"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "獲得5個暴發之音",
+        "獲得5個專注之音",
+        "獲得5個隨機音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个专注之音",
+        "获得5个绝招之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 103,
+      "consequences": [
+        "消耗5个随机音符，获得150",
+        "获得30"
+      ],
+      "n": 36
+    },
+    {
+      "event": 120,
+      "consequences": [
+        "消耗50，获得5个随机音符",
+        "50%概率恢复30%生命，50%概率获得5个随机音符"
+      ],
+      "n": 15
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个体力之音",
+        "获得5个技巧之音",
+        "获得5个随机音符"
+      ],
+      "n": 4
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个专注之音",
+        "获得5个技巧之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个幸运之音",
+        "消耗140，获得10个专注之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个体力之音",
+        "获得5个专注之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 114,
+      "consequences": [
+        "选择正确回答，将获得10个随机音符！",
+        "选择正确回答，将获得10个随机音符！",
+        "选择正确回答，将获得10个随机音符！"
+      ],
+      "n": 9
+    },
+    {
+      "event": 104,
+      "consequences": [
+        "消耗10个随机音符，获得1个随机稀有潜能",
+        "消耗200，获得1个随机稀有潜能",
+        "获得30"
+      ],
+      "n": 5
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个专注之音",
+        "消耗140，获得10个技巧之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个技巧之音",
+        "消耗140，获得10个绝招之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个暴发之音",
+        "消耗140，获得10个专注之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 2
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个幸运之音",
+        "获得5个绝招之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个幸运之音",
+        "获得5个专注之音",
+        "获得5个随机音符"
+      ],
+      "n": 3
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个幸运之音",
+        "获得5个暴发之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个幸运之音",
+        "消耗140，获得10个技巧之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个强攻之音",
+        "获得5个技巧之音",
+        "获得5个随机音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个强攻之音",
+        "消耗140，获得10个专注之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 4
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个强攻之音",
+        "获得5个暴发之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个技巧之音",
+        "获得5个绝招之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个强攻之音",
+        "消耗140，获得10个幸运之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个强攻之音",
+        "获得5个绝招之音",
+        "获得5个随机音符"
+      ],
+      "n": 4
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个幸运之音",
+        "获得5个体力之音",
+        "获得5个随机音符"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个体力之音",
+        "消耗140，获得10个技巧之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "獲得5個技巧之音",
+        "獲得5個絕招之音",
+        "獲得5個隨機音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个幸运之音",
+        "消耗140，获得10个绝招之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 2
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個體力之音",
+        "消耗140，獲得10個技巧之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個幸運之音",
+        "消耗140，獲得10個絕招之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个强攻之音",
+        "消耗140，获得10个暴发之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 2
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "獲得5個幸運之音",
+        "獲得5個絕招之音",
+        "獲得5個隨機音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個暴發之音",
+        "消耗140，獲得10個技巧之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個幸運之音",
+        "消耗140，獲得10個體力之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个强攻之音",
+        "消耗140，获得10个绝招之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，獲得10個強攻之音",
+        "消耗140，獲得10個體力之音",
+        "消耗90，獲得10個隨機音符",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 104,
+      "consequences": [
+        "消耗10個隨機音符，隨機獲得1個稀有潛能",
+        "消耗200，隨機獲得1個稀有潛能",
+        "獲得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 107,
+      "consequences": [
+        "获得5个强攻之音",
+        "获得5个专注之音",
+        "获得5个随机音符"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个专注之音",
+        "消耗140，获得10个绝招之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    },
+    {
+      "event": 108,
+      "consequences": [
+        "消耗140，获得10个暴发之音",
+        "消耗140，获得10个技巧之音",
+        "消耗90，获得10个随机音符",
+        "获得30"
+      ],
+      "n": 1
+    }
+  ],
+  "method": {
+    "unit": "participant_id/run_id/event_id; earliest event_menu_observed only; reobserved and click excluded from independent denominator",
+    "static_ids": "not present; event_id is instance UUID; model_mapping is model inference, not server ID; note identities inferred from OCR consequence",
+    "outcomes": "No server confirmation or note inventory vectors; coin/potential observations cannot establish note deduction or 12002 branch. No deduction-kernel fit or branch CI."
+  },
+  "marginal_uniformity_tests": {
+    "method": "Two-sided exact binomial probability ordering; Holm across fourteen event/note comparisons. Exploratory event-level tests do not account for within-participant dependence. Unadjusted cluster bootstrap CIs are descriptive, not evidence of multiplicity-adjusted deviation.",
+    "family_size": 14,
+    "tests": [
+      {
+        "event": 107,
+        "note": 1,
+        "successes": 10,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.6089177849356934,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 2,
+        "successes": 13,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.7295708087321284,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 3,
+        "successes": 6,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.05601943933618441,
+        "holm_adjusted_p": 0.7842721507065817,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 4,
+        "successes": 14,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.48896935332494385,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 5,
+        "successes": 13,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.7295708087321284,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 6,
+        "successes": 12,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 107,
+        "note": 7,
+        "successes": 14,
+        "n": 41,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.48896935332494385,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 1,
+        "successes": 12,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.32671817368935163,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 2,
+        "successes": 7,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.5570616280228669,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 3,
+        "successes": 7,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.5570616280228669,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 4,
+        "successes": 7,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.5570616280228669,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 5,
+        "successes": 10,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.6996699577582868,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 6,
+        "successes": 11,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.44080483747768756,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      },
+      {
+        "event": 108,
+        "note": 7,
+        "successes": 10,
+        "n": 32,
+        "null_p": 0.2857142857142857,
+        "exact_two_sided_p": 0.6996699577582868,
+        "holm_adjusted_p": 1.0,
+        "holm_reject_0_05": false
+      }
+    ],
+    "any_holm_rejection_0_05": false,
+    "global_interpretation": "Retain the 21-pair multinomial Monte Carlo tests as the global tests; marginal tests cannot establish uniformity."
+  }
+}

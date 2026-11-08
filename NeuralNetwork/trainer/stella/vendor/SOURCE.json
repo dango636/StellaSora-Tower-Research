@@ -1,0 +1,10 @@
+{
+  "source": "StellaSora_Learning_Handoff/project/training/value_model/vendor/StellaSora_R19/python/stella_sim.py",
+  "sha256": "fdb12bfbab3a5d340ffdc604418acdf2045ab353d2785d1f5e54310a6e5021c2",
+  "also_identical_in": [
+    "StellaSora_R24",
+    "StellaSora_R35"
+  ],
+  "changes": "state_space_e6_l49_npc_event_v3: E6 correlated shelf counts; first-shop b=1 for initial and restock shelves; level-one trial 49/100 at all h; NPC3 event-reward callback hypothesis.",
+  "scope": "Generative simulation kernel with user-adopted rule hypotheses, no game client access. Unknown rules raise ModelGap."
+}

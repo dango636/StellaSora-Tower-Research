@@ -1,0 +1,2830 @@
+{
+  "source": "Background/RealGameData/data/observations.jsonl",
+  "records": 401040,
+  "run_groups": 391,
+  "events": {
+    "run_start": 295,
+    "offer_observed": 24329,
+    "policy_decision": 24398,
+    "selection_attempt": 14820,
+    "selection_cache": 19002,
+    "ui_boundary": 14815,
+    "refresh_attempt": 3630,
+    "refresh_result": 5396,
+    "run_end": 289,
+    "lifecycle_observed": 53778,
+    "exploration_start": 324,
+    "selection_ui_transition_observed": 15642,
+    "shop_observed": 60310,
+    "exploration_end": 320,
+    "context_run_recognition": 112894,
+    "wallet_observed": 10369,
+    "selection_result_attempt": 4182,
+    "selection_result": 4182,
+    "event_menu_observed": 540,
+    "model_decision": 8631,
+    "event_choice": 538,
+    "event_choice_click_observed": 538,
+    "offer_reobserved": 73,
+    "refresh_result_attempt": 1766,
+    "context_run_task": 14608,
+    "purchase_attempt": 1419,
+    "purchase_result": 1419,
+    "enhancement_result_attempt": 999,
+    "enhancement_result": 999,
+    "shop_refresh_result_attempt": 151,
+    "shop_refresh_result": 151,
+    "event_menu_reobserved": 159,
+    "settlement_observed": 74
+  },
+  "event_run_groups": {
+    "run_start": 295,
+    "offer_observed": 385,
+    "policy_decision": 385,
+    "selection_attempt": 295,
+    "selection_cache": 385,
+    "ui_boundary": 295,
+    "refresh_attempt": 272,
+    "refresh_result": 359,
+    "run_end": 289,
+    "lifecycle_observed": 325,
+    "exploration_start": 324,
+    "selection_ui_transition_observed": 317,
+    "shop_observed": 315,
+    "exploration_end": 314,
+    "context_run_recognition": 96,
+    "wallet_observed": 96,
+    "selection_result_attempt": 90,
+    "selection_result": 90,
+    "event_menu_observed": 87,
+    "model_decision": 85,
+    "event_choice": 87,
+    "event_choice_click_observed": 87,
+    "offer_reobserved": 1,
+    "refresh_result_attempt": 87,
+    "context_run_task": 87,
+    "purchase_attempt": 86,
+    "purchase_result": 86,
+    "enhancement_result_attempt": 86,
+    "enhancement_result": 86,
+    "shop_refresh_result_attempt": 79,
+    "shop_refresh_result": 79,
+    "event_menu_reobserved": 76,
+    "settlement_observed": 74
+  },
+  "top_keys_by_event": {
+    "run_start": {
+      "schema_version": 295,
+      "event_type": 295,
+      "record_id": 295,
+      "timestamp": 295,
+      "session_id": 295,
+      "run_id": 295,
+      "boundary_basis": 295,
+      "full_run_start_observed": 295,
+      "metadata": 295,
+      "dataset_id": 295,
+      "participant_id": 295,
+      "preset_id": 295,
+      "lang_type": 295,
+      "target_vector": 295,
+      "target_vector_complete": 295,
+      "recorder_version": 229,
+      "client_language": 229,
+      "exploration_id": 229,
+      "true_run_id": 229,
+      "exploration_id_basis": 229,
+      "pc": 229
+    },
+    "offer_observed": {
+      "schema_version": 24329,
+      "event_type": 24329,
+      "record_id": 24329,
+      "timestamp": 24329,
+      "session_id": 24329,
+      "run_id": 24329,
+      "offer_id": 24329,
+      "offer_index": 24315,
+      "refresh_index": 24329,
+      "refresh_parent_offer_id": 24315,
+      "identity_status": 18463,
+      "identity_basis": 18463,
+      "recognition_status": 24315,
+      "recognition_errors": 18464,
+      "source": 24315,
+      "source_raw": 24315,
+      "source_confidence": 18450,
+      "candidates": 24329,
+      "candidates_complete": 24315,
+      "raw_rarity": 24315,
+      "owned": 24329,
+      "owned_complete": 24329,
+      "owned_basis": 24315,
+      "main_trekker_index": 24315,
+      "trekker_index_basis": 24315,
+      "counters": 24315,
+      "coin": 24315,
+      "refresh_price": 24315,
+      "floor": 24315,
+      "policy": 18450,
+      "metadata": 18450,
+      "observation_source": 18450,
+      "dataset_id": 24329,
+      "participant_id": 24329,
+      "preset_id": 24329,
+      "lang_type": 24329,
+      "target_vector": 24329,
+      "target_vector_complete": 24329,
+      "wallet_complete": 2,
+      "invalid_fields": 2,
+      "probability_eligible": 14,
+      "training_eligible": 15,
+      "sequence_complete": 14,
+      "sequence_inference_eligible": 14,
+      "recorder_version": 14230,
+      "client_language": 14230,
+      "exploration_id": 20109,
+      "true_run_id": 14230,
+      "exploration_id_basis": 14230,
+      "full_run_start_observed": 14230,
+      "pc": 14230,
+      "reward_chain_id": 20109,
+      "reward_id": 14230,
+      "origin_context": 14230,
+      "source_type": 20109,
+      "role_constraint": 14230,
+      "rarity_constraint": 14230,
+      "origin_link_status": 14230,
+      "actual_B": 14230,
+      "actual_B_basis": 14230,
+      "visible_shared_bonus": 14230,
+      "observed_state_before": 14230,
+      "task_id": 5879,
+      "sequence": 5879,
+      "run_sequence": 5879,
+      "observer": 5879,
+      "server_confirmed": 5879,
+      "source_attribution": 5879,
+      "level_upped": 5879,
+      "core_potential": 5879,
+      "candidate_read_complete": 5879,
+      "level_basis": 5879,
+      "owned_source": 5879,
+      "state": 5879,
+      "tracker_estimate": 5879,
+      "preceding_event_id": 5879,
+      "refresh_operation_id": 5865,
+      "maa_refresh_count": 5865,
+      "page_generation_basis": 5865,
+      "same_page_read_index": 5865,
+      "recognition_consistent": 5865,
+      "read_id": 5865,
+      "recognition_record_ids": 5865,
+      "origin_operation_id": 5865,
+      "inventory_conflicts": 5865,
+      "owned_revision": 5865,
+      "owned_issues": 5865,
+      "owned_counts": 5865,
+      "owned_independently_verified": 5865,
+      "maa_owned_cache": 5865,
+      "maa_owned_complete": 5865,
+      "preceding_event_relation": 5865
+    },
+    "policy_decision": {
+      "schema_version": 24398,
+      "event_type": 24398,
+      "record_id": 24398,
+      "timestamp": 24398,
+      "session_id": 24398,
+      "run_id": 24398,
+      "offer_id": 24398,
+      "selected_slot": 18450,
+      "planned_name": 18450,
+      "decision": 18450,
+      "selection_confirmed": 18450,
+      "dataset_id": 24398,
+      "participant_id": 24398,
+      "preset_id": 24398,
+      "lang_type": 24398,
+      "target_vector": 24398,
+      "target_vector_complete": 24398,
+      "recorder_version": 14230,
+      "client_language": 14230,
+      "exploration_id": 20178,
+      "true_run_id": 14230,
+      "exploration_id_basis": 14230,
+      "full_run_start_observed": 14230,
+      "pc": 14230,
+      "reward_chain_id": 20178,
+      "task_id": 5948,
+      "sequence": 5948,
+      "run_sequence": 5948,
+      "observer": 5948,
+      "server_confirmed": 5948,
+      "selected": 5948,
+      "refresh_requested": 5948,
+      "operation_confirmed": 5948,
+      "sequence_complete": 86,
+      "sequence_inference_eligible": 86,
+      "training_eligible": 86,
+      "recognition_errors": 86,
+      "probability_eligible": 86,
+      "identity_status": 86,
+      "identity_basis": 86
+    },
+    "selection_attempt": {
+      "schema_version": 14820,
+      "event_type": 14820,
+      "record_id": 14820,
+      "timestamp": 14820,
+      "session_id": 14820,
+      "run_id": 14820,
+      "offer_id": 14820,
+      "selected_slot": 14820,
+      "planned_name": 14820,
+      "selection_confirmed": 14820,
+      "basis": 14820,
+      "dataset_id": 14820,
+      "participant_id": 14820,
+      "preset_id": 14820,
+      "lang_type": 14820,
+      "target_vector": 14820,
+      "target_vector_complete": 14820,
+      "recorder_version": 11515,
+      "client_language": 11515,
+      "exploration_id": 11515,
+      "true_run_id": 11515,
+      "exploration_id_basis": 11515,
+      "full_run_start_observed": 11515,
+      "pc": 11515,
+      "reward_chain_id": 11515
+    },
+    "selection_cache": {
+      "schema_version": 19002,
+      "event_type": 19002,
+      "record_id": 19002,
+      "timestamp": 19002,
+      "session_id": 19002,
+      "run_id": 19002,
+      "offer_id": 19002,
+      "owned": 19002,
+      "owned_complete": 19002,
+      "basis": 14820,
+      "selection_confirmed": 14820,
+      "dataset_id": 19002,
+      "participant_id": 19002,
+      "preset_id": 19002,
+      "lang_type": 19002,
+      "target_vector": 19002,
+      "target_vector_complete": 19002,
+      "recorder_version": 11515,
+      "client_language": 11515,
+      "exploration_id": 15697,
+      "true_run_id": 11515,
+      "exploration_id_basis": 11515,
+      "full_run_start_observed": 11515,
+      "pc": 11515,
+      "reward_chain_id": 15697,
+      "task_id": 4182,
+      "sequence": 4182,
+      "run_sequence": 4182,
+      "observer": 4182,
+      "server_confirmed": 4182,
+      "selected": 4182,
+      "operation_confirmed": 4182,
+      "cache_timing": 4182,
+      "sequence_complete": 50,
+      "sequence_inference_eligible": 50,
+      "training_eligible": 50,
+      "recognition_errors": 50,
+      "probability_eligible": 50,
+      "identity_status": 50,
+      "identity_basis": 50,
+      "operation_id": 4131,
+      "source_type": 4131,
+      "owned_basis": 4131,
+      "owned_source": 4131,
+      "owned_revision": 4131,
+      "owned_issues": 4131,
+      "owned_counts": 4131,
+      "owned_independently_verified": 4131,
+      "maa_owned_cache": 4131,
+      "maa_owned_complete": 4131
+    },
+    "ui_boundary": {
+      "schema_version": 14815,
+      "event_type": 14815,
+      "record_id": 14815,
+      "timestamp": 14815,
+      "session_id": 14815,
+      "run_id": 14815,
+      "offer_id": 14815,
+      "basis": 14815,
+      "confirmation_strength": 14815,
+      "dataset_id": 14815,
+      "participant_id": 14815,
+      "preset_id": 14815,
+      "lang_type": 14815,
+      "target_vector": 14815,
+      "target_vector_complete": 14815,
+      "recorder_version": 11511,
+      "client_language": 11511,
+      "exploration_id": 11511,
+      "true_run_id": 11511,
+      "exploration_id_basis": 11511,
+      "full_run_start_observed": 11511,
+      "pc": 11511
+    },
+    "refresh_attempt": {
+      "schema_version": 3630,
+      "event_type": 3630,
+      "record_id": 3630,
+      "timestamp": 3630,
+      "session_id": 3630,
+      "run_id": 3630,
+      "offer_id": 3630,
+      "coin_before": 3630,
+      "refresh_price": 3630,
+      "dataset_id": 3630,
+      "participant_id": 3630,
+      "preset_id": 3630,
+      "lang_type": 3630,
+      "target_vector": 3630,
+      "target_vector_complete": 3630,
+      "wallet_complete": 1,
+      "recognition_errors": 1,
+      "invalid_fields": 1,
+      "probability_eligible": 1,
+      "training_eligible": 1,
+      "recorder_version": 2715,
+      "client_language": 2715,
+      "exploration_id": 2715,
+      "true_run_id": 2715,
+      "exploration_id_basis": 2715,
+      "full_run_start_observed": 2715,
+      "pc": 2715,
+      "reward_chain_id": 2715
+    },
+    "refresh_result": {
+      "schema_version": 5396,
+      "event_type": 5396,
+      "record_id": 5396,
+      "timestamp": 5396,
+      "session_id": 5396,
+      "run_id": 5396,
+      "offer_id": 5396,
+      "Maa_reported_success": 5360,
+      "coin_after": 5360,
+      "result_basis": 3630,
+      "dataset_id": 5396,
+      "participant_id": 5396,
+      "preset_id": 5396,
+      "lang_type": 5396,
+      "target_vector": 5396,
+      "target_vector_complete": 5396,
+      "wallet_complete": 2,
+      "recognition_errors": 38,
+      "invalid_fields": 2,
+      "probability_eligible": 38,
+      "training_eligible": 38,
+      "operation_confirmed": 2,
+      "success": 2,
+      "recorder_version": 2715,
+      "client_language": 2715,
+      "exploration_id": 4481,
+      "true_run_id": 2715,
+      "exploration_id_basis": 2715,
+      "full_run_start_observed": 2715,
+      "pc": 2715,
+      "reward_chain_id": 4481,
+      "task_id": 1766,
+      "sequence": 1766,
+      "run_sequence": 1766,
+      "observer": 1766,
+      "server_confirmed": 1766,
+      "phase": 1766,
+      "state": 1766,
+      "previous_state": 1766,
+      "result": 1766,
+      "owned": 1766,
+      "operation_id": 1766,
+      "stock_scan_id": 1766,
+      "arguments": 1766,
+      "source_type": 1766,
+      "sequence_complete": 36,
+      "sequence_inference_eligible": 36,
+      "identity_status": 36,
+      "identity_basis": 36,
+      "next_offer_id": 1730,
+      "coin_before": 1730,
+      "read_id": 1730,
+      "recognition_record_ids": 1730,
+      "owned_complete": 1730,
+      "owned_basis": 1730,
+      "owned_source": 1730,
+      "owned_revision": 1730,
+      "owned_issues": 1730,
+      "owned_counts": 1730,
+      "owned_independently_verified": 1730,
+      "maa_owned_cache": 1730,
+      "maa_owned_complete": 1730
+    },
+    "run_end": {
+      "schema_version": 289,
+      "event_type": 289,
+      "record_id": 289,
+      "timestamp": 289,
+      "session_id": 289,
+      "run_id": 289,
+      "boundary_basis": 289,
+      "outcome": 289,
+      "dataset_id": 289,
+      "participant_id": 289,
+      "preset_id": 289,
+      "lang_type": 289,
+      "target_vector": 289,
+      "target_vector_complete": 289,
+      "recorder_version": 225,
+      "client_language": 225,
+      "exploration_id": 225,
+      "true_run_id": 225,
+      "exploration_id_basis": 225,
+      "full_run_start_observed": 225,
+      "pc": 225
+    },
+    "lifecycle_observed": {
+      "schema_version": 53778,
+      "event_type": 53778,
+      "recorder_version": 13790,
+      "record_id": 53778,
+      "participant_id": 53778,
+      "client_language": 13790,
+      "timestamp": 53778,
+      "session_id": 53778,
+      "run_id": 53778,
+      "exploration_id": 53778,
+      "true_run_id": 13790,
+      "exploration_id_basis": 13790,
+      "full_run_start_observed": 13790,
+      "pc": 13790,
+      "lifecycle_type": 53778,
+      "payload": 13790,
+      "dataset_id": 53778,
+      "preset_id": 53778,
+      "lang_type": 53778,
+      "target_vector": 53778,
+      "target_vector_complete": 53778,
+      "task_id": 39988,
+      "sequence": 39988,
+      "run_sequence": 39988,
+      "observer": 39988,
+      "server_confirmed": 39988,
+      "node_name": 39988,
+      "maa_task_id": 39661,
+      "maa_node_id": 39661,
+      "tracker_estimate": 39661,
+      "sequence_complete": 515,
+      "sequence_inference_eligible": 515,
+      "training_eligible": 515,
+      "recognition_errors": 515,
+      "owned": 327
+    },
+    "exploration_start": {
+      "schema_version": 324,
+      "event_type": 324,
+      "recorder_version": 228,
+      "record_id": 324,
+      "participant_id": 324,
+      "client_language": 228,
+      "timestamp": 324,
+      "session_id": 324,
+      "run_id": 324,
+      "exploration_id": 324,
+      "true_run_id": 228,
+      "exploration_id_basis": 228,
+      "full_run_start_observed": 324,
+      "pc": 228,
+      "start_basis": 228,
+      "boundary_payload": 228,
+      "server_exploration_id": 228,
+      "dataset_id": 324,
+      "preset_id": 324,
+      "lang_type": 324,
+      "target_vector": 324,
+      "target_vector_complete": 324,
+      "task_id": 96,
+      "sequence": 96,
+      "run_sequence": 96,
+      "observer": 96,
+      "server_confirmed": 96,
+      "resumed": 96,
+      "boundary_evidence": 96,
+      "model_versions": 96,
+      "owned": 96,
+      "owned_complete": 96,
+      "owned_source": 96,
+      "sequence_complete": 1,
+      "sequence_inference_eligible": 1,
+      "training_eligible": 1,
+      "recognition_errors": 1,
+      "owned_basis": 94,
+      "owned_revision": 94,
+      "owned_issues": 94,
+      "owned_counts": 94,
+      "owned_independently_verified": 94,
+      "maa_owned_cache": 94,
+      "maa_owned_complete": 94
+    },
+    "selection_ui_transition_observed": {
+      "schema_version": 15642,
+      "event_type": 15642,
+      "recorder_version": 11511,
+      "record_id": 15642,
+      "participant_id": 15642,
+      "client_language": 11511,
+      "timestamp": 15642,
+      "session_id": 15642,
+      "run_id": 15642,
+      "exploration_id": 15642,
+      "true_run_id": 11511,
+      "exploration_id_basis": 11511,
+      "full_run_start_observed": 11511,
+      "pc": 11511,
+      "offer_id": 15642,
+      "reward_chain_id": 15642,
+      "selected_candidate": 11511,
+      "observed_state_after": 15642,
+      "counter_basis": 11511,
+      "server_confirmed": 15642,
+      "dataset_id": 15642,
+      "preset_id": 15642,
+      "lang_type": 15642,
+      "target_vector": 15642,
+      "target_vector_complete": 15642,
+      "task_id": 4131,
+      "sequence": 4131,
+      "run_sequence": 4131,
+      "observer": 4131,
+      "operation_id": 4131,
+      "selected": 4131,
+      "source_type": 4131,
+      "owned_before": 4131,
+      "owned_before_complete": 4131,
+      "operation_confirmed": 4131,
+      "confirmation_basis": 4131,
+      "owned": 4131,
+      "owned_complete": 4131,
+      "owned_basis": 4131,
+      "owned_source": 4131,
+      "owned_revision": 4131,
+      "owned_issues": 4131,
+      "owned_counts": 4131,
+      "owned_independently_verified": 4131,
+      "maa_owned_cache": 4131,
+      "maa_owned_complete": 4131
+    },
+    "shop_observed": {
+      "schema_version": 60310,
+      "event_type": 60310,
+      "recorder_version": 59832,
+      "record_id": 60310,
+      "participant_id": 60310,
+      "client_language": 59832,
+      "timestamp": 60310,
+      "session_id": 60310,
+      "run_id": 60310,
+      "exploration_id": 60310,
+      "true_run_id": 59832,
+      "exploration_id_basis": 59832,
+      "full_run_start_observed": 59832,
+      "pc": 59832,
+      "shop_event_type": 60310,
+      "shop_id": 59832,
+      "shop_identity_basis": 59832,
+      "shop_entry_id": 60304,
+      "shelf_generation_id": 60304,
+      "stock_scan_id": 60310,
+      "machine_id": 59832,
+      "transaction_id": 59832,
+      "previous_shelf_generation_id": 60304,
+      "shelf_generation_basis": 60304,
+      "net_coin_change": 59832,
+      "coin_delta_basis": 59832,
+      "item_instance_id_basis": 59832,
+      "payload": 60304,
+      "dataset_id": 60310,
+      "preset_id": 60310,
+      "lang_type": 60310,
+      "target_vector": 60310,
+      "target_vector_complete": 60310,
+      "recognition_errors": 3989,
+      "invalid_fields": 3973,
+      "wallet_complete": 3956,
+      "training_eligible": 3984,
+      "probability_eligible": 41,
+      "raw_observation_not_game_truth": 5,
+      "operation_confirmed": 21,
+      "success": 21,
+      "task_id": 478,
+      "sequence": 478,
+      "run_sequence": 478,
+      "observer": 478,
+      "server_confirmed": 478,
+      "phase": 478,
+      "state": 478,
+      "previous_state": 478,
+      "result": 6,
+      "owned": 478,
+      "operation_id": 6,
+      "offer_id": 6,
+      "reward_chain_id": 6,
+      "arguments": 6,
+      "source_type": 6,
+      "stock_snapshot": 478,
+      "shop_visit_id": 478,
+      "stock_generation_id": 478,
+      "repeated_scan": 478,
+      "refresh_remaining": 478,
+      "sequence_complete": 6,
+      "sequence_inference_eligible": 6,
+      "coin": 472,
+      "refresh_price": 472,
+      "read_id": 472,
+      "recognition_record_ids": 472,
+      "owned_complete": 472,
+      "owned_basis": 472,
+      "owned_source": 472,
+      "owned_revision": 472,
+      "owned_issues": 472,
+      "owned_counts": 472,
+      "owned_independently_verified": 472,
+      "maa_owned_cache": 472,
+      "maa_owned_complete": 472
+    },
+    "exploration_end": {
+      "schema_version": 320,
+      "event_type": 320,
+      "recorder_version": 224,
+      "record_id": 320,
+      "participant_id": 320,
+      "client_language": 224,
+      "timestamp": 320,
+      "session_id": 320,
+      "run_id": 320,
+      "exploration_id": 320,
+      "true_run_id": 224,
+      "exploration_id_basis": 224,
+      "full_run_start_observed": 320,
+      "pc": 224,
+      "end_reason": 224,
+      "completion_observed": 320,
+      "start_timestamp": 224,
+      "settlement": 320,
+      "last_floor": 224,
+      "final_owned": 320,
+      "final_owned_basis": 224,
+      "last_coin_observation": 224,
+      "observed_counts": 224,
+      "boundary_payload": 224,
+      "dataset_id": 320,
+      "preset_id": 320,
+      "lang_type": 320,
+      "target_vector": 320,
+      "target_vector_complete": 320,
+      "recognition_errors": 5,
+      "invalid_fields": 4,
+      "probability_eligible": 4,
+      "training_eligible": 5,
+      "wallet_complete": 4,
+      "task_id": 96,
+      "sequence": 96,
+      "run_sequence": 96,
+      "observer": 96,
+      "server_confirmed": 96,
+      "reason": 96,
+      "owned_complete": 96,
+      "owned_source": 96,
+      "tracker_estimate": 96,
+      "pending_selection": 96,
+      "sequence_complete": 1,
+      "sequence_inference_eligible": 1,
+      "owned": 94,
+      "owned_basis": 94,
+      "owned_revision": 94,
+      "owned_issues": 94,
+      "owned_counts": 94,
+      "owned_independently_verified": 94,
+      "maa_owned_cache": 94,
+      "maa_owned_complete": 94,
+      "last_wallet_observation": 94
+    },
+    "context_run_recognition": {
+      "schema_version": 112894,
+      "event_type": 112894,
+      "timestamp": 112894,
+      "record_id": 112894,
+      "participant_id": 112894,
+      "session_id": 112894,
+      "task_id": 112894,
+      "run_id": 112894,
+      "exploration_id": 112894,
+      "sequence": 112894,
+      "run_sequence": 112894,
+      "lang_type": 112894,
+      "observer": 112894,
+      "server_confirmed": 112894,
+      "preset_id": 112894,
+      "target_vector_complete": 112894,
+      "target_vector": 112894,
+      "phase": 112894,
+      "node_name": 112894,
+      "method": 112894,
+      "arguments": 112894,
+      "keyword_arguments": 112894,
+      "raw_result": 112894,
+      "dataset_id": 112894,
+      "sequence_complete": 1446,
+      "sequence_inference_eligible": 1446,
+      "training_eligible": 1448,
+      "recognition_errors": 1448,
+      "roi": 111438,
+      "read_id": 101545,
+      "read_kind": 101545,
+      "offer_id": 69116,
+      "reward_chain_id": 69116,
+      "stock_scan_id": 66732,
+      "shop_visit_id": 11026,
+      "operation_id": 55706,
+      "source_type": 55491,
+      "coin": 2,
+      "recognition_status": 2,
+      "raw_observation_not_game_truth": 2,
+      "invalid_fields": 2,
+      "probability_eligible": 2
+    },
+    "wallet_observed": {
+      "schema_version": 10369,
+      "event_type": 10369,
+      "timestamp": 10369,
+      "record_id": 10369,
+      "participant_id": 10369,
+      "session_id": 10369,
+      "task_id": 10369,
+      "run_id": 10369,
+      "exploration_id": 10369,
+      "sequence": 10369,
+      "run_sequence": 10369,
+      "lang_type": 10369,
+      "observer": 10369,
+      "server_confirmed": 10369,
+      "preset_id": 10369,
+      "target_vector_complete": 10369,
+      "target_vector": 10369,
+      "node_name": 10369,
+      "values": 10369,
+      "preceding_event_id": 10369,
+      "raw_result": 10369,
+      "dataset_id": 10369,
+      "sequence_complete": 140,
+      "sequence_inference_eligible": 140,
+      "training_eligible": 140,
+      "recognition_errors": 140,
+      "coin": 10228,
+      "recognition_record_id": 10228,
+      "read_id": 7343,
+      "read_kind": 7343,
+      "stock_scan_id": 5576,
+      "shop_visit_id": 472,
+      "operation_id": 5104,
+      "offer_id": 3703,
+      "reward_chain_id": 3703,
+      "source_type": 5085,
+      "wallet_complete": 1,
+      "raw_observation_not_game_truth": 1
+    },
+    "selection_result_attempt": {
+      "schema_version": 4182,
+      "event_type": 4182,
+      "timestamp": 4182,
+      "record_id": 4182,
+      "participant_id": 4182,
+      "session_id": 4182,
+      "task_id": 4182,
+      "run_id": 4182,
+      "exploration_id": 4182,
+      "sequence": 4182,
+      "run_sequence": 4182,
+      "lang_type": 4182,
+      "observer": 4182,
+      "server_confirmed": 4182,
+      "preset_id": 4182,
+      "target_vector_complete": 4182,
+      "target_vector": 4182,
+      "phase": 4182,
+      "state": 4182,
+      "owned": 4182,
+      "operation_id": 4182,
+      "offer_id": 4182,
+      "reward_chain_id": 4182,
+      "stock_scan_id": 4182,
+      "arguments": 4182,
+      "source_type": 4182,
+      "dataset_id": 4182,
+      "sequence_complete": 50,
+      "sequence_inference_eligible": 50,
+      "training_eligible": 50,
+      "recognition_errors": 50,
+      "probability_eligible": 50,
+      "identity_status": 50,
+      "identity_basis": 50,
+      "owned_complete": 4131,
+      "owned_basis": 4131,
+      "owned_source": 4131,
+      "owned_revision": 4131,
+      "owned_issues": 4131,
+      "owned_counts": 4131,
+      "owned_independently_verified": 4131,
+      "maa_owned_cache": 4131,
+      "maa_owned_complete": 4131
+    },
+    "selection_result": {
+      "schema_version": 4182,
+      "event_type": 4182,
+      "timestamp": 4182,
+      "record_id": 4182,
+      "participant_id": 4182,
+      "session_id": 4182,
+      "task_id": 4182,
+      "run_id": 4182,
+      "exploration_id": 4182,
+      "sequence": 4182,
+      "run_sequence": 4182,
+      "lang_type": 4182,
+      "observer": 4182,
+      "server_confirmed": 4182,
+      "preset_id": 4182,
+      "target_vector_complete": 4182,
+      "target_vector": 4182,
+      "phase": 4182,
+      "state": 4182,
+      "previous_state": 4182,
+      "result": 4182,
+      "owned": 4182,
+      "operation_id": 4182,
+      "offer_id": 4182,
+      "reward_chain_id": 4182,
+      "stock_scan_id": 4182,
+      "arguments": 4182,
+      "source_type": 4182,
+      "dataset_id": 4182,
+      "sequence_complete": 50,
+      "sequence_inference_eligible": 50,
+      "training_eligible": 50,
+      "recognition_errors": 50,
+      "probability_eligible": 50,
+      "identity_status": 50,
+      "identity_basis": 50,
+      "Maa_reported_success": 4131,
+      "next_offer_id": 4131,
+      "coin_before": 4131,
+      "coin_after": 4131,
+      "read_id": 4131,
+      "recognition_record_ids": 4131,
+      "owned_complete": 4131,
+      "owned_basis": 4131,
+      "owned_source": 4131,
+      "owned_revision": 4131,
+      "owned_issues": 4131,
+      "owned_counts": 4131,
+      "owned_independently_verified": 4131,
+      "maa_owned_cache": 4131,
+      "maa_owned_complete": 4131
+    },
+    "event_menu_observed": {
+      "schema_version": 540,
+      "event_type": 540,
+      "timestamp": 540,
+      "record_id": 540,
+      "participant_id": 540,
+      "session_id": 540,
+      "task_id": 540,
+      "run_id": 540,
+      "exploration_id": 540,
+      "sequence": 540,
+      "run_sequence": 540,
+      "lang_type": 540,
+      "observer": 540,
+      "server_confirmed": 540,
+      "preset_id": 540,
+      "target_vector_complete": 540,
+      "target_vector": 540,
+      "event_id": 540,
+      "question": 540,
+      "choices": 540,
+      "owned": 540,
+      "tracker_estimate": 540,
+      "dataset_id": 540,
+      "sequence_complete": 6,
+      "sequence_inference_eligible": 6,
+      "training_eligible": 6,
+      "recognition_errors": 6,
+      "owned_complete": 534,
+      "owned_basis": 534,
+      "owned_source": 534,
+      "owned_revision": 534,
+      "owned_issues": 534,
+      "owned_counts": 534,
+      "owned_independently_verified": 534,
+      "maa_owned_cache": 534,
+      "maa_owned_complete": 534
+    },
+    "model_decision": {
+      "schema_version": 8631,
+      "event_type": 8631,
+      "timestamp": 8631,
+      "record_id": 8631,
+      "participant_id": 8631,
+      "session_id": 8631,
+      "task_id": 8631,
+      "run_id": 8631,
+      "exploration_id": 8631,
+      "sequence": 8631,
+      "run_sequence": 8631,
+      "lang_type": 8631,
+      "observer": 8631,
+      "server_confirmed": 8631,
+      "preset_id": 8631,
+      "target_vector_complete": 8631,
+      "target_vector": 8631,
+      "reward_chain_id": 8631,
+      "event_id": 8631,
+      "stock_scan_id": 8631,
+      "decision": 8631,
+      "dataset_id": 8631,
+      "sequence_complete": 120,
+      "sequence_inference_eligible": 120,
+      "training_eligible": 169,
+      "recognition_errors": 169,
+      "probability_eligible": 169,
+      "identity_status": 120,
+      "identity_basis": 120,
+      "offer_id": 8511,
+      "invalid_fields": 49
+    },
+    "event_choice": {
+      "schema_version": 538,
+      "event_type": 538,
+      "timestamp": 538,
+      "record_id": 538,
+      "participant_id": 538,
+      "session_id": 538,
+      "task_id": 538,
+      "run_id": 538,
+      "exploration_id": 538,
+      "sequence": 538,
+      "run_sequence": 538,
+      "lang_type": 538,
+      "observer": 538,
+      "server_confirmed": 538,
+      "preset_id": 538,
+      "target_vector_complete": 538,
+      "target_vector": 538,
+      "event_id": 538,
+      "question": 538,
+      "selected_text": 538,
+      "displayed_consequence": 538,
+      "selected_box": 538,
+      "model_mapping": 538,
+      "operation_confirmed": 538,
+      "dataset_id": 538,
+      "sequence_complete": 6,
+      "sequence_inference_eligible": 6,
+      "training_eligible": 6,
+      "recognition_errors": 6
+    },
+    "event_choice_click_observed": {
+      "schema_version": 538,
+      "event_type": 538,
+      "timestamp": 538,
+      "record_id": 538,
+      "participant_id": 538,
+      "session_id": 538,
+      "task_id": 538,
+      "run_id": 538,
+      "exploration_id": 538,
+      "sequence": 538,
+      "run_sequence": 538,
+      "lang_type": 538,
+      "observer": 538,
+      "server_confirmed": 538,
+      "preset_id": 538,
+      "target_vector_complete": 538,
+      "target_vector": 538,
+      "event_id": 538,
+      "evidence": 538,
+      "dataset_id": 538,
+      "sequence_complete": 6,
+      "sequence_inference_eligible": 6,
+      "training_eligible": 6,
+      "recognition_errors": 6
+    },
+    "offer_reobserved": {
+      "schema_version": 73,
+      "event_type": 73,
+      "timestamp": 73,
+      "record_id": 73,
+      "participant_id": 73,
+      "session_id": 73,
+      "task_id": 73,
+      "run_id": 73,
+      "exploration_id": 73,
+      "sequence": 73,
+      "run_sequence": 73,
+      "lang_type": 73,
+      "observer": 73,
+      "server_confirmed": 73,
+      "preset_id": 73,
+      "target_vector_complete": 73,
+      "target_vector": 73,
+      "offer_id": 73,
+      "reward_chain_id": 73,
+      "refresh_index": 73,
+      "source_type": 73,
+      "source_attribution": 73,
+      "level_upped": 73,
+      "core_potential": 73,
+      "candidates": 73,
+      "candidate_read_complete": 73,
+      "level_basis": 73,
+      "owned": 73,
+      "owned_complete": 73,
+      "owned_source": 73,
+      "state": 73,
+      "tracker_estimate": 73,
+      "preceding_event_id": 73,
+      "dataset_id": 73,
+      "sequence_complete": 73,
+      "sequence_inference_eligible": 73,
+      "training_eligible": 73,
+      "recognition_errors": 73,
+      "probability_eligible": 73,
+      "identity_status": 73,
+      "identity_basis": 73
+    },
+    "refresh_result_attempt": {
+      "schema_version": 1766,
+      "event_type": 1766,
+      "timestamp": 1766,
+      "record_id": 1766,
+      "participant_id": 1766,
+      "session_id": 1766,
+      "task_id": 1766,
+      "run_id": 1766,
+      "exploration_id": 1766,
+      "sequence": 1766,
+      "run_sequence": 1766,
+      "lang_type": 1766,
+      "observer": 1766,
+      "server_confirmed": 1766,
+      "preset_id": 1766,
+      "target_vector_complete": 1766,
+      "target_vector": 1766,
+      "phase": 1766,
+      "state": 1766,
+      "owned": 1766,
+      "operation_id": 1766,
+      "offer_id": 1766,
+      "reward_chain_id": 1766,
+      "stock_scan_id": 1766,
+      "arguments": 1766,
+      "source_type": 1766,
+      "dataset_id": 1766,
+      "sequence_complete": 36,
+      "sequence_inference_eligible": 36,
+      "training_eligible": 36,
+      "recognition_errors": 36,
+      "probability_eligible": 36,
+      "identity_status": 36,
+      "identity_basis": 36,
+      "owned_complete": 1730,
+      "owned_basis": 1730,
+      "owned_source": 1730,
+      "owned_revision": 1730,
+      "owned_issues": 1730,
+      "owned_counts": 1730,
+      "owned_independently_verified": 1730,
+      "maa_owned_cache": 1730,
+      "maa_owned_complete": 1730
+    },
+    "context_run_task": {
+      "schema_version": 14608,
+      "event_type": 14608,
+      "timestamp": 14608,
+      "record_id": 14608,
+      "participant_id": 14608,
+      "session_id": 14608,
+      "task_id": 14608,
+      "run_id": 14608,
+      "exploration_id": 14608,
+      "sequence": 14608,
+      "run_sequence": 14608,
+      "lang_type": 14608,
+      "observer": 14608,
+      "server_confirmed": 14608,
+      "preset_id": 14608,
+      "target_vector_complete": 14608,
+      "target_vector": 14608,
+      "phase": 14608,
+      "node_name": 14608,
+      "method": 14608,
+      "arguments": 14608,
+      "keyword_arguments": 14608,
+      "dataset_id": 14608,
+      "sequence_complete": 206,
+      "sequence_inference_eligible": 206,
+      "training_eligible": 206,
+      "recognition_errors": 206,
+      "raw_result": 7304,
+      "read_id": 11810,
+      "stock_scan_id": 11810,
+      "shop_visit_id": 944,
+      "operation_id": 10866,
+      "offer_id": 8004,
+      "reward_chain_id": 8004,
+      "source_type": 10770
+    },
+    "purchase_attempt": {
+      "schema_version": 1419,
+      "event_type": 1419,
+      "timestamp": 1419,
+      "record_id": 1419,
+      "participant_id": 1419,
+      "session_id": 1419,
+      "task_id": 1419,
+      "run_id": 1419,
+      "exploration_id": 1419,
+      "sequence": 1419,
+      "run_sequence": 1419,
+      "lang_type": 1419,
+      "observer": 1419,
+      "server_confirmed": 1419,
+      "preset_id": 1419,
+      "target_vector_complete": 1419,
+      "target_vector": 1419,
+      "phase": 1419,
+      "coins": 1400,
+      "owned": 1400,
+      "operation_id": 1419,
+      "stock_scan_id": 1419,
+      "item": 1419,
+      "source_type": 1400,
+      "dataset_id": 1419,
+      "sequence_complete": 17,
+      "sequence_inference_eligible": 17,
+      "training_eligible": 17,
+      "recognition_errors": 17,
+      "state": 19
+    },
+    "purchase_result": {
+      "schema_version": 1419,
+      "event_type": 1419,
+      "timestamp": 1419,
+      "record_id": 1419,
+      "participant_id": 1419,
+      "session_id": 1419,
+      "task_id": 1419,
+      "run_id": 1419,
+      "exploration_id": 1419,
+      "sequence": 1419,
+      "run_sequence": 1419,
+      "lang_type": 1419,
+      "observer": 1419,
+      "server_confirmed": 1419,
+      "preset_id": 1419,
+      "target_vector_complete": 1419,
+      "target_vector": 1419,
+      "phase": 1418,
+      "success": 1419,
+      "coins_before": 1399,
+      "coins_after": 1399,
+      "owned": 1399,
+      "confirmation_basis": 1399,
+      "operation_id": 1419,
+      "stock_scan_id": 1419,
+      "item": 1419,
+      "source_type": 1400,
+      "dataset_id": 1419,
+      "sequence_complete": 17,
+      "sequence_inference_eligible": 17,
+      "training_eligible": 18,
+      "recognition_errors": 18,
+      "state": 19,
+      "pipeline_succeeded": 1383,
+      "debit_confirmed": 1383,
+      "invalid_fields": 1,
+      "wallet_complete": 1
+    },
+    "enhancement_result_attempt": {
+      "schema_version": 999,
+      "event_type": 999,
+      "timestamp": 999,
+      "record_id": 999,
+      "participant_id": 999,
+      "session_id": 999,
+      "task_id": 999,
+      "run_id": 999,
+      "exploration_id": 999,
+      "sequence": 999,
+      "run_sequence": 999,
+      "lang_type": 999,
+      "observer": 999,
+      "server_confirmed": 999,
+      "preset_id": 999,
+      "target_vector_complete": 999,
+      "target_vector": 999,
+      "phase": 999,
+      "state": 999,
+      "owned": 999,
+      "operation_id": 999,
+      "offer_id": 999,
+      "reward_chain_id": 999,
+      "stock_scan_id": 999,
+      "arguments": 999,
+      "source_type": 999,
+      "dataset_id": 999,
+      "sequence_complete": 12,
+      "sequence_inference_eligible": 12,
+      "training_eligible": 12,
+      "recognition_errors": 12,
+      "owned_complete": 987,
+      "owned_basis": 987,
+      "owned_source": 987,
+      "owned_revision": 987,
+      "owned_issues": 987,
+      "owned_counts": 987,
+      "owned_independently_verified": 987,
+      "maa_owned_cache": 987,
+      "maa_owned_complete": 987
+    },
+    "enhancement_result": {
+      "schema_version": 999,
+      "event_type": 999,
+      "timestamp": 999,
+      "record_id": 999,
+      "participant_id": 999,
+      "session_id": 999,
+      "task_id": 999,
+      "run_id": 999,
+      "exploration_id": 999,
+      "sequence": 999,
+      "run_sequence": 999,
+      "lang_type": 999,
+      "observer": 999,
+      "server_confirmed": 999,
+      "preset_id": 999,
+      "target_vector_complete": 999,
+      "target_vector": 999,
+      "phase": 999,
+      "state": 999,
+      "previous_state": 999,
+      "result": 999,
+      "owned": 999,
+      "operation_id": 999,
+      "offer_id": 999,
+      "reward_chain_id": 999,
+      "stock_scan_id": 999,
+      "arguments": 999,
+      "source_type": 999,
+      "dataset_id": 999,
+      "sequence_complete": 12,
+      "sequence_inference_eligible": 12,
+      "training_eligible": 12,
+      "recognition_errors": 12,
+      "Maa_reported_success": 987,
+      "next_offer_id": 987,
+      "coin_before": 987,
+      "coin_after": 987,
+      "read_id": 987,
+      "recognition_record_ids": 987,
+      "owned_complete": 987,
+      "owned_basis": 987,
+      "owned_source": 987,
+      "owned_revision": 987,
+      "owned_issues": 987,
+      "owned_counts": 987,
+      "owned_independently_verified": 987,
+      "maa_owned_cache": 987,
+      "maa_owned_complete": 987,
+      "wallet_complete": 2
+    },
+    "shop_refresh_result_attempt": {
+      "schema_version": 151,
+      "event_type": 151,
+      "timestamp": 151,
+      "record_id": 151,
+      "participant_id": 151,
+      "session_id": 151,
+      "task_id": 151,
+      "run_id": 151,
+      "exploration_id": 151,
+      "sequence": 151,
+      "run_sequence": 151,
+      "lang_type": 151,
+      "observer": 151,
+      "server_confirmed": 151,
+      "preset_id": 151,
+      "target_vector_complete": 151,
+      "target_vector": 151,
+      "phase": 151,
+      "state": 151,
+      "owned": 151,
+      "operation_id": 151,
+      "offer_id": 151,
+      "reward_chain_id": 151,
+      "stock_scan_id": 151,
+      "arguments": 151,
+      "source_type": 151,
+      "dataset_id": 151,
+      "sequence_complete": 2,
+      "sequence_inference_eligible": 2,
+      "training_eligible": 2,
+      "recognition_errors": 2,
+      "owned_complete": 149,
+      "owned_basis": 149,
+      "owned_source": 149,
+      "owned_revision": 149,
+      "owned_issues": 149,
+      "owned_counts": 149,
+      "owned_independently_verified": 149,
+      "maa_owned_cache": 149,
+      "maa_owned_complete": 149
+    },
+    "shop_refresh_result": {
+      "schema_version": 151,
+      "event_type": 151,
+      "timestamp": 151,
+      "record_id": 151,
+      "participant_id": 151,
+      "session_id": 151,
+      "task_id": 151,
+      "run_id": 151,
+      "exploration_id": 151,
+      "sequence": 151,
+      "run_sequence": 151,
+      "lang_type": 151,
+      "observer": 151,
+      "server_confirmed": 151,
+      "preset_id": 151,
+      "target_vector_complete": 151,
+      "target_vector": 151,
+      "phase": 151,
+      "state": 151,
+      "previous_state": 151,
+      "result": 151,
+      "owned": 151,
+      "operation_id": 151,
+      "offer_id": 151,
+      "reward_chain_id": 151,
+      "stock_scan_id": 151,
+      "arguments": 151,
+      "source_type": 151,
+      "dataset_id": 151,
+      "sequence_complete": 2,
+      "sequence_inference_eligible": 2,
+      "training_eligible": 2,
+      "recognition_errors": 2,
+      "Maa_reported_success": 149,
+      "next_offer_id": 149,
+      "coin_before": 149,
+      "coin_after": 149,
+      "read_id": 149,
+      "recognition_record_ids": 149,
+      "owned_complete": 149,
+      "owned_basis": 149,
+      "owned_source": 149,
+      "owned_revision": 149,
+      "owned_issues": 149,
+      "owned_counts": 149,
+      "owned_independently_verified": 149,
+      "maa_owned_cache": 149,
+      "maa_owned_complete": 149
+    },
+    "event_menu_reobserved": {
+      "schema_version": 159,
+      "event_type": 159,
+      "timestamp": 159,
+      "record_id": 159,
+      "participant_id": 159,
+      "session_id": 159,
+      "task_id": 159,
+      "run_id": 159,
+      "exploration_id": 159,
+      "sequence": 159,
+      "run_sequence": 159,
+      "lang_type": 159,
+      "observer": 159,
+      "server_confirmed": 159,
+      "preset_id": 159,
+      "target_vector_complete": 159,
+      "target_vector": 159,
+      "event_id": 159,
+      "question": 159,
+      "choices": 159,
+      "owned": 159,
+      "tracker_estimate": 159,
+      "dataset_id": 159,
+      "sequence_complete": 1,
+      "sequence_inference_eligible": 1,
+      "training_eligible": 1,
+      "recognition_errors": 1,
+      "owned_complete": 158,
+      "owned_basis": 158,
+      "owned_source": 158,
+      "owned_revision": 158,
+      "owned_issues": 158,
+      "owned_counts": 158,
+      "owned_independently_verified": 158,
+      "maa_owned_cache": 158,
+      "maa_owned_complete": 158
+    },
+    "settlement_observed": {
+      "schema_version": 74,
+      "event_type": 74,
+      "timestamp": 74,
+      "record_id": 74,
+      "participant_id": 74,
+      "session_id": 74,
+      "task_id": 74,
+      "run_id": 74,
+      "exploration_id": 74,
+      "sequence": 74,
+      "run_sequence": 74,
+      "lang_type": 74,
+      "observer": 74,
+      "server_confirmed": 74,
+      "preset_id": 74,
+      "target_vector_complete": 74,
+      "target_vector": 74,
+      "record_level": 74,
+      "potential_counts": 74,
+      "final_owned": 74,
+      "owned_complete": 74,
+      "tracker_estimate": 74,
+      "dataset_id": 74,
+      "sequence_complete": 1,
+      "sequence_inference_eligible": 1,
+      "training_eligible": 1,
+      "recognition_errors": 1,
+      "owned": 73,
+      "owned_basis": 73,
+      "owned_source": 73,
+      "owned_revision": 73,
+      "owned_issues": 73,
+      "owned_counts": 73,
+      "owned_independently_verified": 73,
+      "maa_owned_cache": 73,
+      "maa_owned_complete": 73
+    }
+  },
+  "note_related_paths": {
+    "record_id [matching string]": 117,
+    "offer_id [matching string]": 75,
+    "actual_B_basis [matching string]": 14230,
+    "payload.choices[].consequence [matching string]": 1188,
+    "payload.selected_consequence [matching string]": 437,
+    "payload.slots[].raw_name_recognition.filtered_results[].text [matching string]": 4388,
+    "payload.maa_items[].display_name [matching string]": 4714,
+    "payload.item.display_name [matching string]": 2180,
+    "payload.question [matching string]": 84,
+    "origin_context.event_payload.choices[].consequence [matching string]": 190,
+    "final_owned_basis [matching string]": 224,
+    "transaction_id [matching string]": 22,
+    "origin_context.origin_transaction_id [matching string]": 3,
+    "reward_chain_id [matching string]": 43,
+    "reward_id [matching string]": 2,
+    "origin_context.signature [matching string]": 1,
+    "payload.choices[].text [matching string]": 13,
+    "payload.selected_text [matching string]": 13,
+    "origin_context.event_payload.choices[].text [matching string]": 24,
+    "origin_context.event_payload.selected_text [matching string]": 24,
+    "origin_context.event_payload.selected_consequence [matching string]": 24,
+    "stock_scan_id [matching string]": 50,
+    "last_coin_observation.transaction_id [matching string]": 1,
+    "refresh_parent_offer_id [matching string]": 2,
+    "raw_result.all_results[].text [matching string]": 876,
+    "raw_result.filtered_results[].text [matching string]": 876,
+    "raw_result.best_result.text [matching string]": 872,
+    "raw_result.raw_detail.all[].text [matching string]": 876,
+    "raw_result.raw_detail.best.text [matching string]": 872,
+    "raw_result.raw_detail.filtered[].text [matching string]": 876,
+    "state.items[].display_name [matching string]": 2181,
+    "stock_snapshot[].display_name [matching string]": 349,
+    "previous_state.items[].display_name [matching string]": 960,
+    "choices[].consequence [matching string]": 478,
+    "displayed_consequence [matching string]": 154,
+    "inventory_conflicts": 5865,
+    "payload.slots[].item.display_name [matching string]": 326,
+    "payload.slots[].raw_ocr.name[].text [matching string]": 326,
+    "item.display_name [matching string]": 20,
+    "node_name [matching string]": 98,
+    "arguments[].星塔_节点_商店_购买协奏音符_agent": 20,
+    "raw_result.entry [matching string]": 18,
+    "raw_result.name [matching string]": 26,
+    "arguments[].星塔_节点_商店_购买协奏音符_核实数量_agent": 8,
+    "question [matching string]": 66,
+    "operation_id [matching string]": 35,
+    "read_id [matching string]": 33,
+    "recognition_record_ids[] [matching string]": 28,
+    "candidates[].recognition_record_ids[] [matching string]": 10,
+    "selected.recognition_record_ids[] [matching string]": 6,
+    "owned[].recognition_record_ids[] [matching string]": 141,
+    "owned_before[].recognition_record_ids[] [matching string]": 22,
+    "decision.time [matching string]": 3,
+    "recognition_record_id [matching string]": 4,
+    "payload.slots[].recognition_record_ids[] [matching string]": 4,
+    "shop_visit_id [matching string]": 27,
+    "shop_entry_id [matching string]": 1,
+    "choices[].text [matching string]": 6,
+    "decision.option_forecasts[].label [matching string]": 6,
+    "selected_text [matching string]": 6,
+    "origin_operation_id [matching string]": 1,
+    "next_offer_id [matching string]": 2
+  },
+  "value_types": {
+    "inventory_conflicts": {
+      "list": 5865
+    },
+    "arguments[].星塔_节点_商店_购买协奏音符_agent": {
+      "dict": 20
+    },
+    "arguments[].星塔_节点_商店_购买协奏音符_核实数量_agent": {
+      "dict": 8
+    }
+  },
+  "examples": {
+    "record_id [matching string]": [
+      {
+        "record_id": "3eb626dd44804377a9f900232080baf2",
+        "event_type": "selection_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "40b9389e451d4651bf458900128e6351",
+        "event_type": "policy_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "424becc1c3c94be98490018238fd393c",
+        "event_type": "refresh_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "3231b1ea7fd94e60a90019d51a68a9f5",
+        "event_type": "refresh_result",
+        "value_type": "str"
+      }
+    ],
+    "offer_id [matching string]": [
+      {
+        "record_id": "2f38c4a0711e4db99383f8d261651b31",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "2beb0b06f0654fb4baeddbc52d87a387",
+        "event_type": "policy_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "931251c3d3e44bc9b8bb159d8f5a234e",
+        "event_type": "selection_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e487d73677d641a6b9f89ec9c633efa1",
+        "event_type": "selection_cache",
+        "value_type": "str"
+      }
+    ],
+    "actual_B_basis [matching string]": [
+      {
+        "record_id": "5c1895b444084ba988b4f1cc754640ba",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "cc0abd9d83e1458dbf3320ebf64a6dd9",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "ef649bb60ac749249069c912cf3a30a0",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "ffb6737cc502453f9227cdd2410c8026",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.choices[].consequence [matching string]": [
+      {
+        "record_id": "43c3e8d23175408b9677bba4a358c643",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "43c3e8d23175408b9677bba4a358c643",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "43c3e8d23175408b9677bba4a358c643",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "ee0e69f7692f4e50bb5ca357847050a8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.selected_consequence [matching string]": [
+      {
+        "record_id": "43c3e8d23175408b9677bba4a358c643",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "ee0e69f7692f4e50bb5ca357847050a8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "cce1f81990b54481a6a0586755021796",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "a8d6f807fb9d468aaa385534f7ecf069",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.slots[].raw_name_recognition.filtered_results[].text [matching string]": [
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e500d2ac5c1d4dedab0e350975712fad",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.maa_items[].display_name [matching string]": [
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "5df24c43a0ea4932b6bc48f79154920d",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e500d2ac5c1d4dedab0e350975712fad",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.item.display_name [matching string]": [
+      {
+        "record_id": "a355832919fc47aaadf333da960f5921",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "78c1bbeaeed447fd8ac514a5a5844972",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "06d6e93fd23f4ed7be03ff968264c1f7",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "c6372f1ab7d942c5b36dbb1ac8a813c0",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.question [matching string]": [
+      {
+        "record_id": "ee0e69f7692f4e50bb5ca357847050a8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "aea403291a5b4f318800b57880fadce8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "18dca0eef97d4514a9908e86a382a56f",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "87131c3f69704688b3b8ba82d2a29138",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.event_payload.choices[].consequence [matching string]": [
+      {
+        "record_id": "c56f638d948e4ef497640049b3d25162",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d1446c658cc84e27860e088a634bbc1c",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "040433d02de94fc799ffcb0dc6dfea2c",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "3cc4eee1008d46ba9a29dc935ff2b866",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "final_owned_basis [matching string]": [
+      {
+        "record_id": "6ed85328530c4efa9f33da1b8c0be302",
+        "event_type": "exploration_end",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8a059037fe514a37b6be14bf1d585cf8",
+        "event_type": "exploration_end",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6607494b9e244c68826d064ca9c37fa2",
+        "event_type": "exploration_end",
+        "value_type": "str"
+      },
+      {
+        "record_id": "16d0546ebf4f497f87882e78526d333b",
+        "event_type": "exploration_end",
+        "value_type": "str"
+      }
+    ],
+    "transaction_id [matching string]": [
+      {
+        "record_id": "6cb186410d884577bded8d87b53b10ec",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e50912926ce149a49cf9d56c7ff0151e",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0b2b945fad954753af3e4c8c3cf84765",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "539eeb7994284d34bf1e15ed64d53ef0",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.origin_transaction_id [matching string]": [
+      {
+        "record_id": "623cd655c7c548788965e07c513763cb",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6852b4fd659d43dca0dadbcd426255a6",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e723d45f06d246e4a7ed7b02ccd569a3",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "reward_chain_id [matching string]": [
+      {
+        "record_id": "c1679e34f255448a9403ccbe56652794",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "a63a4ec8286c4190bb32c69adc370208",
+        "event_type": "policy_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "823bde82cb8f4564a70175df8597a946",
+        "event_type": "selection_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "564f6095273a4b6183f9f6e976eae84c",
+        "event_type": "selection_cache",
+        "value_type": "str"
+      }
+    ],
+    "reward_id [matching string]": [
+      {
+        "record_id": "c1679e34f255448a9403ccbe56652794",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e002b372b27943daac56f7e024edb1e7",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.signature [matching string]": [
+      {
+        "record_id": "d532460ac2b04584bf649cb8cc4090b9",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.choices[].text [matching string]": [
+      {
+        "record_id": "2ca75177238b47d2947b75e69d00c967",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "82efd37f55bd4824875ec06a75ff02e0",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6705c18548144b3882fc25f51859edb8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "fef712dc55044436b94bce89151f2517",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.selected_text [matching string]": [
+      {
+        "record_id": "2ca75177238b47d2947b75e69d00c967",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "82efd37f55bd4824875ec06a75ff02e0",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6705c18548144b3882fc25f51859edb8",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "fef712dc55044436b94bce89151f2517",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.event_payload.choices[].text [matching string]": [
+      {
+        "record_id": "74bc62e6d4644b7d8a5843bfcc79a47a",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "435662c17cbd40a9b6457bf2217cf2c9",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "810f0655ffed4b48930bea44709373cd",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f25f151aca474059aa2ce68948649ff6",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.event_payload.selected_text [matching string]": [
+      {
+        "record_id": "74bc62e6d4644b7d8a5843bfcc79a47a",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "435662c17cbd40a9b6457bf2217cf2c9",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "810f0655ffed4b48930bea44709373cd",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f25f151aca474059aa2ce68948649ff6",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "origin_context.event_payload.selected_consequence [matching string]": [
+      {
+        "record_id": "74bc62e6d4644b7d8a5843bfcc79a47a",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "435662c17cbd40a9b6457bf2217cf2c9",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "810f0655ffed4b48930bea44709373cd",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f25f151aca474059aa2ce68948649ff6",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "stock_scan_id [matching string]": [
+      {
+        "record_id": "67623e43896149d7af66fafde0da6cf2",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "874b4bf59abb42d6886d075f763f53f6",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f4d7e52828054e55acc71213b0e2c5ae",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "7591bac927664e37a2bf74d9de4df6ae",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "last_coin_observation.transaction_id [matching string]": [
+      {
+        "record_id": "124a86d8b5dd4f67b3f85a1f9206e069",
+        "event_type": "exploration_end",
+        "value_type": "str"
+      }
+    ],
+    "refresh_parent_offer_id [matching string]": [
+      {
+        "record_id": "eb78d1443f064d1d994effe70a08c1de",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "16ba586717934fc4b3614007c29c5431",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.all_results[].text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.filtered_results[].text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.best_result.text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.raw_detail.all[].text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.raw_detail.best.text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.raw_detail.filtered[].text [matching string]": [
+      {
+        "record_id": "103cb9b6d89e4af18a4045363049e9cf",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "28186ec264404584b29dfb59a6b238e9",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "98e1d3c426674dbfacf9934921227a36",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "19f0edd44fd14cb7b6f15a6c1fd1c834",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "state.items[].display_name [matching string]": [
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9e4645d8025949eeb1649eeabead477b",
+        "event_type": "enhancement_result_attempt",
+        "value_type": "str"
+      }
+    ],
+    "stock_snapshot[].display_name [matching string]": [
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d5720827d9404df6a897958ade5261b3",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e02cd4b33d3e4a599af888c18211496e",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "previous_state.items[].display_name [matching string]": [
+      {
+        "record_id": "e8509eee800c47ac8eb25902b093a14a",
+        "event_type": "enhancement_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e8509eee800c47ac8eb25902b093a14a",
+        "event_type": "enhancement_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "e8509eee800c47ac8eb25902b093a14a",
+        "event_type": "enhancement_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "60aa567185244d14b44dbf667ef6f84b",
+        "event_type": "enhancement_result",
+        "value_type": "str"
+      }
+    ],
+    "choices[].consequence [matching string]": [
+      {
+        "record_id": "f2ead604729c48b59ec953133eef544a",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0cb9b5e9d83f4c948fbfa6bb143308a7",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0cb9b5e9d83f4c948fbfa6bb143308a7",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0cb9b5e9d83f4c948fbfa6bb143308a7",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      }
+    ],
+    "displayed_consequence [matching string]": [
+      {
+        "record_id": "d3f0aac475524b35b8f92e2ebef1b149",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "fe7016d671474061b1006e003ac25dc0",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "a8232ac2316c4c6ab30ee8aaeb0180b3",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "ca593dd93d3b4819ad2f4666f883ef11",
+        "event_type": "event_choice",
+        "value_type": "str"
+      }
+    ],
+    "inventory_conflicts": [
+      {
+        "record_id": "f6f9b3b74a5d43b3966676f3f47fecb9",
+        "event_type": "offer_observed",
+        "value_type": "list"
+      },
+      {
+        "record_id": "43f6aa9e2f844c8fb7178e3e0a3700c4",
+        "event_type": "offer_observed",
+        "value_type": "list"
+      },
+      {
+        "record_id": "712131e4bb714c8ebfa8b773e9402e40",
+        "event_type": "offer_observed",
+        "value_type": "list"
+      },
+      {
+        "record_id": "1012e99f22a84462ad22852a4b3dad5d",
+        "event_type": "offer_observed",
+        "value_type": "list"
+      }
+    ],
+    "payload.slots[].item.display_name [matching string]": [
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.slots[].raw_ocr.name[].text [matching string]": [
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "64869111e625472abc7226773925e28f",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "item.display_name [matching string]": [
+      {
+        "record_id": "06136cee084e466da3b85a483c536445",
+        "event_type": "purchase_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "7fa2a781504648c5976735e9d3d316c5",
+        "event_type": "purchase_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "01d34cc31d3d425b97075c7bfabaaff7",
+        "event_type": "purchase_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "017e456dfa124e038ef3291fc16f86fb",
+        "event_type": "purchase_result",
+        "value_type": "str"
+      }
+    ],
+    "node_name [matching string]": [
+      {
+        "record_id": "faee23d776ba4995a78ff85337a6b815",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "fc3a20c3cd71418f9387f3441dce2f17",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "4bfdf58e09be4a5488cb5a3f4846e189",
+        "event_type": "lifecycle_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "36945f9927e94d74840eae7608ccaa0b",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      }
+    ],
+    "arguments[].星塔_节点_商店_购买协奏音符_agent": [
+      {
+        "record_id": "faee23d776ba4995a78ff85337a6b815",
+        "event_type": "context_run_task",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "36945f9927e94d74840eae7608ccaa0b",
+        "event_type": "context_run_task",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "42658530e8494ae28febd19c711afe04",
+        "event_type": "context_run_task",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "4172e9780adb479fa7089a0bf01253cb",
+        "event_type": "context_run_task",
+        "value_type": "dict"
+      }
+    ],
+    "raw_result.entry [matching string]": [
+      {
+        "record_id": "36945f9927e94d74840eae7608ccaa0b",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "4172e9780adb479fa7089a0bf01253cb",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "771d037366c742f8bcb2eca70ed0d4d5",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "1f6cc7e13afa4100bd8dbf9deaee1ac6",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      }
+    ],
+    "raw_result.name [matching string]": [
+      {
+        "record_id": "3fdf10a881fe4f189698d5172efc8bf3",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f5e0626a6b8e49d7a46fd3bd92a821e4",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8c2c7bbb221840aebbdf2e5ab6032cf7",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "c41987b67a0a4966a753aa016a45cd17",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "arguments[].星塔_节点_商店_购买协奏音符_核实数量_agent": [
+      {
+        "record_id": "8c2c7bbb221840aebbdf2e5ab6032cf7",
+        "event_type": "context_run_recognition",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "33795ace24304a9e8cb85af08592c937",
+        "event_type": "context_run_recognition",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "8110c6ac74c246d08a1a78d098dea46a",
+        "event_type": "context_run_recognition",
+        "value_type": "dict"
+      },
+      {
+        "record_id": "02284608c7d647d89a56994748c056a8",
+        "event_type": "context_run_recognition",
+        "value_type": "dict"
+      }
+    ],
+    "question [matching string]": [
+      {
+        "record_id": "e432fa528a4e4cad8a9ab77d43a10d18",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "3b6352aef54045488f010aa3040ffd6e",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "36810c0e8394484fb8be5da845647c7e",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9b1477bb8deb4df2859abd91e4f96041",
+        "event_type": "event_choice",
+        "value_type": "str"
+      }
+    ],
+    "operation_id [matching string]": [
+      {
+        "record_id": "26317c16b825415a8a3084767718c4fb",
+        "event_type": "selection_result_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "32c57717558840b8b610c0c1e97906d3",
+        "event_type": "selection_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8f6a8d91285347cd8c764cb4a79f3ca8",
+        "event_type": "selection_cache",
+        "value_type": "str"
+      },
+      {
+        "record_id": "82a909bc013c47ee9dd3ffd8181dcae5",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      }
+    ],
+    "read_id [matching string]": [
+      {
+        "record_id": "a8a0ea3086d84b97aa986d3f022cb8e8",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "d408edaf265240bb8a5cf2c4669d89c7",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "b5375d1bda034d6e82292c2e5caa4137",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "c106502ff9644ca894d9a789336b0ed5",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "3470b14849374f59b30f15fa7f77f5b1",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8aa7f78817f54174a2e00f04556a5108",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9cad082887674372b1ebef00f544d733",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9a2651fc14cc4c80b7a11a7fa948e83f",
+        "event_type": "enhancement_result",
+        "value_type": "str"
+      }
+    ],
+    "candidates[].recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "3470b14849374f59b30f15fa7f77f5b1",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9cad082887674372b1ebef00f544d733",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f2db6f0aec79444ba6146368a0c495c3",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "f7a6ed7bc53e42ddba1d83fdd045a86c",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "selected.recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "0ab5f6d77821466894b7a71ea79360c8",
+        "event_type": "selection_cache",
+        "value_type": "str"
+      },
+      {
+        "record_id": "15c63e25aec041b3aa60c4049f9c5857",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6cb238f22706470e8ce79a8bcf6b688d",
+        "event_type": "selection_cache",
+        "value_type": "str"
+      },
+      {
+        "record_id": "bb4076fca02342e4aff677dbab37df52",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      }
+    ],
+    "owned[].recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "15c63e25aec041b3aa60c4049f9c5857",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "c2cf6be0df1c4d598c129f312bcad1b1",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0a650ad764e2408795ce66e309b7619a",
+        "event_type": "selection_result_attempt",
+        "value_type": "str"
+      },
+      {
+        "record_id": "97952ed3e7fe4c5fb5e02e67f2e2144b",
+        "event_type": "selection_result",
+        "value_type": "str"
+      }
+    ],
+    "owned_before[].recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "6cae04cb746742dca46684b097221cb6",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "82cac643589343bfb572b2757294f258",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "79e8829be3f04fbd8c5d146c33d5e9b9",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "774c3739301f459dbd688ddeef457c9a",
+        "event_type": "selection_ui_transition_observed",
+        "value_type": "str"
+      }
+    ],
+    "decision.time [matching string]": [
+      {
+        "record_id": "8dde6342f30646818ede2603f86caa0e",
+        "event_type": "model_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "68511127af74423092e2d1257d271ccb",
+        "event_type": "model_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "30a1576378da4f8c8b99a69a6c825834",
+        "event_type": "model_decision",
+        "value_type": "str"
+      }
+    ],
+    "recognition_record_id [matching string]": [
+      {
+        "record_id": "8d114869574049ff9b83ce9b6ca5c8e0",
+        "event_type": "wallet_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "b776ed3e187746e194052d1a175a4dd6",
+        "event_type": "wallet_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8f6c1a365ce441ffab2709993b043bbb",
+        "event_type": "wallet_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "6549daee280b451bafdad31a1aadee74",
+        "event_type": "wallet_observed",
+        "value_type": "str"
+      }
+    ],
+    "payload.slots[].recognition_record_ids[] [matching string]": [
+      {
+        "record_id": "2ff0b90a021342038d3f7efcb251aca1",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "eef63bd58e834d53a6538d4025b46c76",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "0112d115913f4724b56087bbf8c62706",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8ea94ee12e724d0fa37a51fb47c0bcce",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "shop_visit_id [matching string]": [
+      {
+        "record_id": "525001810279449b99a679c5d894600d",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "c4bf330998984a77b943b0ac6dcd14d5",
+        "event_type": "context_run_task",
+        "value_type": "str"
+      },
+      {
+        "record_id": "48e8baba29344e61997efe50fe165a7c",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      },
+      {
+        "record_id": "06b9fdffff0b40ecad56243d6789271f",
+        "event_type": "context_run_recognition",
+        "value_type": "str"
+      }
+    ],
+    "shop_entry_id [matching string]": [
+      {
+        "record_id": "ac8e9a47a50245ebab1ed33bbd878dfe",
+        "event_type": "shop_observed",
+        "value_type": "str"
+      }
+    ],
+    "choices[].text [matching string]": [
+      {
+        "record_id": "8d2eb770ce8447de984fec68fb9a8241",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "a78ed576f8454fb48b754159fcf64d59",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "68f88a9d229048199d0047e3dfb09f2e",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      },
+      {
+        "record_id": "8e583747fe7c4e5895936480bfd9c2ea",
+        "event_type": "event_menu_observed",
+        "value_type": "str"
+      }
+    ],
+    "decision.option_forecasts[].label [matching string]": [
+      {
+        "record_id": "2e93661162b94c0a8836a23253a2d4a3",
+        "event_type": "model_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "b9422d74b0f647218abb76d18cb1557c",
+        "event_type": "model_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "16f1431dbfd8453bb667dd5d025765f0",
+        "event_type": "model_decision",
+        "value_type": "str"
+      },
+      {
+        "record_id": "751ccc87dc3f4736bbaddc31f5aa3a0f",
+        "event_type": "model_decision",
+        "value_type": "str"
+      }
+    ],
+    "selected_text [matching string]": [
+      {
+        "record_id": "0336d358cf854309b930f1754421453c",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "cd1642eaa7594eefaadb1af0736aa813",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "73916c7a3d3a4a90a1079fa78eb4e288",
+        "event_type": "event_choice",
+        "value_type": "str"
+      },
+      {
+        "record_id": "9a1afd2de6d048d693759f35a3a6b028",
+        "event_type": "event_choice",
+        "value_type": "str"
+      }
+    ],
+    "origin_operation_id [matching string]": [
+      {
+        "record_id": "18490cfc248c4fd8b931739b70992902",
+        "event_type": "offer_observed",
+        "value_type": "str"
+      }
+    ],
+    "next_offer_id [matching string]": [
+      {
+        "record_id": "d1a2df7b2e5d46149f2b2d76d4ea65c5",
+        "event_type": "refresh_result",
+        "value_type": "str"
+      },
+      {
+        "record_id": "247a91e872904f5d9c22e02604827852",
+        "event_type": "refresh_result",
+        "value_type": "str"
+      }
+    ]
+  }
+}

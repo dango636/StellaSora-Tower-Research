@@ -1,0 +1,46 @@
+{
+  "source": "Background/RealGameData/data/observations.jsonl",
+  "source_summary": {
+    "records": 401040,
+    "bytes": 1597511628,
+    "sha256": "87172a83cd8f05247e385992653ff09df52a8f1cf326ababcce777aa96b031dc"
+  },
+  "manual_review": {
+    "basis": "Manual inspection of complete recursive schema profile and note-related examples; five counts below are not automatically extracted.",
+    "reviewed_source": {
+      "records": 401040,
+      "bytes": 1597511628,
+      "sha256": "87172a83cd8f05247e385992653ff09df52a8f1cf326ababcce777aa96b031dc"
+    },
+    "status": "applies_to_exact_source",
+    "profile": "Research/data/realgame_notes_profile.json"
+  },
+  "counters": {},
+  "record_ids": {},
+  "recognition_read_kind_counts": {
+    "None": 11349,
+    "potential_callback": 27288,
+    "potential_page": 57432,
+    "shop_stock": 11026,
+    "enhancement_result": 1974,
+    "refresh_result": 3637,
+    "purchase": 37,
+    "shop_refresh_result": 151
+  },
+  "recognition_read_kind_run_counts": {
+    "None": 88,
+    "potential_callback": 94,
+    "potential_page": 88,
+    "shop_stock": 86,
+    "enhancement_result": 85,
+    "refresh_result": 86,
+    "purchase": 2,
+    "shop_refresh_result": 78
+  },
+  "identified_complete_13_note_snapshots": 0,
+  "isolated_battle_transitions": 0,
+  "actual_lucky_marked_note_rewards": 0,
+  "known_note_cross_99_transitions": 0,
+  "observed_note_quantity_above_99": 0,
+  "inference": "Reviewed source: no note inventory or LuckyLevel field exists in the complete recursive key profile; note text is menu/shop/OCR description, not holdings. Potential owned/inventory_conflicts and wallet coin are separate state. No binomial denominator or confidence interval for the requested mechanisms is identifiable."
+}

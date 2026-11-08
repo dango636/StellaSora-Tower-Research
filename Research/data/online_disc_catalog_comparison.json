@@ -1,0 +1,1163 @@
+{
+  "source_url": "https://game8.jp/stellasora/709003",
+  "source_page_updated": "2026-10-27 18:22",
+  "local_source": "NoteRules.json: Disc.bytes full table; Item JP/CN names",
+  "comparison": "JP names, NFKC, whitespace and three explicit spelling/symbol aliases; no translated-name guesses",
+  "explicit_aliases": {
+    "在し日の記憶": "在りし日の記憶",
+    "♡配信たいむ♡": "♥配信たいむ♥",
+    "いただきま～す": "いただきま〜す"
+  },
+  "strict_name_matches": 101,
+  "local_count": 104,
+  "online_count": 104,
+  "matched_count": 104,
+  "online_missing_locally": [],
+  "local_not_in_online_catalog": [],
+  "matched": [
+    {
+      "id": 214067,
+      "name_ja": "願い星の願い",
+      "name_zh": "永恒的闪耀",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "願い星の願い",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214066,
+      "name_ja": "未来導く明星",
+      "name_zh": "指引前路的启明星",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "未来導く明星",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214062,
+      "name_ja": "美しき昨日を糧にして",
+      "name_zh": "美好，尽在昨日",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "美しき昨日を糧にして",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214061,
+      "name_ja": "明日へと続く物語",
+      "name_zh": "睡前童话",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "明日へと続く物語",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214060,
+      "name_ja": "栄光の瞬間",
+      "name_zh": "荣誉时刻",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "栄光の瞬間",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214059,
+      "name_ja": "飛びたて、籠の鳥",
+      "name_zh": "飞吧，笼中鸟",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "飛びたて、籠の鳥",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214058,
+      "name_ja": "サマーマーチ",
+      "name_zh": "夏日进行曲",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "サマーマーチ",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214057,
+      "name_ja": "共に航る",
+      "name_zh": "伴我航行",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "共に航る",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 213001,
+      "name_ja": "爽やかな香り",
+      "name_zh": "柠柚好奇",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "爽やかな香り",
+        "rarity": "☆4",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 213002,
+      "name_ja": "四季折々",
+      "name_zh": "季节波形",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "四季折々",
+        "rarity": "☆4",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 214056,
+      "name_ja": "友との夏休み",
+      "name_zh": "斑驳夏影",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "友との夏休み",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214055,
+      "name_ja": "揺らめく光の向こう側",
+      "name_zh": "浮光掠影",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "揺らめく光の向こう側",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214053,
+      "name_ja": "団らんのひととき",
+      "name_zh": "欢聚时刻",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "団らんのひととき",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214029,
+      "name_ja": "欲しかったもの",
+      "name_zh": "猫之珍藏",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "欲しかったもの",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214052,
+      "name_ja": "奇跡の創造",
+      "name_zh": "奇迹一触",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "奇跡の創造",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214054,
+      "name_ja": "私と君の楽園",
+      "name_zh": "微小的乐园",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "私と君の楽園",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214003,
+      "name_ja": "似たもの同士",
+      "name_zh": "你与我相似",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "似たもの同士",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214051,
+      "name_ja": "惹かれ合う星",
+      "name_zh": "星之所向",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "惹かれ合う星",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214050,
+      "name_ja": "夜宴に踊る影",
+      "name_zh": "夜宴谜影",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "夜宴に踊る影",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214045,
+      "name_ja": "千変万花",
+      "name_zh": "繁花幻梦",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "千変万花",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214049,
+      "name_ja": "星光の道標",
+      "name_zh": "星光的印记",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "星光の道標",
+        "rarity": "☆5",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 214047,
+      "name_ja": "風に舞う想い",
+      "name_zh": "信笺乘风而去",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "風に舞う想い",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214008,
+      "name_ja": "青空を越えて",
+      "name_zh": "飞越青空",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "青空を越えて",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214046,
+      "name_ja": "雪解け告げる黎明",
+      "name_zh": "冬夜后的黎明",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "雪解け告げる黎明",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214016,
+      "name_ja": "桜花爛漫",
+      "name_zh": "春日纪事",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "桜花爛漫",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214042,
+      "name_ja": "友と囲む新春の灯火",
+      "name_zh": "酒暖灯明时",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "友と囲む新春の灯火",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214044,
+      "name_ja": "帳の内の秘め事",
+      "name_zh": "罗帷春染岁朝新",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "帳の内の秘め事",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214043,
+      "name_ja": "革命の萌芽",
+      "name_zh": "革新的萌芽",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "革命の萌芽",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214004,
+      "name_ja": "ミルク色の夢",
+      "name_zh": "仙踪良梦",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "ミルク色の夢",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214048,
+      "name_ja": "メリーサプライズ",
+      "name_zh": "雪夜惊喜",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "メリーサプライズ",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214041,
+      "name_ja": "ジングルラール",
+      "name_zh": "启程的礼物",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "ジングルラール",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214024,
+      "name_ja": "地底の彼方へ！",
+      "name_zh": "一二三，跳！",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "地底の彼方へ！",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214015,
+      "name_ja": "鹿の声",
+      "name_zh": "鹿鸣",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "鹿の声",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214040,
+      "name_ja": "迷いを断つ拳",
+      "name_zh": "勇气之拳",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "迷いを断つ拳",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214017,
+      "name_ja": "ハナビ",
+      "name_zh": "花火",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "ハナビ",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214011,
+      "name_ja": "昼下がりの雨",
+      "name_zh": "夏日午后的雨",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "昼下がりの雨",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214013,
+      "name_ja": "白紙の航海図",
+      "name_zh": "远航蓝图",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "白紙の航海図",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214014,
+      "name_ja": "甘く咲く時間",
+      "name_zh": "甜言蜜果",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "甘く咲く時間",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214009,
+      "name_ja": "『空白』の序章",
+      "name_zh": "“空白”的序章",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "『空白』の序章",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214010,
+      "name_ja": "清浄なる祈り",
+      "name_zh": "沐光祷告",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "清浄なる祈り",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214012,
+      "name_ja": "見据える先に",
+      "name_zh": "狼贪虎视",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "見据える先に",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214039,
+      "name_ja": "夕涼み",
+      "name_zh": "夏日栖息地",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "夕涼み",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214038,
+      "name_ja": "波にゆられて",
+      "name_zh": "波光漫游",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "波にゆられて",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214031,
+      "name_ja": "強者を求めて",
+      "name_zh": "刀与斧的铮鸣",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "強者を求めて",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214021,
+      "name_ja": "一期一会",
+      "name_zh": "因缘而聚",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "一期一会",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214019,
+      "name_ja": "一撃必中",
+      "name_zh": "一发破的",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "一撃必中",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214001,
+      "name_ja": "在りし日の記憶",
+      "name_zh": "猫神降歌",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "在し日の記憶",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214033,
+      "name_ja": "メメント×モリ",
+      "name_zh": "与骨共舞",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "メメント×モリ",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214023,
+      "name_ja": "虹を描こう",
+      "name_zh": "涂鸦彩虹",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "虹を描こう",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214018,
+      "name_ja": "レモネードと紅茶",
+      "name_zh": "冰柠与红茶",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "レモネードと紅茶",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214002,
+      "name_ja": "空と花の詩",
+      "name_zh": "空与花与诗",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "空と花の詩",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214030,
+      "name_ja": "穴あきおサボり",
+      "name_zh": "午后间隙",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "穴あきおサボり",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214020,
+      "name_ja": "かけがえのない時間",
+      "name_zh": "闪光之时",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "かけがえのない時間",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214032,
+      "name_ja": "真理の大釜",
+      "name_zh": "真相☆梦工厂",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "真理の大釜",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214022,
+      "name_ja": "真夜中の鈴",
+      "name_zh": "午夜喵铃",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "真夜中の鈴",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 213024,
+      "name_ja": "休日の泡",
+      "name_zh": "假日泡影",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "休日の泡",
+        "rarity": "☆4",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 213022,
+      "name_ja": "川より深い愛で",
+      "name_zh": "诅咒爱河",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "川より深い愛で",
+        "rarity": "☆4",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 213026,
+      "name_ja": "♥配信たいむ♥",
+      "name_zh": "清扫时间DA♥YO",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "♡配信たいむ♡",
+        "rarity": "☆4",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 213021,
+      "name_ja": "とろける言の葉",
+      "name_zh": "灵验颂歌",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "とろける言の葉",
+        "rarity": "☆4",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 213023,
+      "name_ja": "穢れなき純白",
+      "name_zh": "纯白",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "穢れなき純白",
+        "rarity": "☆4",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 213025,
+      "name_ja": "甘い招待",
+      "name_zh": "甜蜜邀约",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "甘い招待",
+        "rarity": "☆4",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214005,
+      "name_ja": "晴天の彩花",
+      "name_zh": "晴之花",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "晴天の彩花",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214027,
+      "name_ja": "自由自在",
+      "name_zh": "龙飞凤舞",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "自由自在",
+        "rarity": "☆5",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 214028,
+      "name_ja": "白日の花園",
+      "name_zh": "白日花园",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "白日の花園",
+        "rarity": "☆5",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 214006,
+      "name_ja": "魔女の秘薬",
+      "name_zh": "魔女的秋千",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "魔女の秘薬",
+        "rarity": "☆5",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 213009,
+      "name_ja": "雨に唄おう",
+      "name_zh": "“雨中”曲",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "雨に唄おう",
+        "rarity": "☆4",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 213018,
+      "name_ja": "新商品の飲み物",
+      "name_zh": "饮料采购日",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "新商品の飲み物",
+        "rarity": "☆4",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 213003,
+      "name_ja": "覚めない熱帯夜",
+      "name_zh": "热夜的结束",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "覚めない熱帯夜",
+        "rarity": "☆4",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 213007,
+      "name_ja": "翡翠の夢",
+      "name_zh": "翡翠隙境",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "翡翠の夢",
+        "rarity": "☆4",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 213008,
+      "name_ja": "憩いのひと時",
+      "name_zh": "小憩片刻",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "憩いのひと時",
+        "rarity": "☆4",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 213015,
+      "name_ja": "知らない名前",
+      "name_zh": "未闻芳名",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "知らない名前",
+        "rarity": "☆4",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 213011,
+      "name_ja": "ニャーのリズム",
+      "name_zh": "喵律动",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "ニャーのリズム",
+        "rarity": "☆4",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 214026,
+      "name_ja": "古池の水音",
+      "name_zh": "潋滟故池水",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "古池の水音",
+        "rarity": "☆5",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 214007,
+      "name_ja": "真夜中の堕天使",
+      "name_zh": "午夜，堕天使",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "真夜中の堕天使",
+        "rarity": "☆5",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 214036,
+      "name_ja": "痛みは救済",
+      "name_zh": "迷途的朝圣者",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "痛みは救済",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 214037,
+      "name_ja": "伝説のアラシ",
+      "name_zh": "抓住传说",
+      "concerto_groups": 2,
+      "online": {
+        "name_ja": "伝説のアラシ",
+        "rarity": "☆5",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 213005,
+      "name_ja": "舞台裏の魔女★",
+      "name_zh": "★~嘭嘭少女~★",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "舞台裏の魔女★",
+        "rarity": "☆4",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 213004,
+      "name_ja": "アッシュ・アイ",
+      "name_zh": "双月怪盗",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "アッシュ・アイ",
+        "rarity": "☆4",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 213006,
+      "name_ja": "おやすみ",
+      "name_zh": "晚安",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "おやすみ",
+        "rarity": "☆4",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 213010,
+      "name_ja": "蒼梧城の休日",
+      "name_zh": "水蒸汽症候群",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "蒼梧城の休日",
+        "rarity": "☆4",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 213012,
+      "name_ja": "星空に夜露死苦",
+      "name_zh": "问候星空",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "星空に夜露死苦",
+        "rarity": "☆4",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 213013,
+      "name_ja": "秋に包まれて",
+      "name_zh": "秋日絮语",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "秋に包まれて",
+        "rarity": "☆4",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 213014,
+      "name_ja": "騎士様の鍛冶師",
+      "name_zh": "骑士的铁匠",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "騎士様の鍛冶師",
+        "rarity": "☆4",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 213016,
+      "name_ja": "鳥かごの薔薇",
+      "name_zh": "樊笼蔷薇",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "鳥かごの薔薇",
+        "rarity": "☆4",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 213017,
+      "name_ja": "MCをねらえ！",
+      "name_zh": "★~转转人生~★",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "MCをねらえ！",
+        "rarity": "☆4",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 213019,
+      "name_ja": "虚ろの中の美",
+      "name_zh": "妄语",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "虚ろの中の美",
+        "rarity": "☆4",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 213020,
+      "name_ja": "おコンバンハ！",
+      "name_zh": "闪灵",
+      "concerto_groups": 1,
+      "online": {
+        "name_ja": "おコンバンハ！",
+        "rarity": "☆4",
+        "element": "地属性"
+      }
+    },
+    {
+      "id": 211001,
+      "name_ja": "朝靄",
+      "name_zh": "朝霭",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "朝靄",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211002,
+      "name_ja": "長閑",
+      "name_zh": "和煦",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "長閑",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211003,
+      "name_ja": "薄暮",
+      "name_zh": "晚霞",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "薄暮",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211004,
+      "name_ja": "儚雲",
+      "name_zh": "粉梦",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "儚雲",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211005,
+      "name_ja": "寒煙",
+      "name_zh": "孤烟",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "寒煙",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211006,
+      "name_ja": "甘露",
+      "name_zh": "甘露",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "甘露",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211007,
+      "name_ja": "希望",
+      "name_zh": "希冀",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "希望",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 211008,
+      "name_ja": "帰路",
+      "name_zh": "归途",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "帰路",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 212001,
+      "name_ja": "いただきま〜す",
+      "name_zh": "盛宴",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "いただきま～す",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 212002,
+      "name_ja": "敵役たちの日常",
+      "name_zh": "喧哗",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "敵役たちの日常",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 212003,
+      "name_ja": "死出の舞踏会",
+      "name_zh": "极乐",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "死出の舞踏会",
+        "rarity": "☆3",
+        "element": "汎用属性"
+      }
+    },
+    {
+      "id": 212005,
+      "name_ja": "情熱ステップ",
+      "name_zh": "情热",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "情熱ステップ",
+        "rarity": "☆3",
+        "element": "火属性"
+      }
+    },
+    {
+      "id": 212006,
+      "name_ja": "幸運の光",
+      "name_zh": "吉光",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "幸運の光",
+        "rarity": "☆3",
+        "element": "光属性"
+      }
+    },
+    {
+      "id": 212007,
+      "name_ja": "風に乗って",
+      "name_zh": "乘风",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "風に乗って",
+        "rarity": "☆3",
+        "element": "風属性"
+      }
+    },
+    {
+      "id": 212008,
+      "name_ja": "スローライフ",
+      "name_zh": "泡沫",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "スローライフ",
+        "rarity": "☆3",
+        "element": "水属性"
+      }
+    },
+    {
+      "id": 212009,
+      "name_ja": "闇に消える",
+      "name_zh": "黯灭",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "闇に消える",
+        "rarity": "☆3",
+        "element": "闇属性"
+      }
+    },
+    {
+      "id": 212010,
+      "name_ja": "強靭",
+      "name_zh": "坚韧",
+      "concerto_groups": 0,
+      "online": {
+        "name_ja": "強靭",
+        "rarity": "☆3",
+        "element": "地属性"
+      }
+    }
+  ]
+}
