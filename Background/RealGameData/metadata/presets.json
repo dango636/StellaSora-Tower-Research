@@ -5225,6 +5225,789 @@
         0
       ],
       "noncore_target_level_sum": 75
+    },
+    "P0021": {
+      "preset_id": "P0021",
+      "party": [
+        {
+          "role": 1,
+          "character_id": 144,
+          "name_ja_jp": null,
+          "name_zh_cn": "千都世",
+          "targets": [
+            {
+              "potential_id": 514401,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514402,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514403,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514404,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514405,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514406,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514407,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514408,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514409,
+              "target_level": 2
+            },
+            {
+              "potential_id": 514410,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514411,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514412,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514413,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514441,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514442,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514443,
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 2,
+          "character_id": 127,
+          "name_ja_jp": null,
+          "name_zh_cn": "特丽莎",
+          "targets": [
+            {
+              "potential_id": 512721,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512722,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512723,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512724,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512725,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512726,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512727,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512728,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512729,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512730,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512731,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512732,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512733,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512741,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512742,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512743,
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 3,
+          "character_id": 160,
+          "name_ja_jp": null,
+          "name_zh_cn": "薇洛(盛夏)",
+          "targets": [
+            {
+              "potential_id": 516021,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516022,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516023,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516024,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516025,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516026,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516027,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516028,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516029,
+              "target_level": 4
+            },
+            {
+              "potential_id": 516030,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516031,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516032,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516033,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516041,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516042,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516043,
+              "target_level": 6
+            }
+          ]
+        }
+      ],
+      "target_vector_complete": true,
+      "target_vector": [
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        2,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      "noncore_target_level_sum": 78
+    },
+    "P0022": {
+      "preset_id": "P0022",
+      "party": [
+        {
+          "role": 1,
+          "character_id": 139,
+          "name_ja_jp": null,
+          "name_zh_cn": "艾蕾",
+          "targets": [
+            {
+              "potential_id": 513901,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513902,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513903,
+              "target_level": 1
+            },
+            {
+              "potential_id": 513904,
+              "target_level": 1
+            },
+            {
+              "potential_id": 513905,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513906,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513907,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513908,
+              "target_level": 6
+            },
+            {
+              "potential_id": 513909,
+              "target_level": 6
+            },
+            {
+              "potential_id": 513910,
+              "target_level": 6
+            },
+            {
+              "potential_id": 513911,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513912,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513913,
+              "target_level": 6
+            },
+            {
+              "potential_id": 513941,
+              "target_level": 0
+            },
+            {
+              "potential_id": 513942,
+              "target_level": 6
+            },
+            {
+              "potential_id": 513943,
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 2,
+          "character_id": 160,
+          "name_ja_jp": null,
+          "name_zh_cn": "薇洛(盛夏)",
+          "targets": [
+            {
+              "potential_id": 516021,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516022,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516023,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516024,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516025,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516026,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516027,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516028,
+              "target_level": 6
+            },
+            {
+              "potential_id": 516029,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516030,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516031,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516032,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516033,
+              "target_level": 1
+            },
+            {
+              "potential_id": 516041,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516042,
+              "target_level": 0
+            },
+            {
+              "potential_id": 516043,
+              "target_level": 6
+            }
+          ]
+        },
+        {
+          "role": 3,
+          "character_id": 127,
+          "name_ja_jp": null,
+          "name_zh_cn": "特丽莎",
+          "targets": [
+            {
+              "potential_id": 512721,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512722,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512723,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512724,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512725,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512726,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512727,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512728,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512729,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512730,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512731,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512732,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512733,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512741,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512742,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512743,
+              "target_level": 0
+            }
+          ]
+        }
+      ],
+      "target_vector_complete": true,
+      "target_vector": [
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        6,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0,
+        1,
+        6,
+        1,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        6,
+        0,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        6,
+        0
+      ],
+      "noncore_target_level_sum": 81
+    },
+    "P0023": {
+      "preset_id": "P0023",
+      "party": [
+        {
+          "role": 1,
+          "character_id": 157,
+          "name_ja_jp": null,
+          "name_zh_cn": "花铃",
+          "targets": [
+            {
+              "potential_id": 515701,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515702,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515703,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515704,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515705,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515706,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515707,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515708,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515709,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515710,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515711,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515712,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515713,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515741,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515742,
+              "target_level": 5
+            },
+            {
+              "potential_id": 515743,
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 2,
+          "character_id": 145,
+          "name_ja_jp": null,
+          "name_zh_cn": "乙叶",
+          "targets": [
+            {
+              "potential_id": 514521,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514522,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514523,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514524,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514525,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514526,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514527,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514528,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514529,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514530,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514531,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514532,
+              "target_level": 5
+            },
+            {
+              "potential_id": 514533,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514541,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514542,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514543,
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 3,
+          "character_id": 142,
+          "name_ja_jp": null,
+          "name_zh_cn": "珂赛特",
+          "targets": [
+            {
+              "potential_id": 514221,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514222,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514223,
+              "target_level": 1
+            },
+            {
+              "potential_id": 514224,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514225,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514226,
+              "target_level": 3
+            },
+            {
+              "potential_id": 514227,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514228,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514229,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514230,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514231,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514232,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514233,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514241,
+              "target_level": 0
+            },
+            {
+              "potential_id": 514242,
+              "target_level": 6
+            },
+            {
+              "potential_id": 514243,
+              "target_level": 0
+            }
+          ]
+        }
+      ],
+      "target_vector_complete": true,
+      "target_vector": [
+        6,
+        0,
+        6,
+        6,
+        6,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5,
+        0,
+        6,
+        0,
+        6,
+        6,
+        1,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      "noncore_target_level_sum": 81
     }
   }
 }

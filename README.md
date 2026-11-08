@@ -42,7 +42,7 @@ models/                     新训练的统一初始模型
 Background/RealGameData/data/observations.jsonl
 ```
 
-数据包包含401040条记录、预设与潜能字典，以及字段和使用口径说明。代码仓库中的[数据说明](Background/RealGameData/README.txt)和当前计数与数据包配套。
+数据包包含475973条记录、预设与潜能字典，以及字段和使用口径说明。代码仓库中的[数据说明](Background/RealGameData/README.txt)和当前计数与数据包配套。
 
 ## 实机软件
 
