@@ -4,9 +4,9 @@
 
 本文完整规定：计分、预设、楼层顺序、可见状态、隐藏状态、观察更新、全部动作、潜能抽取、强化、商店、收入、NPC 及事件。
 
-音符库存、协奏、效果参数与构筑修改见[音符状态空间](NoteStateSpace.md)。
-
 各项中间结论、当前工作模型依据与长期观察目标见 [状态空间观察清单](StateSpace_Observation_Targets.md)。游戏硬规则不进入验证清单；实测支持的中间结论仅在出现可靠反例时重新审查。
+
+完整带音符对局的扩展见[音符状态空间](NoteStateSpace.md)及[音符观察报告](NoteStateSpace_Observation_Targets.md)。
 
 当前模型版本：`state_space_e6_l49_npc_event_v3`。采用拟合较好的工作假设：一级门统一49/100、商店E6联合核、第3层NPC事件奖励回调旗标。以下公式直接用于模拟与学习；验证状态和竞争假说保留在观察清单中，统计支持不等于游戏硬规则。
 
@@ -274,7 +274,7 @@ DRAW／EVENT_DRAW 等是内部计算阶段，并不表示要求软件额外点�
 
 ~~~json
 {
-  "modelVersion": "state_space_s75_l5of11_v2",
+  "modelVersion": "state_space_e6_l49_npc_event_v3",
   "phase": "ADVANCE",
   "node": 1,
   "floor": 0,

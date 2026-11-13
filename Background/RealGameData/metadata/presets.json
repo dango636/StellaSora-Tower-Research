@@ -6008,6 +6008,631 @@
         0
       ],
       "noncore_target_level_sum": 81
+    },
+    "P0024": {
+      "preset_id": "P0024",
+      "party": [
+        {
+          "role": 1,
+          "character_id": 144,
+          "name_ja_jp": "チトセ",
+          "name_zh_cn": null,
+          "targets": [
+            {
+              "potential_id": 514403,
+              "name_ja_jp": "滝斬の型",
+              "name_zh_cn": "断空泷斩",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 514404,
+              "name_ja_jp": "引波の型",
+              "name_zh_cn": "溯流泷闪",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 514407,
+              "name_ja_jp": "蛟龍の尾",
+              "name_zh_cn": "逐浪幻鳞",
+              "rarity_class": "rare",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514410,
+              "name_ja_jp": "漣撃の型",
+              "name_zh_cn": "涟汐环行",
+              "rarity_class": "rare",
+              "target_level": 6
+            },
+            {
+              "potential_id": 514413,
+              "name_ja_jp": "水龍の共鳴",
+              "name_zh_cn": "碧浪霖身",
+              "rarity_class": "rare",
+              "target_level": 6
+            },
+            {
+              "potential_id": 514405,
+              "name_ja_jp": "影隠れの型",
+              "name_zh_cn": "漱影落振",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514406,
+              "name_ja_jp": "蛟龍の剣舞",
+              "name_zh_cn": "亭亭翩舞",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514408,
+              "name_ja_jp": "波間の剣舞",
+              "name_zh_cn": "潮影环蛇",
+              "rarity_class": "common",
+              "target_level": 6
+            },
+            {
+              "potential_id": 514409,
+              "name_ja_jp": "連龍の剣舞",
+              "name_zh_cn": "镜水归潮",
+              "rarity_class": "common",
+              "target_level": 1
+            },
+            {
+              "potential_id": 514411,
+              "name_ja_jp": "石穿の剣舞",
+              "name_zh_cn": "流波幻舞",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514412,
+              "name_ja_jp": "反攻の型",
+              "name_zh_cn": "坚鳞护体",
+              "rarity_class": "common",
+              "target_level": 3
+            },
+            {
+              "potential_id": 514441,
+              "name_ja_jp": "暴れまわる蛟龍",
+              "name_zh_cn": "蛇涎流凝",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514442,
+              "name_ja_jp": "蛟龍の加護",
+              "name_zh_cn": "蛇舞涟漪",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 514443,
+              "name_ja_jp": "蛟龍の霊験",
+              "name_zh_cn": "蛇骨寒涛",
+              "rarity_class": "common",
+              "target_level": 0
+            }
+          ]
+        },
+        {
+          "role": 2,
+          "character_id": 160,
+          "name_ja_jp": "ウィロー(水着)",
+          "name_zh_cn": null,
+          "targets": [
+            {
+              "potential_id": 516023,
+              "name_ja_jp": "たゆたう音の浪",
+              "name_zh_cn": "音浪荡漾",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 516024,
+              "name_ja_jp": "耳震わす浪鳴",
+              "name_zh_cn": "浪鸣震耳",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 516026,
+              "name_ja_jp": "低徊する海風",
+              "name_zh_cn": "海风低徊",
+              "rarity_class": "rare",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516030,
+              "name_ja_jp": "異色の水泡",
+              "name_zh_cn": "异色水泡",
+              "rarity_class": "rare",
+              "target_level": 6
+            },
+            {
+              "potential_id": 516033,
+              "name_ja_jp": "和らぎの浪風",
+              "name_zh_cn": "风和浪暖",
+              "rarity_class": "rare",
+              "target_level": 3
+            },
+            {
+              "potential_id": 516025,
+              "name_ja_jp": "変わらぬ戒め",
+              "name_zh_cn": "劝诫依旧",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516027,
+              "name_ja_jp": "鳴り止まぬ海鳴",
+              "name_zh_cn": "海鸣不息",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516028,
+              "name_ja_jp": "呑み込む巨浪",
+              "name_zh_cn": "巨浪吞城",
+              "rarity_class": "common",
+              "target_level": 6
+            },
+            {
+              "potential_id": 516029,
+              "name_ja_jp": "遠ざかる潮騒",
+              "name_zh_cn": "潮音渐歇",
+              "rarity_class": "common",
+              "target_level": 6
+            },
+            {
+              "potential_id": 516031,
+              "name_ja_jp": "流彩の障壁",
+              "name_zh_cn": "流彩为壁",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516032,
+              "name_ja_jp": "柔らかな海色",
+              "name_zh_cn": "海色轻柔",
+              "rarity_class": "common",
+              "target_level": 3
+            },
+            {
+              "potential_id": 516041,
+              "name_ja_jp": "潮騒の戒め",
+              "name_zh_cn": "潮声告诫",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516042,
+              "name_ja_jp": "ビーチ管制",
+              "name_zh_cn": "晴滩管制",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 516043,
+              "name_ja_jp": "規律敷く海風",
+              "name_zh_cn": "海风执纪",
+              "rarity_class": "common",
+              "target_level": 6
+            }
+          ]
+        },
+        {
+          "role": 3,
+          "character_id": 130,
+          "name_ja_jp": "ナ",
+          "name_zh_cn": null,
+          "targets": [
+            {
+              "potential_id": 513021,
+              "name_ja_jp": "オマケの一矢",
+              "name_zh_cn": "离弦之箭",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 513022,
+              "name_ja_jp": "お届けターゲット",
+              "name_zh_cn": "残矢清算",
+              "rarity_class": "core",
+              "target_level": 1
+            },
+            {
+              "potential_id": 513025,
+              "name_ja_jp": "追い打ち配達",
+              "name_zh_cn": "箭矢追击",
+              "rarity_class": "rare",
+              "target_level": 6
+            },
+            {
+              "potential_id": 513030,
+              "name_ja_jp": "初回サービス",
+              "name_zh_cn": "寒潮起势",
+              "rarity_class": "rare",
+              "target_level": 1
+            },
+            {
+              "potential_id": 513033,
+              "name_ja_jp": "リーダーのカリスマ",
+              "name_zh_cn": "波纹涟漪",
+              "rarity_class": "rare",
+              "target_level": 6
+            },
+            {
+              "potential_id": 513026,
+              "name_ja_jp": "活路の一矢",
+              "name_zh_cn": "凝霜箭寒",
+              "rarity_class": "common",
+              "target_level": 6
+            },
+            {
+              "potential_id": 513027,
+              "name_ja_jp": "手紙の守護者",
+              "name_zh_cn": "百步穿杨",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513028,
+              "name_ja_jp": "ビッグウェーブ",
+              "name_zh_cn": "尾浪扑岸",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513029,
+              "name_ja_jp": "配達ノルマ",
+              "name_zh_cn": "水行攻涨",
+              "rarity_class": "common",
+              "target_level": 6
+            },
+            {
+              "potential_id": 513031,
+              "name_ja_jp": "支援デリバリー",
+              "name_zh_cn": "飞矢传信",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513032,
+              "name_ja_jp": "トーミナの祝福",
+              "name_zh_cn": "水波共鸣",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513041,
+              "name_ja_jp": "幸運の弓",
+              "name_zh_cn": "潮汐翻涌",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513042,
+              "name_ja_jp": "トーミナの愛",
+              "name_zh_cn": "覆流侵蚀",
+              "rarity_class": "common",
+              "target_level": 0
+            },
+            {
+              "potential_id": 513043,
+              "name_ja_jp": "アイシートーミナ",
+              "name_zh_cn": "霜凝滞冻",
+              "rarity_class": "common",
+              "target_level": 0
+            }
+          ]
+        }
+      ],
+      "target_vector_complete": true,
+      "target_vector": [
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        1,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        0,
+        0,
+        6,
+        6,
+        0,
+        3,
+        0,
+        0,
+        6,
+        6,
+        1,
+        6,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "noncore_target_level_sum": 77,
+      "training_scope_match": false
+    },
+    "P0025": {
+      "preset_id": "P0025",
+      "party": [
+        {
+          "role": 1,
+          "character_id": 114,
+          "name_ja_jp": null,
+          "name_zh_cn": "猫眼",
+          "targets": [
+            {
+              "potential_id": 511401,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511402,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511403,
+              "target_level": 1
+            },
+            {
+              "potential_id": 511404,
+              "target_level": 1
+            },
+            {
+              "potential_id": 511405,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511406,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511407,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511408,
+              "target_level": 6
+            },
+            {
+              "potential_id": 511409,
+              "target_level": 6
+            },
+            {
+              "potential_id": 511410,
+              "target_level": 6
+            },
+            {
+              "potential_id": 511411,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511412,
+              "target_level": 2
+            },
+            {
+              "potential_id": 511413,
+              "target_level": 6
+            },
+            {
+              "potential_id": 511441,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511442,
+              "target_level": 0
+            },
+            {
+              "potential_id": 511443,
+              "target_level": 4
+            }
+          ]
+        },
+        {
+          "role": 2,
+          "character_id": 158,
+          "name_ja_jp": null,
+          "name_zh_cn": "菈露(圣夜)",
+          "targets": [
+            {
+              "potential_id": 515821,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515822,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515823,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515824,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515825,
+              "target_level": 1
+            },
+            {
+              "potential_id": 515826,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515827,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515828,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515829,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515830,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515831,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515832,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515833,
+              "target_level": 6
+            },
+            {
+              "potential_id": 515841,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515842,
+              "target_level": 0
+            },
+            {
+              "potential_id": 515843,
+              "target_level": 6
+            }
+          ]
+        },
+        {
+          "role": 3,
+          "character_id": 126,
+          "name_ja_jp": null,
+          "name_zh_cn": "紫槿",
+          "targets": [
+            {
+              "potential_id": 512621,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512622,
+              "target_level": 1
+            },
+            {
+              "potential_id": 512623,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512624,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512625,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512626,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512627,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512628,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512629,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512630,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512631,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512632,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512633,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512641,
+              "target_level": 6
+            },
+            {
+              "potential_id": 512642,
+              "target_level": 0
+            },
+            {
+              "potential_id": 512643,
+              "target_level": 1
+            }
+          ]
+        }
+      ],
+      "target_vector_complete": true,
+      "target_vector": [
+        0,
+        6,
+        2,
+        0,
+        0,
+        6,
+        6,
+        0,
+        6,
+        0,
+        0,
+        4,
+        1,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6,
+        6,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0,
+        6,
+        0,
+        6,
+        0,
+        1
+      ],
+      "noncore_target_level_sum": 80
     }
   }
 }

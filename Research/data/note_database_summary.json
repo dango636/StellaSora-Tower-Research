@@ -1,0 +1,733 @@
+{
+  "schema": "stella_note_database_public_summary_v1",
+  "analysis_date": "2026-11-13",
+  "observations_through": "2026-11-12T22:00:53.686+09:00",
+  "source": "Background/RealGameData/database/research.sqlite3",
+  "scope": "固定分析快照的聚合摘要；当前总库规模另见Background/RealGameData/SUMMARY.json。没有新增重算的结果不随总库文件更新自动改变。",
+  "analysis_source_sha256": {
+    "note_database_evidence.json": "3536506a517d1f393733c76c7a2c66c1e14e55390a361026db6bd9f13ce32130",
+    "note_database_battle.json": "2d661f6e9aaabb1f60f2712ca8a42e56e32b043afe026e2bdcb97475d387bced",
+    "note_database_categories.json": "134d6b50b417de74b965c02f0d24bc13f1ac8d6b1e91f92c3bc3dd48d357b79e",
+    "note_database_events.json": "c2ce00ffe7d79f51d3b31ece9255257338cbc4e10875d8411362676af9ef49a1"
+  },
+  "database_at_analysis": {
+    "table_counts": {
+      "presets": 47,
+      "runs": 664,
+      "records": 649403,
+      "objects": 181266,
+      "record_objects": 915739,
+      "readings": 830321,
+      "record_readings": 3029676,
+      "quality_issues": 202454
+    },
+    "physical_games": 652,
+    "collector_segments": 664,
+    "identity_roles": {
+      "physical_game": 652,
+      "continuation_segment": 12
+    },
+    "identity_statuses": {
+      "anchored_physical_game": 664
+    }
+  },
+  "note_run_counts": {
+    "note_collector_run_rows": 109,
+    "note_physical_games": 97,
+    "physical_games_with_note_delta": 97,
+    "physical_games_with_eligible_battle": 95,
+    "physical_games_with_eligible_event": 71,
+    "note_run_started_records": 102,
+    "note_run_started_complete_records": 93,
+    "physical_games_with_complete_note_start": 93,
+    "note_setup_records": 95,
+    "note_bag_setup_records": 32,
+    "note_settlement_records": 75,
+    "note_start_records_marked_resumed": 7
+  },
+  "delta_classification": {
+    "raw": 1389,
+    "locally_usable": 1327,
+    "eligible_independent_battle": 1155,
+    "eligible_independent_event": 120,
+    "excluded": 114,
+    "collector_source_counts": {
+      "battle": 1197,
+      "event": 151,
+      "combined_interval": 28,
+      "opening_plus_battle": 2,
+      "purchase": 11
+    },
+    "derived_source_counts": {
+      "battle": 1191,
+      "event": 147,
+      "source_unresolved": 6,
+      "combined_interval": 32,
+      "opening_plus_battle": 2,
+      "purchase": 11
+    },
+    "exclusion_reasons": {
+      "missing_after_scope_vector": 35,
+      "missing_delta_scope_vector": 38,
+      "collector_incomplete": 61,
+      "collector_issues": 61,
+      "probability_ineligible": 103,
+      "not_independent_battle_or_event": 74,
+      "missing_before_scope_vector": 11,
+      "analysis_ineligible": 32,
+      "floor_unconfirmed": 42,
+      "source_attribution_unconfirmed": 2,
+      "duplicate_physical_source": 2,
+      "local_note_quality_issue": 1,
+      "unlinked_after_inventory": 1
+    },
+    "source_attribution_unconfirmed_count": 2,
+    "source_reclassifications_count": 4,
+    "source_reclassification_reasons": {
+      "prior_deterministic_note_spend_not_in_inventory_baseline": 4
+    },
+    "duplicate_physical_source_count": 2
+  },
+  "battle": {
+    "eligible_battles": 1155,
+    "nonfirst_battles": 1066,
+    "nonfirst_decomposable": 1066,
+    "physical_games": 95,
+    "early": {
+      "floor3": {
+        "successes": 14,
+        "trials": 84,
+        "estimate": 0.16666666666666666,
+        "exact_binomial_95_interval": [
+          0.0942237396558241,
+          0.26379964690859026
+        ]
+      },
+      "floor4": {
+        "successes": 5,
+        "trials": 89,
+        "estimate": 0.056179775280898875,
+        "exact_binomial_95_interval": [
+          0.01849080466648552,
+          0.12625279604972844
+        ]
+      },
+      "paired": {
+        "physical_games": 81,
+        "patterns": {
+          "00": 65,
+          "10": 13,
+          "01": 3
+        },
+        "exact_two_sided_p": 0.021270751953125
+      },
+      "complete_startup_branch_panels": 78,
+      "correction": "The startup package itself may upgrade. The old first-floor18 example no longer forces an extra combat package; a strict at-most-one early process is no longer structurally excluded."
+    },
+    "middle": {
+      "complete_phases": 69,
+      "patterns": {
+        "0000": 24,
+        "0001": 7,
+        "0010": 16,
+        "0100": 12,
+        "1000": 10
+      },
+      "quota_rate": {
+        "successes": 45,
+        "trials": 69,
+        "estimate": 0.6521739130434783,
+        "exact_binomial_95_interval": [
+          0.5279296637792528,
+          0.7628974327772704
+        ]
+      },
+      "column_conditioned_independent_floor_null_p": 2.431986564518881e-07,
+      "test_definition": "Independent Bernoulli floor flags with arbitrary common-per-floor probabilities; condition on four column totals and test disjoint successes across physical games.",
+      "identifiability": "Every quota-plus-categorical position law with 0/1 successes is exactly equivalent to a sequence of first-success hazards. These cannot be distinguished from the four binary outcomes alone."
+    },
+    "late": {
+      "complete_phases": 63,
+      "patterns": {
+        "0011": 7,
+        "0101": 7,
+        "0110": 12,
+        "1001": 9,
+        "1010": 10,
+        "1100": 18
+      },
+      "all_exactly_two_iid_per_game_probability_upper_bound": 1.4587130451985009e-27,
+      "position_weights": "Uniform pairs, sequential weighted draws, and product-weight pairs remain unresolved at95%."
+    },
+    "boss": {
+      "rates": {
+        "first": {
+          "successes": 54,
+          "trials": 88,
+          "estimate": 0.6136363636363636,
+          "exact_binomial_95_interval": [
+            0.5038141275973151,
+            0.7155818856537801
+          ]
+        },
+        "after_success": {
+          "successes": 61,
+          "trials": 109,
+          "estimate": 0.5596330275229358,
+          "exact_binomial_95_interval": [
+            0.4613290389036526,
+            0.6546145457213919
+          ]
+        },
+        "after_failure": {
+          "successes": 53,
+          "trials": 53,
+          "estimate": 1.0,
+          "exact_binomial_95_interval": [
+            0.9327654536936989,
+            1.0
+          ]
+        }
+      },
+      "consecutive_failure_examples": [],
+      "first_after_success_separation": "No95% support for separate first/after-success rates; empirical rates may be updated as work constants.",
+      "extra_package_opportunities": {
+        "three_upgrade_bosses": 10,
+        "physical_games": 10,
+        "conclusion": "Only the two guaranteed boss packages being eligible is impossible; at least one lucky-added package must be eligible under the package model. This alone does not establish that all three lucky packages are eligible.",
+        "five_vs_four_eligible_mle": {
+          "comparison_definition": "persistent_additive_mle minus boss_only_four_eligible_mle; positive favors persistent_additive_mle",
+          "log_likelihood_difference": 8.632246350133423,
+          "physical_game_bootstrap_95_interval": [
+            2.211249533255715,
+            15.363297594485507
+          ]
+        },
+        "five_vs_three_eligible_mle": {
+          "comparison_definition": "persistent_additive_mle minus boss_only_three_eligible_mle; positive favors persistent_additive_mle",
+          "log_likelihood_difference": 32.576221135123646,
+          "physical_game_bootstrap_95_interval": [
+            19.04672335089654,
+            47.15258002457041
+          ]
+        },
+        "statistical_conclusion": "Five eligible boss packages are supported over a fixed count of four or three within the fitted additive failure-state family; the full package lifecycle is still a model comparison, not recovered server code."
+      }
+    },
+    "surprise": {
+      "continuous_prefix_physical_games": 89,
+      "continuous_prefix_battles": 871,
+      "complete_fourteen_battle_prefixes": 38,
+      "observed_upgrade_count_distribution": {
+        "0": 3,
+        "1": 8,
+        "2": 6,
+        "3": 2,
+        "4": 70
+      },
+      "prefixes_observed_reaching_four": 70,
+      "positive_increment_vs_constant": {
+        "comparison_definition": "persistent_additive_mle minus constant_probability_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 53.69410642445093,
+        "physical_game_bootstrap_95_interval": [
+          39.756084337720424,
+          67.84838411719878
+        ]
+      },
+      "cross_battle_memory_vs_each_battle_reset": {
+        "comparison_definition": "persistent_additive_mle minus reset_failures_every_battle_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 47.43308880031743,
+        "physical_game_bootstrap_95_interval": [
+          33.381477744230644,
+          61.58139555617814
+        ]
+      },
+      "success_reset_vs_cumulative_failures": {
+        "comparison_definition": "persistent_additive_mle minus success_does_not_reset_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 39.89012393386104,
+        "physical_game_bootstrap_95_interval": [
+          25.208250302441215,
+          53.89185807777797
+        ]
+      },
+      "shop_reset_comparison": {
+        "comparison_definition": "persistent_additive_mle minus reset_failures_at_shop_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 12.146369701147483,
+        "physical_game_bootstrap_95_interval": [
+          6.172422752452017,
+          18.100751726348406
+        ]
+      },
+      "note_event_reset_comparison": {
+        "comparison_definition": "persistent_additive_mle minus reset_failures_at_note_event_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 5.7633813029421495,
+        "physical_game_bootstrap_95_interval": [
+          -1.6477660175874695,
+          13.990448635019147
+        ]
+      },
+      "linear_vs_geometric": {
+        "comparison_definition": "persistent_additive_mle minus persistent_geometric_hazard_mle; positive favors persistent_additive_mle",
+        "log_likelihood_difference": 1.472132004950013,
+        "physical_game_bootstrap_95_interval": [
+          -1.1387569451677493,
+          4.087071944503705
+        ]
+      },
+      "startup_participation": {
+        "comparison_definition": "current20_20 startup eligible minus startup_ineligible20_20; positive favors startup eligible",
+        "log_likelihood_difference": 6.66942520592929,
+        "physical_game_bootstrap_95_interval": [
+          -4.585770081664804,
+          17.753482469931246
+        ]
+      },
+      "mle": {
+        "initial_probability": 0.1702994681968018,
+        "failure_increment": 0.2178071089756482
+      },
+      "specified20_20_twice_log_likelihood_loss": 1.4801126463388528,
+      "specified20_20_inside_joint95_region": true,
+      "interpretation": "Bootstrap comparisons are conditional on explicit package/source-branch programs; precise constants and a linear hard-guarantee hazard are not proved."
+    },
+    "default_recommendation": "Retain early independent15%/15%/2.5%, middle quota and position weights, late quota and position weights, and surprise20%+20% as work programs. Update boss empirical rates to54/88 and61/109 if desired; keep recovery1 as an unresolved strict endpoint. Reopen early at-most-one as a live competitor and fix startup decomposition."
+  },
+  "categories": {
+    "physical_games": 87,
+    "source_intervals": {
+      "battle": 1012,
+      "event": 77
+    },
+    "physical_games_by_pool_size": {
+      "8": 66,
+      "9": 21
+    },
+    "primary_pool_rates": {
+      "battle": {
+        "intervals": 1012,
+        "physical_games": 87,
+        "hits": 1541,
+        "opportunities": 1945,
+        "estimate": 0.7922879177377892,
+        "physical_game_bootstrap_95_interval": [
+          0.7744746283956945,
+          0.8098211420943703
+        ]
+      },
+      "event": {
+        "intervals": 77,
+        "physical_games": 60,
+        "hits": 414,
+        "opportunities": 520,
+        "estimate": 0.7961538461538461,
+        "physical_game_bootstrap_95_interval": [
+          0.7634773258532025,
+          0.8262626262626263
+        ]
+      },
+      "joint": {
+        "intervals": 1089,
+        "physical_games": 87,
+        "hits": 1955,
+        "opportunities": 2465,
+        "estimate": 0.7931034482758621,
+        "physical_game_bootstrap_95_interval": [
+          0.777457685428816,
+          0.8088236743258597
+        ]
+      }
+    },
+    "source_difference": {
+      "event_minus_battle": 0.0038659284160569296,
+      "physical_game_bootstrap_95_interval": [
+        -0.03145604336702895,
+        0.04005825934588153
+      ],
+      "two_q_fit_versus_common_q": {
+        "physical_games": 87,
+        "log_likelihood_difference": 0.018735491575741836,
+        "physical_game_bootstrap_95_interval": [
+          -0.32503416482762204,
+          0.36960019449237785
+        ]
+      }
+    },
+    "requirement_multiplicity": {
+      "physical_games": 75,
+      "intervals": 949,
+      "primary_category_opportunities": 1698,
+      "models": [
+        {
+          "name": "uniform",
+          "multiplicity_exponent": 0,
+          "log_likelihood": -2680.2478457481357,
+          "versus_uniform": {
+            "physical_games": 75,
+            "log_likelihood_difference": 0.0,
+            "physical_game_bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "disc_multiplicity",
+          "multiplicity_exponent": 1,
+          "log_likelihood": -2839.868136075063,
+          "versus_uniform": {
+            "physical_games": 75,
+            "log_likelihood_difference": -159.6202903269272,
+            "physical_game_bootstrap_95_interval": [
+              -199.80915588117483,
+              -120.03924002862661
+            ]
+          }
+        },
+        {
+          "name": "inverse_disc_multiplicity",
+          "multiplicity_exponent": -1,
+          "log_likelihood": -2832.56325022054,
+          "versus_uniform": {
+            "physical_games": 75,
+            "log_likelihood_difference": -152.3154044724041,
+            "physical_game_bootstrap_95_interval": [
+              -190.7651424939729,
+              -116.18084061929126
+            ]
+          }
+        },
+        {
+          "name": "exponent_mle",
+          "multiplicity_exponent": -0.040000000000000036,
+          "log_likelihood": -2679.977484349763,
+          "versus_uniform": {
+            "physical_games": 75,
+            "log_likelihood_difference": 0.27036139837266737,
+            "physical_game_bootstrap_95_interval": [
+              -1.2071954912780543,
+              1.6875249371938161
+            ]
+          }
+        }
+      ]
+    },
+    "default_weight_lifetimes": [
+      {
+        "lifetime": "per_draw_uniform_equivalent",
+        "primary_integer_range_inclusive": [
+          100,
+          150
+        ],
+        "complement_integer_range_inclusive": [
+          100,
+          200
+        ],
+        "versus_pool_uniform": {
+          "physical_games": 87,
+          "log_likelihood_difference": 0.0,
+          "physical_game_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "integration_standard_error_approx": 0.0
+      },
+      {
+        "lifetime": "per_interval",
+        "primary_integer_range_inclusive": [
+          100,
+          150
+        ],
+        "complement_integer_range_inclusive": [
+          100,
+          200
+        ],
+        "versus_pool_uniform": {
+          "physical_games": 87,
+          "log_likelihood_difference": -0.0007010095843277692,
+          "physical_game_bootstrap_95_interval": [
+            -0.5258132382509064,
+            0.5356941438712155
+          ]
+        },
+        "integration_standard_error_approx": 0.0030042007398560526
+      },
+      {
+        "lifetime": "per_run_separate_source",
+        "primary_integer_range_inclusive": [
+          100,
+          150
+        ],
+        "complement_integer_range_inclusive": [
+          100,
+          200
+        ],
+        "versus_pool_uniform": {
+          "physical_games": 87,
+          "log_likelihood_difference": 2.1736875709308103,
+          "physical_game_bootstrap_95_interval": [
+            0.5294588495873632,
+            3.966348520032949
+          ]
+        },
+        "integration_standard_error_approx": 0.010429698529059832,
+        "per_source": {
+          "battle": {
+            "physical_games": 87,
+            "log_likelihood_difference": 1.5873768087647413,
+            "physical_game_bootstrap_95_interval": [
+              0.009666702220864541,
+              3.2709170360223188
+            ]
+          },
+          "event": {
+            "physical_games": 60,
+            "log_likelihood_difference": 0.5863107621660685,
+            "physical_game_bootstrap_95_interval": [
+              0.07084397694377619,
+              1.1794191290618523
+            ]
+          }
+        }
+      },
+      {
+        "lifetime": "per_run_shared_sources",
+        "primary_integer_range_inclusive": [
+          100,
+          150
+        ],
+        "complement_integer_range_inclusive": [
+          100,
+          200
+        ],
+        "versus_pool_uniform": {
+          "physical_games": 87,
+          "log_likelihood_difference": 3.262781082773079,
+          "physical_game_bootstrap_95_interval": [
+            1.1407236822604931,
+            5.57247281171256
+          ]
+        },
+        "integration_standard_error_approx": 0.01298059174062252
+      }
+    ]
+  },
+  "events_and_shops": {
+    "model_changes": [],
+    "H09": {
+      "exchanges": 27,
+      "physical_games": 27,
+      "all_observed_pool_exchanges": 28,
+      "current_without_replacement_vs_fixed_initial": {
+        "records": 27,
+        "physical_games": 27,
+        "log_score_advantage": -0.5311759117051604,
+        "ci95_physical_game_bootstrap": [
+          -1.6648163208423346,
+          0.4726881583669173
+        ],
+        "games_favoring_numerator": 14,
+        "leave_one_game_out_range": [
+          -0.6829014046275836,
+          -0.18305231866897798
+        ]
+      },
+      "current_without_replacement_vs_capacity_conditioned_batch": {
+        "records": 27,
+        "physical_games": 27,
+        "log_score_advantage": -0.5384385205686067,
+        "ci95_physical_game_bootstrap": [
+          -1.6701547406620405,
+          0.46300283796805125
+        ],
+        "games_favoring_numerator": 14,
+        "leave_one_game_out_range": [
+          -0.6898695161142084,
+          -0.19030812568409367
+        ]
+      },
+      "conclusion": "Amount weighting remains supported; current without-replacement and close initial-weight/capacity candidates are not separated. Retain M08."
+    },
+    "H10": {
+      "event107_menus": 205,
+      "event108_menus": 118,
+      "uniform_pair_fixed_null_p107": 0.1892162156756865,
+      "uniform_pair_fixed_null_p108": 0.625227495450091,
+      "matched_inventory_menus": 48,
+      "question_family_predictive_vs_uniform": {
+        "records": 323,
+        "physical_games": 279,
+        "log_score_advantage": -42.50357580829463,
+        "ci95_physical_game_bootstrap": [
+          -59.18909858923674,
+          -25.99741114313939
+        ],
+        "games_favoring_numerator": 105,
+        "leave_one_game_out_range": [
+          -43.45447206934626,
+          -40.93462925721526
+        ],
+        "groups": 8,
+        "program": "Leave the entire target physical game out; within event and observed condition, predict its pair with a Dirichlet(1,...,1) smoothed twenty-one-cell distribution. Compare to fixed 1/21.",
+        "group_sizes": {
+          "(107, 'melody_fate')": 52,
+          "(108, 'hear_fate')": 31,
+          "(107, 'hear_fate')": 45,
+          "(107, 'music_treatment')": 57,
+          "(108, 'music_treatment')": 28,
+          "(107, 'listen_together')": 51,
+          "(108, 'listen_together')": 35,
+          "(108, 'melody_fate')": 24
+        }
+      },
+      "random_branch": {
+        "events": 16,
+        "physical_games": 16,
+        "five_note_gain": 7,
+        "zero_visible_note_gain": 9,
+        "note5_share": {
+          "estimate": 0.4375,
+          "records": 16,
+          "physical_games": 16,
+          "ci95_physical_game_bootstrap": [
+            0.1875,
+            0.6875
+          ]
+        }
+      },
+      "conclusion": "Retain the 1/21 and displayed 1/2 working values. The stated strong low/high-inventory pair kernels predict worse; exact equality is not established."
+    },
+    "H11": {
+      "shelves": 3489,
+      "physical_games": 626,
+      "large_presence": {
+        "estimate": 0.7879048437947836,
+        "records": 3489,
+        "physical_games": 626,
+        "ci95_physical_game_bootstrap": [
+          0.7741564834114594,
+          0.8015443470295455
+        ]
+      },
+      "known_D_shop_vs_battle_pool": {
+        "shelves": 431,
+        "physical_games": 83,
+        "note_items": 1550,
+        "preferred_items": 907,
+        "preferred_share": {
+          "estimate": 0.5851612903225807,
+          "records": 431,
+          "physical_games": 83,
+          "ci95_physical_game_bootstrap": [
+            0.5561520850245905,
+            0.6137521197112156
+          ]
+        },
+        "uniform_expected_preferred_items": 896.0833333333334,
+        "preferred_excess_over_uniform": {
+          "estimate": 0.007043010752688176,
+          "records": 431,
+          "physical_games": 83,
+          "ci95_physical_game_bootstrap": [
+            -0.01443206406093564,
+            0.027567404324242133
+          ]
+        },
+        "comparison_uniform_over_given_D_vs_main_pool_80_percent": {
+          "records": 431,
+          "physical_games": 83,
+          "log_score_advantage": 211.02510840876428,
+          "ci95_physical_game_bootstrap": [
+            157.69797725043927,
+            267.89254688423597
+          ],
+          "games_favoring_numerator": 70,
+          "leave_one_game_out_range": [
+            197.18375719013332,
+            212.95415517384225
+          ]
+        }
+      },
+      "first_restock_burst_conditional_contrast": {
+        "category": "burst",
+        "large_shelves": 838,
+        "observed_large_identity": 124,
+        "expected_if_exchangeable": 93.98333333333333,
+        "conditional_tag_randomization_p": 0.0001399972000559989,
+        "large_label_excess_vs_conditional_uniform_tag": {
+          "estimate": 0.035819411296738275,
+          "records": 838,
+          "physical_games": 525,
+          "ci95_physical_game_bootstrap": [
+            0.01631279069192099,
+            0.055809294414413325
+          ]
+        },
+        "holm_p_across_forty_contrasts": 0.0055998880022399555
+      },
+      "first_restock_burst_1_5_candidate": {
+        "records": 838,
+        "physical_games": 525,
+        "log_score_advantage": 7.041453965599823,
+        "ci95_physical_game_bootstrap": [
+          0.31962951224569724,
+          13.600818110972892
+        ],
+        "games_favoring_numerator": 113,
+        "leave_one_game_out_range": [
+          6.443616964844202,
+          7.503906005081598
+        ]
+      },
+      "visible_counter_confirmation": {
+        "shelves": 490,
+        "physical_games": 314,
+        "observed_burst_large": 62,
+        "expected_if_identity_size_independent": 51.26666666666668,
+        "excess": {
+          "estimate": 0.021904761904761913,
+          "records": 490,
+          "physical_games": 314,
+          "ci95_physical_game_bootstrap": [
+            -0.0015035181882616486,
+            0.04621212121212122
+          ]
+        },
+        "conditional_tag_randomization_p": 0.06455870882582349,
+        "burst_1_5_vs_uniform": {
+          "records": 490,
+          "physical_games": 314,
+          "log_score_advantage": 1.6127584312045364,
+          "ci95_physical_game_bootstrap": [
+            -2.9191202955580704,
+            6.350329483636018
+          ],
+          "games_favoring_numerator": 58,
+          "leave_one_game_out_range": [
+            1.014921430448916,
+            2.0752104706863115
+          ]
+        }
+      },
+      "conclusion": "Shop identities clearly favor full-D drawing over importing the battle/event 80% main-pool kernel. A first-restock burst/large association survives the forty-contrast correction in the combined UI data, but the explicit-counter subset does not yet separate the 1.5 candidate. Keep the default and expose 1.5 only as an analysis/opt-in hypothesis."
+    }
+  },
+  "method": {
+    "source": "统一总库，按相关字段资格选取；旧导出与人工材料不另加分母。",
+    "identity": "确认续段按物理局归并；菜单与货架按generation去重。",
+    "missingness": "null保留，未显示不补零；缺读只限制依赖该字段的推导。",
+    "source_attribution": "先按操作与库存基线确定来源，不按机制拟合结果选择来源。",
+    "uncertainty": "候选比较按物理局聚类；区间描述该批样本和所比较程序，不等同于恢复唯一服务端实现。"
+  },
+  "earlier_snapshot": {
+    "analysis_date": "2026-11-08",
+    "records": 401040,
+    "participant_session_run_groups": 391,
+    "participants": 19,
+    "shelves": 1809,
+    "shelf_run_clusters": 315,
+    "identified_complete_13_note_snapshots": 0,
+    "isolated_battle_transitions": 0,
+    "scope": "此处零覆盖仅适用于该早期样本；保留的realgame_* JSON均为该批结果，不描述后续音符总库。"
+  }
+}

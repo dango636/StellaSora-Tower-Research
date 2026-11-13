@@ -9122,7 +9122,9 @@
       "build": 1,
       "branch_type": 2,
       "normalized_names": [
+        "明日·薪火",
         "明日薪火",
+        "篝火・未来",
         "篝火未来"
       ]
     },
@@ -9141,6 +9143,7 @@
       "build": 1,
       "branch_type": 2,
       "normalized_names": [
+        "篝火・再燃",
         "篝火再燃",
         "薪火的再燃"
       ]
@@ -15292,6 +15295,8 @@
       "build": 1,
       "branch_type": 3,
       "normalized_names": [
+        "暗·魔痕",
+        "暗・魔痕",
         "暗魔痕"
       ]
     },
@@ -15310,6 +15315,8 @@
       "build": 1,
       "branch_type": 3,
       "normalized_names": [
+        "暗·蜃影",
+        "暗・陰影",
         "暗蜃影",
         "暗陰影"
       ]
@@ -15329,9 +15336,11 @@
       "build": 1,
       "branch_type": 3,
       "normalized_names": [
+        "暗·生息",
+        "暗・増幅",
         "暗増幅",
-        "暗生息",
-        "暗增幅"
+        "暗增幅",
+        "暗生息"
       ]
     },
     {
@@ -15349,6 +15358,8 @@
       "build": 2,
       "branch_type": 3,
       "normalized_names": [
+        "暗·迷幻",
+        "暗・迷幻",
         "暗迷幻"
       ]
     },
@@ -15367,6 +15378,8 @@
       "build": 2,
       "branch_type": 3,
       "normalized_names": [
+        "暗·破形",
+        "暗・破壊",
         "暗破壊",
         "暗破形"
       ]
@@ -15386,6 +15399,8 @@
       "build": 2,
       "branch_type": 3,
       "normalized_names": [
+        "暗·余辉",
+        "暗・残光",
         "暗余辉",
         "暗残光"
       ]
@@ -22186,6 +22201,560 @@
       "normalized_names": [
         "海风执纪",
         "規律敷く海風"
+      ]
+    },
+    {
+      "potential_id": 516101,
+      "character_id": 161,
+      "name_ja_jp": "トータルステーション",
+      "name_zh_cn": "结晶超频",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "master"
+      ],
+      "build": 1,
+      "branch_type": 1,
+      "normalized_names": [
+        "トータルステーション",
+        "结晶超频"
+      ]
+    },
+    {
+      "potential_id": 516102,
+      "character_id": 161,
+      "name_ja_jp": "貫通測量",
+      "name_zh_cn": "集束贯通",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "master"
+      ],
+      "build": 1,
+      "branch_type": 1,
+      "normalized_names": [
+        "貫通測量",
+        "集束贯通"
+      ]
+    },
+    {
+      "potential_id": 516103,
+      "character_id": 161,
+      "name_ja_jp": "エコー測深",
+      "name_zh_cn": "阵地回响",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "master"
+      ],
+      "build": 2,
+      "branch_type": 1,
+      "normalized_names": [
+        "エコー測深",
+        "阵地回响"
+      ]
+    },
+    {
+      "potential_id": 516104,
+      "character_id": 161,
+      "name_ja_jp": "メテオアンカー",
+      "name_zh_cn": "阵地强袭",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "master"
+      ],
+      "build": 2,
+      "branch_type": 1,
+      "normalized_names": [
+        "メテオアンカー",
+        "阵地强袭"
+      ]
+    },
+    {
+      "potential_id": 516105,
+      "character_id": 161,
+      "name_ja_jp": "アースロケーション",
+      "name_zh_cn": "地伤增幅",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "アースロケーション",
+        "地伤增幅"
+      ]
+    },
+    {
+      "potential_id": 516106,
+      "character_id": 161,
+      "name_ja_jp": "大地共鳴",
+      "name_zh_cn": "地印共振",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "地印共振",
+        "大地共鳴"
+      ]
+    },
+    {
+      "potential_id": 516107,
+      "character_id": 161,
+      "name_ja_jp": "測量士の勘",
+      "name_zh_cn": "标点过载",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "标点过载",
+        "測量士の勘"
+      ]
+    },
+    {
+      "potential_id": 516108,
+      "character_id": 161,
+      "name_ja_jp": "地形更新",
+      "name_zh_cn": "观测蚀域",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "地形更新",
+        "观测蚀域"
+      ]
+    },
+    {
+      "potential_id": 516109,
+      "character_id": 161,
+      "name_ja_jp": "観測強化",
+      "name_zh_cn": "测域增幅",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "测域增幅",
+        "観測強化"
+      ]
+    },
+    {
+      "potential_id": 516110,
+      "character_id": 161,
+      "name_ja_jp": "多角測量",
+      "name_zh_cn": "观测联阵",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "多角測量",
+        "观测联阵"
+      ]
+    },
+    {
+      "potential_id": 516111,
+      "character_id": 161,
+      "name_ja_jp": "トラバースステップ",
+      "name_zh_cn": "机动增幅",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "トラバースステップ",
+        "机动增幅"
+      ]
+    },
+    {
+      "potential_id": 516112,
+      "character_id": 161,
+      "name_ja_jp": "アトラスの恩寵",
+      "name_zh_cn": "地印觉醒",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "アトラスの恩寵",
+        "地印觉醒"
+      ]
+    },
+    {
+      "potential_id": 516113,
+      "character_id": 161,
+      "name_ja_jp": "調査隊の連携",
+      "name_zh_cn": "地脉协同",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "master"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "地脉协同",
+        "調査隊の連携"
+      ]
+    },
+    {
+      "potential_id": 516121,
+      "character_id": 161,
+      "name_ja_jp": "アリダードサイト",
+      "name_zh_cn": "战术联绘",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "assist"
+      ],
+      "build": 1,
+      "branch_type": 2,
+      "normalized_names": [
+        "アリダードサイト",
+        "战术联绘"
+      ]
+    },
+    {
+      "potential_id": 516122,
+      "character_id": 161,
+      "name_ja_jp": "カリブレーション",
+      "name_zh_cn": "观测迭代",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "assist"
+      ],
+      "build": 1,
+      "branch_type": 2,
+      "normalized_names": [
+        "カリブレーション",
+        "观测迭代"
+      ]
+    },
+    {
+      "potential_id": 516123,
+      "character_id": 161,
+      "name_ja_jp": "ブーストスキャン",
+      "name_zh_cn": "先导标定",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "assist"
+      ],
+      "build": 2,
+      "branch_type": 2,
+      "normalized_names": [
+        "ブーストスキャン",
+        "先导标定"
+      ]
+    },
+    {
+      "potential_id": 516124,
+      "character_id": 161,
+      "name_ja_jp": "発破調査",
+      "name_zh_cn": "标定引爆",
+      "rarity_class": "core",
+      "item_stype": 42,
+      "item_rarity": 1,
+      "base_max_level": 1,
+      "roles": [
+        "assist"
+      ],
+      "build": 2,
+      "branch_type": 2,
+      "normalized_names": [
+        "标定引爆",
+        "発破調査"
+      ]
+    },
+    {
+      "potential_id": 516125,
+      "character_id": 161,
+      "name_ja_jp": "地形分析",
+      "name_zh_cn": "地伤增绘",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "地伤增绘",
+        "地形分析"
+      ]
+    },
+    {
+      "potential_id": 516126,
+      "character_id": 161,
+      "name_ja_jp": "段階マッピング",
+      "name_zh_cn": "二阶增绘",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "二阶增绘",
+        "段階マッピング"
+      ]
+    },
+    {
+      "potential_id": 516127,
+      "character_id": 161,
+      "name_ja_jp": "俯瞰考察",
+      "name_zh_cn": "跃阶绘域",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 1,
+      "branch_type": 3,
+      "normalized_names": [
+        "俯瞰考察",
+        "跃阶绘域"
+      ]
+    },
+    {
+      "potential_id": 516128,
+      "character_id": 161,
+      "name_ja_jp": "新たな道筋",
+      "name_zh_cn": "标定扩蚀",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "新たな道筋",
+        "标定扩蚀"
+      ]
+    },
+    {
+      "potential_id": 516129,
+      "character_id": 161,
+      "name_ja_jp": "侵食観察",
+      "name_zh_cn": "印记蚀刻",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "侵食観察",
+        "印记蚀刻"
+      ]
+    },
+    {
+      "potential_id": 516130,
+      "character_id": 161,
+      "name_ja_jp": "マーカー追加",
+      "name_zh_cn": "重标压制",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 2,
+      "branch_type": 3,
+      "normalized_names": [
+        "マーカー追加",
+        "重标压制"
+      ]
+    },
+    {
+      "potential_id": 516131,
+      "character_id": 161,
+      "name_ja_jp": "地脈活用",
+      "name_zh_cn": "地脉激活",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "地脈活用",
+        "地脉激活"
+      ]
+    },
+    {
+      "potential_id": 516132,
+      "character_id": 161,
+      "name_ja_jp": "測量の申し子",
+      "name_zh_cn": "厚土沉积",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "厚土沉积",
+        "測量の申し子"
+      ]
+    },
+    {
+      "potential_id": 516133,
+      "character_id": 161,
+      "name_ja_jp": "冒険のロマン",
+      "name_zh_cn": "地源增幅",
+      "rarity_class": "rare",
+      "item_stype": 41,
+      "item_rarity": 1,
+      "base_max_level": 3,
+      "roles": [
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "冒険のロマン",
+        "地源增幅"
+      ]
+    },
+    {
+      "potential_id": 516141,
+      "character_id": 161,
+      "name_ja_jp": "フィードバック",
+      "name_zh_cn": "绘域升势",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master",
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "フィードバック",
+        "绘域升势"
+      ]
+    },
+    {
+      "potential_id": 516142,
+      "character_id": 161,
+      "name_ja_jp": "地形掌握",
+      "name_zh_cn": "绘域轰击",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master",
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "地形掌握",
+        "绘域轰击"
+      ]
+    },
+    {
+      "potential_id": 516143,
+      "character_id": 161,
+      "name_ja_jp": "仲間の道しるべ",
+      "name_zh_cn": "绘域协战",
+      "rarity_class": "common",
+      "item_stype": 41,
+      "item_rarity": 2,
+      "base_max_level": 3,
+      "roles": [
+        "master",
+        "assist"
+      ],
+      "build": 3,
+      "branch_type": 3,
+      "normalized_names": [
+        "仲間の道しるべ",
+        "绘域协战"
       ]
     },
     {

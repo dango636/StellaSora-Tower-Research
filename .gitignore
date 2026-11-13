@@ -5,6 +5,8 @@ __pycache__/
 
 /ReleaseAssets/
 /Background/RealGameData/data/observations.jsonl
+/Background/RealGameData/database/
+/NeuralNetwork/preset_forecast/runs/
 /NeuralNetwork/trainer/runtime/
 /NeuralNetwork/trainer/runs/
 

@@ -20,21 +20,118 @@
       "sha256": "4d9d22eab98f35e26ddc1c7b5909d13cac1e3c4d9352b8feeb92e7edc3b9a0ae",
       "records": 1044,
       "filename": "_unnamed_f7ea5cb9416c2f8a.bytes"
+    },
+    "CN_2611131417_Disc": {
+      "sha256": "9b8827d5f4f713a8403e34b9b28082ad8b9a4be90b1dab4dcc0e69b54e4926a3",
+      "records": 2,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].disc",
+      "table_sha256": "40c68559a0b76260f87e74f99366801079ad11b831640224e3305ffcc77df7a1",
+      "table_fid": "436e71662ed86b21",
+      "table_bytes": 9699,
+      "archive_offset": 2639101,
+      "region": "CN",
+      "game_version": "2.1.0",
+      "resource_version": "2611131417",
+      "archive_sha256": "e90560da726e101e6cc0ed22cd710a6fa5e3c7841dd949db14d2f1b69bcc9afc",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
+    },
+    "JP_2611131423_Disc": {
+      "sha256": "8e5b6556fe694e64d664f1ff3ca856806868cf6f738eb68d0c45ac96348f133e",
+      "records": 2,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].disc",
+      "table_sha256": "40c68559a0b76260f87e74f99366801079ad11b831640224e3305ffcc77df7a1",
+      "table_fid": "436e71662ed86b21",
+      "table_bytes": 9699,
+      "archive_offset": 2639765,
+      "region": "JP",
+      "game_version": "2.1.0",
+      "resource_version": "2611131423",
+      "archive_sha256": "4da896ece070bb150ded112a5b4160451f0d602fcda2e05037cd9c6ca1bc5a77",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
+    },
+    "CN_2611131417_SecondarySkill": {
+      "sha256": "9b8827d5f4f713a8403e34b9b28082ad8b9a4be90b1dab4dcc0e69b54e4926a3",
+      "records": 20,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].secondary_skills",
+      "table_sha256": "61ec7fa47f93f7f3afa561e07c72da9a336593db275dcefe8f312e9815f10c45",
+      "table_fid": "99da704330415215",
+      "table_bytes": 136158,
+      "archive_offset": 8480972,
+      "region": "CN",
+      "game_version": "2.1.0",
+      "resource_version": "2611131417",
+      "archive_sha256": "e90560da726e101e6cc0ed22cd710a6fa5e3c7841dd949db14d2f1b69bcc9afc",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
+    },
+    "JP_2611131423_SecondarySkill": {
+      "sha256": "8e5b6556fe694e64d664f1ff3ca856806868cf6f738eb68d0c45ac96348f133e",
+      "records": 20,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].secondary_skills",
+      "table_sha256": "61ec7fa47f93f7f3afa561e07c72da9a336593db275dcefe8f312e9815f10c45",
+      "table_fid": "99da704330415215",
+      "table_bytes": 136158,
+      "archive_offset": 8481010,
+      "region": "JP",
+      "game_version": "2.1.0",
+      "resource_version": "2611131423",
+      "archive_sha256": "4da896ece070bb150ded112a5b4160451f0d602fcda2e05037cd9c6ca1bc5a77",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
+    },
+    "CN_2611131417_SubNoteSkillPromoteGroup": {
+      "sha256": "9b8827d5f4f713a8403e34b9b28082ad8b9a4be90b1dab4dcc0e69b54e4926a3",
+      "records": 18,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].supply_by_phase",
+      "table_sha256": "c9554df17a309d1aaae31626fbfe02cecbc59f3706e400d3bdae65504dcabbb4",
+      "table_fid": "f7ea5cb9416c2f8a",
+      "table_bytes": 38671,
+      "archive_offset": 9540657,
+      "region": "CN",
+      "game_version": "2.1.0",
+      "resource_version": "2611131417",
+      "archive_sha256": "e90560da726e101e6cc0ed22cd710a6fa5e3c7841dd949db14d2f1b69bcc9afc",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
+    },
+    "JP_2611131423_SubNoteSkillPromoteGroup": {
+      "sha256": "8e5b6556fe694e64d664f1ff3ca856806868cf6f738eb68d0c45ac96348f133e",
+      "records": 18,
+      "format": "disc_catalogue_json",
+      "json_rows": "discs[].supply_by_phase",
+      "table_sha256": "c9554df17a309d1aaae31626fbfe02cecbc59f3706e400d3bdae65504dcabbb4",
+      "table_fid": "f7ea5cb9416c2f8a",
+      "table_bytes": 38671,
+      "archive_offset": 9540695,
+      "region": "JP",
+      "game_version": "2.1.0",
+      "resource_version": "2611131423",
+      "archive_sha256": "4da896ece070bb150ded112a5b4160451f0d602fcda2e05037cd9c6ca1bc5a77",
+      "filename": "discs.json",
+      "archive_filename": "data.arcx"
     }
   },
   "field_semantics": {
     "notes": "protobuf:1 Id,2 Scores,3 EffectId,4 Name key,5 Icon,6 Desc key,7 BriefDesc key,8 params,9 SkillScript",
     "secondary": "protobuf:1 Id,2 GroupId(default0),3 Level(default0),4 NeedSubNoteSkills JSON,5 Score(default0),6 EffectId repeated",
     "discs": "protobuf:1 Id,2 EET,15 MainSkillGroupId,16 SecondarySkillGroupId1,17 SecondarySkillGroupId2,18 SubNoteSkillGroupId,19 SkillScript",
-    "supply": "protobuf:1 Id,2 GroupId,3 Phase(default0),4 SubNoteSkills JSON; DiscData.UpdateNoteData selects greatest existing phase <= disc.Phase; supply is not cumulative; formation sums only auxiliary discs"
+    "supply": "protobuf:1 Id,2 GroupId,3 Phase(default0),4 SubNoteSkills JSON; DiscData.UpdateNoteData selects greatest existing phase <= disc.Phase; supply is not cumulative; formation sums only auxiliary discs",
+    "source_offsets": "record_offset, payload_offset and payload_length refer to the decrypted binary table; disc_catalogue_json source IDs identify the table within discs.json and retain table_sha256 and regional archive/version provenance"
   },
   "counts": {
     "notes": 13,
-    "secondary_rows": 751,
-    "positive_secondary_groups": 150,
-    "discs": 104,
-    "supply_rows": 1044,
-    "supply_groups": 116
+    "secondary_rows": 771,
+    "positive_secondary_groups": 154,
+    "discs": 106,
+    "supply_rows": 1062,
+    "supply_groups": 118
   },
   "notes": [
     {
@@ -44401,6 +44498,1141 @@
         "payload_offset": 132513,
         "payload_length": 167
       }
+    },
+    {
+      "id": 4068101,
+      "group_id": 40681,
+      "level": 1,
+      "need": {
+        "90021": 10,
+        "90016": 10
+      },
+      "score": 120,
+      "effect_ids": [
+        4068101
+      ],
+      "raw_fields": {
+        "1": [
+          4068101
+        ],
+        "2": [
+          40681
+        ],
+        "3": [
+          1
+        ],
+        "4": [
+          "{\"90021\":10,\"90016\":10}"
+        ],
+        "5": [
+          120
+        ],
+        "6": [
+          4068101
+        ],
+        "7": [
+          "SecondarySkill.4068101.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_11"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068101.2"
+        ],
+        "11": [
+          "4%"
+        ],
+        "12": [
+          "10%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 132680,
+        "payload_offset": 132686,
+        "payload_length": 164,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068102,
+      "group_id": 40681,
+      "level": 2,
+      "need": {
+        "90021": 25,
+        "90016": 25
+      },
+      "score": 240,
+      "effect_ids": [
+        4068102
+      ],
+      "raw_fields": {
+        "1": [
+          4068102
+        ],
+        "2": [
+          40681
+        ],
+        "3": [
+          2
+        ],
+        "4": [
+          "{\"90021\":25,\"90016\":25}"
+        ],
+        "5": [
+          240
+        ],
+        "6": [
+          4068102
+        ],
+        "7": [
+          "SecondarySkill.4068102.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_11"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068102.2"
+        ],
+        "11": [
+          "8%"
+        ],
+        "12": [
+          "20%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 132850,
+        "payload_offset": 132856,
+        "payload_length": 165,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068103,
+      "group_id": 40681,
+      "level": 3,
+      "need": {
+        "90021": 40,
+        "90016": 40
+      },
+      "score": 360,
+      "effect_ids": [
+        4068103
+      ],
+      "raw_fields": {
+        "1": [
+          4068103
+        ],
+        "2": [
+          40681
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          "{\"90021\":40,\"90016\":40}"
+        ],
+        "5": [
+          360
+        ],
+        "6": [
+          4068103
+        ],
+        "7": [
+          "SecondarySkill.4068103.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_11"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068103.2"
+        ],
+        "11": [
+          "12%"
+        ],
+        "12": [
+          "30%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133021,
+        "payload_offset": 133027,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068104,
+      "group_id": 40681,
+      "level": 4,
+      "need": {
+        "90021": 55,
+        "90016": 55
+      },
+      "score": 480,
+      "effect_ids": [
+        4068104
+      ],
+      "raw_fields": {
+        "1": [
+          4068104
+        ],
+        "2": [
+          40681
+        ],
+        "3": [
+          4
+        ],
+        "4": [
+          "{\"90021\":55,\"90016\":55}"
+        ],
+        "5": [
+          480
+        ],
+        "6": [
+          4068104
+        ],
+        "7": [
+          "SecondarySkill.4068104.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_11"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068104.2"
+        ],
+        "11": [
+          "16%"
+        ],
+        "12": [
+          "40%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133193,
+        "payload_offset": 133199,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068105,
+      "group_id": 40681,
+      "level": 5,
+      "need": {
+        "90021": 70,
+        "90016": 70
+      },
+      "score": 600,
+      "effect_ids": [
+        4068105
+      ],
+      "raw_fields": {
+        "1": [
+          4068105
+        ],
+        "2": [
+          40681
+        ],
+        "3": [
+          5
+        ],
+        "4": [
+          "{\"90021\":70,\"90016\":70}"
+        ],
+        "5": [
+          600
+        ],
+        "6": [
+          4068105
+        ],
+        "7": [
+          "SecondarySkill.4068105.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_11"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068105.2"
+        ],
+        "11": [
+          "20%"
+        ],
+        "12": [
+          "50%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133365,
+        "payload_offset": 133371,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068201,
+      "group_id": 40682,
+      "level": 1,
+      "need": {
+        "90021": 15,
+        "90016": 15,
+        "90012": 15
+      },
+      "score": 120,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4068201
+        ],
+        "2": [
+          40682
+        ],
+        "3": [
+          1
+        ],
+        "4": [
+          "{\"90021\":15,\"90016\":15,\"90012\":15}"
+        ],
+        "5": [
+          120
+        ],
+        "7": [
+          "SecondarySkill.4068201.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068201.2"
+        ],
+        "11": [
+          "2%"
+        ],
+        "12": [
+          "10"
+        ],
+        "13": [
+          "5%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133537,
+        "payload_offset": 133543,
+        "payload_length": 172,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068202,
+      "group_id": 40682,
+      "level": 2,
+      "need": {
+        "90021": 30,
+        "90016": 30,
+        "90012": 30
+      },
+      "score": 240,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4068202
+        ],
+        "2": [
+          40682
+        ],
+        "3": [
+          2
+        ],
+        "4": [
+          "{\"90021\":30,\"90016\":30,\"90012\":30}"
+        ],
+        "5": [
+          240
+        ],
+        "7": [
+          "SecondarySkill.4068202.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068202.2"
+        ],
+        "11": [
+          "4%"
+        ],
+        "12": [
+          "10"
+        ],
+        "13": [
+          "10%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133715,
+        "payload_offset": 133721,
+        "payload_length": 174,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068203,
+      "group_id": 40682,
+      "level": 3,
+      "need": {
+        "90021": 45,
+        "90016": 45,
+        "90012": 45
+      },
+      "score": 360,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4068203
+        ],
+        "2": [
+          40682
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          "{\"90021\":45,\"90016\":45,\"90012\":45}"
+        ],
+        "5": [
+          360
+        ],
+        "7": [
+          "SecondarySkill.4068203.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068203.2"
+        ],
+        "11": [
+          "6%"
+        ],
+        "12": [
+          "10"
+        ],
+        "13": [
+          "15%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 133895,
+        "payload_offset": 133901,
+        "payload_length": 174,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068204,
+      "group_id": 40682,
+      "level": 4,
+      "need": {
+        "90021": 60,
+        "90016": 60,
+        "90012": 60
+      },
+      "score": 480,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4068204
+        ],
+        "2": [
+          40682
+        ],
+        "3": [
+          4
+        ],
+        "4": [
+          "{\"90021\":60,\"90016\":60,\"90012\":60}"
+        ],
+        "5": [
+          480
+        ],
+        "7": [
+          "SecondarySkill.4068204.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068204.2"
+        ],
+        "11": [
+          "8%"
+        ],
+        "12": [
+          "10"
+        ],
+        "13": [
+          "20%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134075,
+        "payload_offset": 134081,
+        "payload_length": 174,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4068205,
+      "group_id": 40682,
+      "level": 5,
+      "need": {
+        "90021": 75,
+        "90016": 75,
+        "90012": 75
+      },
+      "score": 600,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4068205
+        ],
+        "2": [
+          40682
+        ],
+        "3": [
+          5
+        ],
+        "4": [
+          "{\"90021\":75,\"90016\":75,\"90012\":75}"
+        ],
+        "5": [
+          600
+        ],
+        "7": [
+          "SecondarySkill.4068205.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4068205.2"
+        ],
+        "11": [
+          "10%"
+        ],
+        "12": [
+          "10"
+        ],
+        "13": [
+          "25%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134255,
+        "payload_offset": 134261,
+        "payload_length": 175,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069101,
+      "group_id": 40691,
+      "level": 1,
+      "need": {
+        "90021": 10,
+        "90015": 10
+      },
+      "score": 120,
+      "effect_ids": [
+        4069101
+      ],
+      "raw_fields": {
+        "1": [
+          4069101
+        ],
+        "2": [
+          40691
+        ],
+        "3": [
+          1
+        ],
+        "4": [
+          "{\"90021\":10,\"90015\":10}"
+        ],
+        "5": [
+          120
+        ],
+        "6": [
+          4069101
+        ],
+        "7": [
+          "SecondarySkill.4069101.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_1"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069101.2"
+        ],
+        "11": [
+          "3%"
+        ],
+        "12": [
+          "5%"
+        ],
+        "13": [
+          "3"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134436,
+        "payload_offset": 134442,
+        "payload_length": 165,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069102,
+      "group_id": 40691,
+      "level": 2,
+      "need": {
+        "90021": 25,
+        "90015": 25
+      },
+      "score": 240,
+      "effect_ids": [
+        4069102
+      ],
+      "raw_fields": {
+        "1": [
+          4069102
+        ],
+        "2": [
+          40691
+        ],
+        "3": [
+          2
+        ],
+        "4": [
+          "{\"90021\":25,\"90015\":25}"
+        ],
+        "5": [
+          240
+        ],
+        "6": [
+          4069102
+        ],
+        "7": [
+          "SecondarySkill.4069102.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_1"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069102.2"
+        ],
+        "11": [
+          "6%"
+        ],
+        "12": [
+          "10%"
+        ],
+        "13": [
+          "3"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134607,
+        "payload_offset": 134613,
+        "payload_length": 167,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069103,
+      "group_id": 40691,
+      "level": 3,
+      "need": {
+        "90021": 40,
+        "90015": 40
+      },
+      "score": 360,
+      "effect_ids": [
+        4069103
+      ],
+      "raw_fields": {
+        "1": [
+          4069103
+        ],
+        "2": [
+          40691
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          "{\"90021\":40,\"90015\":40}"
+        ],
+        "5": [
+          360
+        ],
+        "6": [
+          4069103
+        ],
+        "7": [
+          "SecondarySkill.4069103.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_1"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069103.2"
+        ],
+        "11": [
+          "9%"
+        ],
+        "12": [
+          "15%"
+        ],
+        "13": [
+          "3"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134780,
+        "payload_offset": 134786,
+        "payload_length": 167,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069104,
+      "group_id": 40691,
+      "level": 4,
+      "need": {
+        "90021": 55,
+        "90015": 55
+      },
+      "score": 480,
+      "effect_ids": [
+        4069104
+      ],
+      "raw_fields": {
+        "1": [
+          4069104
+        ],
+        "2": [
+          40691
+        ],
+        "3": [
+          4
+        ],
+        "4": [
+          "{\"90021\":55,\"90015\":55}"
+        ],
+        "5": [
+          480
+        ],
+        "6": [
+          4069104
+        ],
+        "7": [
+          "SecondarySkill.4069104.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_1"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069104.2"
+        ],
+        "11": [
+          "12%"
+        ],
+        "12": [
+          "20%"
+        ],
+        "13": [
+          "3"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 134953,
+        "payload_offset": 134959,
+        "payload_length": 168,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069105,
+      "group_id": 40691,
+      "level": 5,
+      "need": {
+        "90021": 70,
+        "90015": 70
+      },
+      "score": 600,
+      "effect_ids": [
+        4069105
+      ],
+      "raw_fields": {
+        "1": [
+          4069105
+        ],
+        "2": [
+          40691
+        ],
+        "3": [
+          5
+        ],
+        "4": [
+          "{\"90021\":70,\"90015\":70}"
+        ],
+        "5": [
+          600
+        ],
+        "6": [
+          4069105
+        ],
+        "7": [
+          "SecondarySkill.4069105.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_1"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069105.2"
+        ],
+        "11": [
+          "15%"
+        ],
+        "12": [
+          "25%"
+        ],
+        "13": [
+          "3"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135127,
+        "payload_offset": 135133,
+        "payload_length": 168,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069201,
+      "group_id": 40692,
+      "level": 1,
+      "need": {
+        "90021": 15,
+        "90015": 15,
+        "90016": 15
+      },
+      "score": 120,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4069201
+        ],
+        "2": [
+          40692
+        ],
+        "3": [
+          1
+        ],
+        "4": [
+          "{\"90021\":15,\"90015\":15,\"90016\":15}"
+        ],
+        "5": [
+          120
+        ],
+        "7": [
+          "SecondarySkill.4069201.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069201.2"
+        ],
+        "11": [
+          "4%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135301,
+        "payload_offset": 135307,
+        "payload_length": 164,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069202,
+      "group_id": 40692,
+      "level": 2,
+      "need": {
+        "90021": 30,
+        "90015": 30,
+        "90016": 30
+      },
+      "score": 240,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4069202
+        ],
+        "2": [
+          40692
+        ],
+        "3": [
+          2
+        ],
+        "4": [
+          "{\"90021\":30,\"90015\":30,\"90016\":30}"
+        ],
+        "5": [
+          240
+        ],
+        "7": [
+          "SecondarySkill.4069202.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069202.2"
+        ],
+        "11": [
+          "8%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135471,
+        "payload_offset": 135477,
+        "payload_length": 165,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069203,
+      "group_id": 40692,
+      "level": 3,
+      "need": {
+        "90021": 45,
+        "90015": 45,
+        "90016": 45
+      },
+      "score": 360,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4069203
+        ],
+        "2": [
+          40692
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          "{\"90021\":45,\"90015\":45,\"90016\":45}"
+        ],
+        "5": [
+          360
+        ],
+        "7": [
+          "SecondarySkill.4069203.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069203.2"
+        ],
+        "11": [
+          "12%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135642,
+        "payload_offset": 135648,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069204,
+      "group_id": 40692,
+      "level": 4,
+      "need": {
+        "90021": 60,
+        "90015": 60,
+        "90016": 60
+      },
+      "score": 480,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4069204
+        ],
+        "2": [
+          40692
+        ],
+        "3": [
+          4
+        ],
+        "4": [
+          "{\"90021\":60,\"90015\":60,\"90016\":60}"
+        ],
+        "5": [
+          480
+        ],
+        "7": [
+          "SecondarySkill.4069204.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069204.2"
+        ],
+        "11": [
+          "16%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135814,
+        "payload_offset": 135820,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
+    },
+    {
+      "id": 4069205,
+      "group_id": 40692,
+      "level": 5,
+      "need": {
+        "90021": 75,
+        "90015": 75,
+        "90016": 75
+      },
+      "score": 600,
+      "effect_ids": [],
+      "raw_fields": {
+        "1": [
+          4069205
+        ],
+        "2": [
+          40692
+        ],
+        "3": [
+          5
+        ],
+        "4": [
+          "{\"90021\":75,\"90015\":75,\"90016\":75}"
+        ],
+        "5": [
+          600
+        ],
+        "7": [
+          "SecondarySkill.4069205.1"
+        ],
+        "8": [
+          "Icon/DiscSkill/DiscSkill_4"
+        ],
+        "9": [
+          "Icon/DiscSkill/db_DiscSkill_2"
+        ],
+        "10": [
+          "SecondarySkill.4069205.2"
+        ],
+        "11": [
+          "20%"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_SecondarySkill",
+        "record_offset": 135986,
+        "payload_offset": 135992,
+        "payload_length": 166,
+        "matching_source_file": "JP_2611131423_SecondarySkill"
+      }
     }
   ],
   "discs": [
@@ -52004,6 +53236,178 @@
         "record_offset": 9362,
         "payload_offset": 9368,
         "payload_length": 105
+      }
+    },
+    {
+      "id": 214068,
+      "element_eet": 3,
+      "main_skill_group_id": 4068,
+      "secondary_group_ids": [
+        40681,
+        40682
+      ],
+      "subnote_skill_group_id": 4068,
+      "skill_script": "AIScript.Disc.Disc_214068",
+      "raw_fields": {
+        "1": [
+          214068
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          813,
+          802,
+          803
+        ],
+        "4": [
+          1
+        ],
+        "5": [
+          1
+        ],
+        "6": [
+          "Disc/4068/4068"
+        ],
+        "7": [
+          41
+        ],
+        "8": [
+          21083
+        ],
+        "9": [
+          301
+        ],
+        "10": [
+          402
+        ],
+        "11": [
+          224068
+        ],
+        "12": [
+          24,
+          200
+        ],
+        "13": [
+          2,
+          30
+        ],
+        "14": [
+          2,
+          30
+        ],
+        "15": [
+          4068
+        ],
+        "16": [
+          40681
+        ],
+        "17": [
+          40682
+        ],
+        "18": [
+          4068
+        ],
+        "19": [
+          "AIScript.Disc.Disc_214068"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_Disc",
+        "record_offset": 9473,
+        "payload_offset": 9479,
+        "payload_length": 109,
+        "matching_source_file": "JP_2611131423_Disc"
+      },
+      "name_zh": "帐幕下的酣梦",
+      "name_ja": "地図に夢見て",
+      "name_sources": {
+        "zh_CN": "CN_2611131417_catalogue",
+        "ja_JP": "JP_2611131423_catalogue"
+      }
+    },
+    {
+      "id": 214069,
+      "element_eet": 3,
+      "main_skill_group_id": 4069,
+      "secondary_group_ids": [
+        40691,
+        40692
+      ],
+      "subnote_skill_group_id": 4069,
+      "skill_script": "AIScript.Disc.Disc_214069",
+      "raw_fields": {
+        "1": [
+          214069
+        ],
+        "2": [
+          3
+        ],
+        "3": [
+          802,
+          801,
+          803
+        ],
+        "4": [
+          1
+        ],
+        "5": [
+          1
+        ],
+        "6": [
+          "Disc/4069/4069"
+        ],
+        "7": [
+          41
+        ],
+        "8": [
+          21103
+        ],
+        "9": [
+          301
+        ],
+        "10": [
+          403
+        ],
+        "11": [
+          224069
+        ],
+        "12": [
+          24,
+          200
+        ],
+        "13": [
+          2,
+          30
+        ],
+        "15": [
+          4069
+        ],
+        "16": [
+          40691
+        ],
+        "17": [
+          40692
+        ],
+        "18": [
+          4069
+        ],
+        "19": [
+          "AIScript.Disc.Disc_214069"
+        ]
+      },
+      "source": {
+        "file": "CN_2611131417_Disc",
+        "record_offset": 9588,
+        "payload_offset": 9594,
+        "payload_length": 105,
+        "matching_source_file": "JP_2611131423_Disc"
+      },
+      "name_zh": "紧急救援",
+      "name_ja": "隊長のつとめ",
+      "name_sources": {
+        "zh_CN": "CN_2611131417_catalogue",
+        "ja_JP": "JP_2611131423_catalogue"
       }
     }
   ],
@@ -67514,11 +68918,299 @@
         "payload_offset": 37958,
         "payload_length": 32
       }
+    },
+    {
+      "id": 406800,
+      "group_id": 4068,
+      "phase": 0,
+      "supply": {
+        "90012": 2,
+        "90015": 4
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 37990,
+        "payload_offset": 37996,
+        "payload_length": 30,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406801,
+      "group_id": 4068,
+      "phase": 1,
+      "supply": {
+        "90012": 2,
+        "90015": 5
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38026,
+        "payload_offset": 38032,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406802,
+      "group_id": 4068,
+      "phase": 2,
+      "supply": {
+        "90012": 2,
+        "90015": 6
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38064,
+        "payload_offset": 38070,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406803,
+      "group_id": 4068,
+      "phase": 3,
+      "supply": {
+        "90012": 3,
+        "90015": 6
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38102,
+        "payload_offset": 38108,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406804,
+      "group_id": 4068,
+      "phase": 4,
+      "supply": {
+        "90012": 3,
+        "90015": 7
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38140,
+        "payload_offset": 38146,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406805,
+      "group_id": 4068,
+      "phase": 5,
+      "supply": {
+        "90012": 3,
+        "90015": 8
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38178,
+        "payload_offset": 38184,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406806,
+      "group_id": 4068,
+      "phase": 6,
+      "supply": {
+        "90012": 4,
+        "90015": 8
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38216,
+        "payload_offset": 38222,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406807,
+      "group_id": 4068,
+      "phase": 7,
+      "supply": {
+        "90012": 4,
+        "90015": 9
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38254,
+        "payload_offset": 38260,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406808,
+      "group_id": 4068,
+      "phase": 8,
+      "supply": {
+        "90012": 4,
+        "90015": 10
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38292,
+        "payload_offset": 38298,
+        "payload_length": 33,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406900,
+      "group_id": 4069,
+      "phase": 0,
+      "supply": {
+        "90021": 3,
+        "90016": 3
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38331,
+        "payload_offset": 38337,
+        "payload_length": 30,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406901,
+      "group_id": 4069,
+      "phase": 1,
+      "supply": {
+        "90021": 4,
+        "90016": 3
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38367,
+        "payload_offset": 38373,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406902,
+      "group_id": 4069,
+      "phase": 2,
+      "supply": {
+        "90021": 4,
+        "90016": 4
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38405,
+        "payload_offset": 38411,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406903,
+      "group_id": 4069,
+      "phase": 3,
+      "supply": {
+        "90021": 5,
+        "90016": 4
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38443,
+        "payload_offset": 38449,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406904,
+      "group_id": 4069,
+      "phase": 4,
+      "supply": {
+        "90021": 5,
+        "90016": 5
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38481,
+        "payload_offset": 38487,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406905,
+      "group_id": 4069,
+      "phase": 5,
+      "supply": {
+        "90021": 6,
+        "90016": 5
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38519,
+        "payload_offset": 38525,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406906,
+      "group_id": 4069,
+      "phase": 6,
+      "supply": {
+        "90021": 6,
+        "90016": 6
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38557,
+        "payload_offset": 38563,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406907,
+      "group_id": 4069,
+      "phase": 7,
+      "supply": {
+        "90021": 7,
+        "90016": 6
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38595,
+        "payload_offset": 38601,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
+    },
+    {
+      "id": 406908,
+      "group_id": 4069,
+      "phase": 8,
+      "supply": {
+        "90021": 7,
+        "90016": 7
+      },
+      "source": {
+        "file": "CN_2611131417_SubNoteSkillPromoteGroup",
+        "record_offset": 38633,
+        "payload_offset": 38639,
+        "payload_length": 32,
+        "matching_source_file": "JP_2611131423_SubNoteSkillPromoteGroup"
+      }
     }
   ],
   "related_resources": {
     "exact_effects": "stella_note_effects_verified.json",
     "tower_rule_tables": "TowerRuleTables.json"
   },
-  "source_note": "来源为本次日服客户端配置整理。filename、SHA256和记录偏移是原配置的来源标识；客户端文件不作为仓库附件。"
+  "source_note": "原104条秘纹来自日服配置；新增214068、214069采用国服2611131417与日服2611131423一致的配置（游戏2.1.0）。来源标识、SHA256、版本和记录偏移用于定位原配置；客户端载荷、提取文件和实现代码不作为公开附件。2026-11-08线上核对仍仅覆盖当时104条。"
 }
