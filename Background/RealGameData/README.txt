@@ -4,7 +4,7 @@ Stella Sora 星塔实机研究数据
 
 数据如何关联
 research_schema.sql 定义 8 张表和 15 个查询视图。runs 每行是一个采集段，包含区服、预设、开始和结束时间、结束原因及质量；presets 保存原始目标向量。records 记录游戏动作与观测，objects 和 readings 分别保存实体及带位置、置信度的读数，通过 record_objects 和 record_readings 与观测相连。quality_issues 定位有问题的对局、记录或字段。
-物理对局数按已确认的 config_json.physical_game_id 分组；无此字段时用 _identity.anchor_run_id，再没有则用 run_id。同一对局可能跨多个采集段，任一段观测到完成才计为已完成。completed 是对局状态，不代表其中每条记录可用于分析。
+总库只收录有可靠物理开局或已确认接续归属的采集段；无开局依据、未归属及仅元数据段不入库，实机来源标记不能作为例外。legacy exploration_id 是明确开局，即使原 full_run_start_observed=0 仍保留。按已确认的 config_json.physical_game_id 分组；无此字段时用 _identity.anchor_run_id，再没有则用 run_id。同一对局可能跨多个采集段，其中任一已确认归属的段观测到结算，才计一次完成。中途接入且读到结算不等于新增完整对局。SUMMARY.json 分别列出实际对局、完成局、采集段及一局多段的数量。
 预设的 36 项原始目标不计核心，分别对应三名角色各 3 个稀有和 9 个普通潜能。已知未选为 0，未知为 null。target_vector_complete 只说明这 36 项齐全。metadata/potentials.json 提供潜能身份、区服名称和品质；Git 中 metadata/presets.json 是旧采集格式使用的预设字典，完整预设以数据库的 presets 表为准。Release 包内的预设目录从该次数据库生成。
 
 如何用于分析

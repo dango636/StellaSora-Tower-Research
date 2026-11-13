@@ -4,20 +4,33 @@
   "database": "database/research.sqlite3",
   "table_counts": {
     "presets": 49,
-    "runs": 679,
-    "records": 662025,
-    "objects": 186834,
-    "record_objects": 937796,
-    "readings": 882737,
-    "record_readings": 3133645,
-    "quality_issues": 202652
+    "runs": 682,
+    "records": 662204,
+    "objects": 186853,
+    "record_objects": 937983,
+    "readings": 883605,
+    "record_readings": 3134704,
+    "quality_issues": 202912
   },
   "physical_game_count": 670,
-  "completed_physical_game_count": 589,
-  "run_segment_count": 679,
+  "completed_physical_game_count": 590,
+  "run_segment_count": 682,
+  "counted_run_segment_count": 682,
+  "unassigned_run_segment_count": 0,
+  "unassigned_fragment_group_count": 0,
+  "metadata_only_run_segment_count": 0,
+  "verified_live_headless_run_segment_count": 71,
+  "multi_segment_physical_game_count": 7,
+  "continuation_run_segment_count": 12,
+  "physical_game_segment_histogram": {
+    "1": 663,
+    "2": 5,
+    "3": 1,
+    "6": 1
+  },
   "run_segments_by_language": {
     "cn": 333,
-    "jp": 328,
+    "jp": 331,
     "tw": 18
   },
   "first_run_started_at": "2026-10-21T23:19:15.498+09:00",

@@ -15,7 +15,7 @@
 ## 数据与分析
 
 - [下载实机总数据](https://github.com/dango636/StellaSora-Tower-Research/releases/tag/real-game-data)。新版提供 SQLite 八表数据库、数据说明、快照计数及字典，解压后数据库位于 `Background/RealGameData/database/research.sqlite3`。附件格式及统计以该次 Release 说明和包内 `SUMMARY.json` 为准。
-- [数据库结构与使用说明](Background/RealGameData/README.txt) · [导入原生对局](Research/analysis/import_runs.py) · [按动作审核音符观测](Research/analysis/NOTE_QUALITY.md)。同一动作的重读不当作多个样本；普通战斗采用本塔可见的九类，评估随机扣除时单列十三类库存都已知的样本。
+- [数据库结构与使用说明](Background/RealGameData/README.txt) · [导入原生对局](Research/analysis/import_runs.py) · [按动作审核音符观测](Research/analysis/NOTE_QUALITY.md)。总库只收录明确开局及确认接续的段，无开局或未归属片段不入库。同一动作的重读不当作多个样本；普通战斗采用本塔可见的九类，评估随机扣除时单列十三类库存都已知的样本。
 - [潜能状态空间](Background/StateSpace.md) · [音符状态空间](Background/NoteStateSpace.md) · [实机分析与静态目录](Research/README.md)。报告会列出自己的样本范围，后续增加的对局不会自动计入以前的研究结论。
 
 ## 已公开的训练器
