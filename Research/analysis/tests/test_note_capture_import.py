@@ -187,6 +187,16 @@ class ImportTests(unittest.TestCase):
             self.run_import()
         self.assertFalse((self.root/'result').exists())
 
+    def test_bad_row_beyond_structure_sample_also_discards_staging(self):
+        self.write([example()]*1001)
+        with self.path.open('a',encoding='utf-8') as stream:
+            stream.write('{bad trailing row}\n')
+        self.assertFalse(inspect_source(self.path,'jsonl')['source_fully_scanned'])
+        with self.assertRaises(ImportFailure):
+            self.run_import()
+        self.assertFalse((self.root/'result').exists())
+        self.assertEqual(list(self.root.glob('note-import-*')),[])
+
     def test_duplicate_json_key_and_nonfinite_values_refuse(self):
         for value in ('{"key":1,"key":2}\n','{"key":NaN}\n'):
             self.path.write_text(value,encoding='utf-8')
