@@ -1,0 +1,16 @@
+{
+  "schema": "joint_note_import_mapping_v1",
+  "namespace": null,
+  "source_format": null,
+  "query": null,
+  "member": null,
+  "json_columns": [],
+  "binding": {
+    "status": "unbound",
+    "structure_sha256": null,
+    "producer_commit": null,
+    "evidence": null
+  },
+  "identity": {"run": null, "action": null},
+  "fields": {}
+}

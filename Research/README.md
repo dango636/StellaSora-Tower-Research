@@ -6,6 +6,8 @@
 - `reports/`：[音符实机统计](reports/NoteRealGameValidation.md)与[秘纹目录对照](reports/DiscCatalogCoverage.md)。
 - `analysis/`：本次实机研究使用的7个分析／生成脚本，仅商店统计需要NumPy。
 
+模型侧新采集数据的结构检查与显式映射导入见 [NOTE_CAPTURE_IMPORT.md](analysis/NOTE_CAPTURE_IMPORT.md)。该工具尚未绑定Maa原生数据库格式，不改写总数据、不启动训练。
+
 实机统计基于2026-10-21至2026-11-08的401040条记录。输入使用唯一总数据路径`Background/RealGameData/data/observations.jsonl`，读取方法见[数据说明](../Background/RealGameData/README.txt)。统计单位为实际页面、货架或动作实例，不把日志行数当独立抽样数。
 
 从仓库根目录运行：
