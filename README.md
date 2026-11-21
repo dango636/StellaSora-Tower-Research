@@ -68,7 +68,6 @@ StellaSora-Tower-Research/
 ## 与实机自动化的关系
 
 - **游戏内运行**：想直接在游戏中使用神经网络自动爬塔，请前往主项目 [MaaStellaSora](https://github.com/MaaStellaSora/MaaStellaSora)；研究模型的训练与主项目发布分开管理。
-- **历史仓库**：早期外置插件 [MaaStellaSora-NeuralNetwork](https://github.com/dango636/MaaStellaSora-NeuralNetwork) 已停止维护。
 - **当前公开范围**：当前公开的权重与训练器为**纯潜能策略**；音符与协奏部分目前提供规则规格、实机数据与统计分析，潜能＋音符联合模型的训练器与权重暂不发布。
 
 ## 致谢
