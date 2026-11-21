@@ -34,7 +34,7 @@
 
 静态目录是运行输入。下列外部路径规定项目中的目录与接口映射；本规格不表示对应外部仓库已经部署本版本。
 
-[NoteRules.json](../ReverseEngineering/data/NoteRules.json)包含13种音符、771条协奏、106件秘纹、118组／1062条阶段供给。214068「帐幕下的酣梦」与214069「紧急救援」由国服资源2611122000、日服资源2611122238的相同配置增补，均含协奏1–5级及阶段0–8供给；旧104条及2026-11-08线上对照保留原来源。效果及定点量化见[效果目录](../ReverseEngineering/data/stella_note_effects_verified.json)，协议见[NoteProtocol.json](../ReverseEngineering/data/NoteProtocol.json)。目录保留源文件、记录偏移和字段语义，供给按具体秘纹与阶段绑定，不由旧PR未绑定阶段的数值覆盖。
+[NoteRules.json](../Research/data/NoteRules.json)包含13种音符、771条协奏、106件秘纹、118组／1062条阶段供给。214068「帐幕下的酣梦」与214069「紧急救援」由国服资源2611122000、日服资源2611122238的相同配置增补，均含协奏1–5级及阶段0–8供给；旧104条及2026-11-08线上对照保留原来源。效果及定点量化见[效果目录](../Research/data/stella_note_effects_verified.json)，协议见[NoteProtocol.json](../Research/data/NoteProtocol.json)。目录保留源文件、记录偏移和字段语义，供给按具体秘纹与阶段绑定，不由旧PR未绑定阶段的数值覆盖。
 
 当前国服2.1.0／资源2611131417已恢复13类音符、完整45条Character.EET、三塔掉落分组和研究40101，静态目录缺口关闭。90011–90017依次为强攻、幸运、暴发、体力、专注、技巧、绝招之音；90018–90023依次为水、火、风、地、光、暗之音。角色元素按Character.EET查询：1水、2火、3地、4风、5光、6暗；角色162、115、107均为5（光）。任意队伍仍以实际主控角色字段为输入，不从音符未出现反推元素。[E27]
 
@@ -101,7 +101,7 @@ A_local由库存重算；A_server是实机服务器下发的激活ID集合，分
 
 潜能总有效等级继续为Z=6+Σmin(t_i,l_i)，不把游戏构筑分换算为潜能等级。生成器沿用当前价值模型的非核心口径，输出potential_effective=Z−6、note_build=V_note、concerto_build=V_concerto三个分项；每步同时输出各分项delta，终局输出完整分项结果。核心固定6另加即可，不进入原始普通目标或结构范围。
 
-带音符价值模型最大化终局收益的期望：[目标配置](../NeuralNetwork/trainer/profiles/note_value_objective.json)规定 `R = potential_effective + 2 × concerto_level_sum`。在最终商店结束后，按每件主秘纹绑定的每个协奏组取终局已达到的最高等级，未激活记 0，再相加得到 `concerto_level_sum`。裸音符库存和游戏显示的协奏构筑分不直接计入 R；中途激活、升级也不重复计奖。
+带音符价值模型最大化终局收益 `R = potential_effective + 2 × concerto_level_sum`。在最终商店结束后，按每件主秘纹绑定的每个协奏组取终局已达到的最高等级，未激活记 0，再相加得到 `concerto_level_sum`。裸音符库存和游戏显示的协奏构筑分不直接计入 R；中途激活、升级也不重复计奖。
 
 独立生成器默认随机选择合法动作，保留原始分项、终局音符库存及秘纹配置，可据此重算各组等级。兑换和购买均按真实支付执行，允许操作后某个分项得分下降。
 

@@ -1,0 +1,27 @@
+{
+  "candidate": "F238",
+  "candidate_hash": "5fdafba237fa278b975d076e426316077aa547ffa7ff0cb4151b6222bef22f43",
+  "candidate_mean": 76.04107232862903,
+  "candidate_mean_steps": 102.60074659778226,
+  "candidate_se": 0.0035669389221550498,
+  "candidate_tail_from": null,
+  "games_per_preset": 128,
+  "incumbent_mean": 76.02520791330645,
+  "incumbent_mean_steps": 102.58253213205646,
+  "incumbent_se": 0.0035690702963934165,
+  "paired_delta": 0.015864415322580646,
+  "paired_se": 0.0027787552800849734,
+  "pairs": 634880,
+  "presets": 4960,
+  "reference": "Cadenza",
+  "reference_hash": "95fa06cb78f0082f464b18a91ae13705f25bdad97be0106cf732ce09d085131b",
+  "se_metadata": {
+    "available": true,
+    "ddof": 1,
+    "games_per_preset": 128,
+    "method": "within_preset_sample_variance",
+    "preset_weighting": "fixed_equal",
+    "presets": 4960
+  },
+  "seed": 20261121220301
+}

@@ -1,0 +1,20 @@
+{
+  "seeds": {
+    "screen": 20261121220301,
+    "final": 20261121220302
+  },
+  "screen_games_per_preset": 128,
+  "final_games_per_preset": 256,
+  "presets": 4960,
+  "stopped_round": 239,
+  "incumbent": "H230",
+  "selection": "Top two screen means. Higher independent final mean wins. Exact ties use screen rank, then incumbent. Retain Cadenza if its direct final mean exceeds the winner.",
+  "checkpoints": [
+    "Cadenza",
+    "H107",
+    "H205",
+    "H230",
+    "F238",
+    "F239"
+  ]
+}

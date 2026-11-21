@@ -1,0 +1,20 @@
+{
+  "winner": "F238",
+  "rank": [
+    "F238",
+    "H230",
+    "F239",
+    "H205",
+    "H107",
+    "Cadenza"
+  ],
+  "finalists": [
+    "F238",
+    "H230"
+  ],
+  "finished": "2026-11-21T13:39:24.568585+00:00",
+  "release": "Cadenza-II",
+  "release_path": "https://github.com/dango636/StellaSora-Tower-Research/releases/download/cadenza-ii/Cadenza-II.pt",
+  "checkpoint_sha256": "083f54d5408fe4d13d67e3d7c225ffa8db6a2555b88486e2d7f73c4855f64de4",
+  "checkpoint_bytes": 127065159
+}
